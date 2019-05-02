@@ -1,3 +1,19 @@
+/* GENERAL  */
+
+body {
+    margin:0;
+}
+
+a {
+     text-decoration: none;
+ }
+    
+
+
+
+
+/*  HEADER     */
+
 .logo {
     background: url("../images/HKLogo.jpg");
     background-position: center;
@@ -8,7 +24,39 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all.51s ease-in-out;
+    
+}
 
+.bg-photo {
+    position:relative;
+    top:80px;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    width:100vw;
+    height:90vh;
+    border:0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+
+} 
+
+
+/* .bg-photo {
+    position:relative; */
+    /* background-size:contain; */
+    /* background-repeat: no-repeat; */
+/*    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border:0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+} */
+
+.col-12-photo {
+    background-color:purple;
 }
 
 .navbar {
@@ -23,22 +71,29 @@
     border: solid red;
 }
 
-/* FOOTER */
 
-.footer {
-    border: solid red;
+
+/*   MIDDLE SECTION */
+
+.aside-col {
+    background-color: #0dcbfa;
+    padding-left:20px;
+    padding-bottom:500px;
 }
 
-footer p {
-    margin-bottom: 0px;
+.aside-item {
+    margin-bottom:20px;
+        
+
 }
 
+.section-column {
+    padding-bottom:200px;
+}
 
-a {
-     text-decoration: none;
- }
-    
-    
+h1 {
+    text-align: center;
+}
 
 .col-md-4 {
     background-color: pink;
@@ -46,5 +101,28 @@ a {
 
 .col-md-8 {
     background-color: orange;
+    margin-left:0;
+}
+
+
+
+/* FOOTER DETAILS    */
+
+/* FOOTER */
+
+.footer {
+    border: solid red;
+}
+
+footer .col-sm-4 {
+    background-color: grey;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+.col-sm-8 {
+    background-color: green;
     margin-left:0;
 }
