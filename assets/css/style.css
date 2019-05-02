@@ -1,0 +1,50 @@
+.logo {
+    background: url("../images/HKLogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:64px;
+    min-width:224px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+
+}
+
+.navbar {
+    background-color: #facb0d;
+}
+
+.social-nav {
+    
+}
+
+.social-fb {
+    border: solid red;
+}
+
+/* FOOTER */
+
+.footer {
+    border: solid red;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+
+a {
+     text-decoration: none;
+ }
+    
+    
+
+.col-md-4 {
+    background-color: pink;
+}
+
+.col-md-8 {
+    background-color: orange;
+    margin-left:0;
+}

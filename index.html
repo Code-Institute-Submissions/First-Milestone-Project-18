@@ -1,23 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <title>High Kings</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <title>HIGH KINGS</title>
 </head>
+
 <header>
+    <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+
+    <nav class="navbar navbar-expand-sm">
+
+        <!-- REVISIT: Removing 'logo' class from here for now -->
+
+        <a href="index.html" class="logo navbar-brand"></a>
+
+
+        <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="menuDropdown">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">The Band</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-none d-md-block social-fb">
+            <ul>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link  social-nav" target="_blank" href="#">
+                        <i class="fa fa-facebook"></i>
+                        <span class="sr-only">Facebook</span></a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link" target="_blank" href="#">
+                            <i class="fa fa-twitter"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                </li>
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link" target="_blank" href="#">
+                            <i class="fa fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                </li>
+
+                <li class="nav-item list-inline-item">
+                    <a class="nav-link" target="_blank" href="#">
+                            <i class="fa fa-youtube"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
 </header>
+
 <section>
-    
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <p>This is col-md-4</p>
+        </div>
+        <div class="col-md-8">
+            <p>This is col-md-8</p>
+
+        </div>
+    </div>
+
+
 </section>
 <footer>
-    
+
+    <div class="footer row">
+
+        <div class="col-sm-4">
+            <h5>The High Kings</h5>
+            <p><a href="#">The Band</a></p>
+            <p><a href="#">Home</a></p>
+
+        </div>
+
+        <div class="col-sm-4">
+            <h5>Media</h5>
+            <p><a href="#">Music</a></p>
+            <p><a href="#">Gallery</a></p>
+        </div>
+
+        <div class="col-sm-4">
+            <h5>Social</h5>
+
+
+        </div>
+    </div>
+
+
 </footer>
 
 <body>
-    
+
 </body>
+
 </html>
