@@ -20,35 +20,24 @@
     <header>
         <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
 
-        <nav class="navbar navbar-expand-sm fixed-top">
-
-            <!-- REVISIT: Removing 'logo' class from here for now -->
+        <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
 
             <a href="index.html" class="logo navbar-brand"></a>
-
-
+            
             <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+            
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+            aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            
 
-            <div class="collapse navbar-collapse" id="menuDropdown">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">The Band</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#">The Band</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#">Tours</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#">Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
                 </ul>
             </div>
 

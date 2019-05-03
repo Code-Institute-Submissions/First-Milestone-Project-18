@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="hk.ico" />
 
-    <title>MUSIC</title>
+    <title>HK - MUSIC</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
     <header>
         <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
 
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm fixed-top">
 
             <!-- REVISIT: Removing 'logo' class from here for now -->
 
@@ -88,89 +89,71 @@
     <!-- MIDDLE SECTION:             -->
 
     <section>
+        <div class="container-fluid">
+            <div class="row col-style">
+                <div class="col-md-4 col-padding playlist">
+                    <h1 class="uppercase"><i class="fa fa-headphones" aria-hidden="true"><span> Playlist</span></i><br><br>
 
-        <div class="row no-gutters">
-            <div class="col-md-4 playlist">
-                <h1 class="uppercase"><i class="fa fa-headphones" aria-hidden="true"></i></a>
-                    <span class="sr-only">Playlist</span></h1>
+              <!-- PLAYLIST TAKEN FROM HIGH KINGS WEBSITE AND MODIFIED SLIGHTLY  -->
 
-                <h2 class="text-center">Playlists</h2>
+                    <table class="table" border="2" cellpadding="1" cellspacing="1" align="center">
+                        <tbody>
+                            <tr>
+                                <td class="text-center"><em>DECADE (2017)</em></td>
+                            </tr>
+                            <tr>
+                                <td><iframe allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/3pv7mROp3J3iN0V1Mx9LSc" width="300"></iframe></td>
+                            </tr>
+                        </tbody>
+                    </table>
 
+                    <table class="table" border="2" cellpadding="1" cellspacing="1" align="center">
+                        <tbody>
+                            <tr>
 
-                <!-- FROM HIGH KINGS WEBSITE  -->
+                                <td class="text-center"><em>GRACE &amp; GLORY (2016)</em></td>
+                            </tr>
+                            <tr>
 
-                <table class="table" border="2" cellpadding="1" cellspacing="1" align="center">
-                    <tbody>
-                        <tr>
-                            <td><em><strong>DECADE (2017)</strong></em></td>
-                            <td><em><strong>GRACE &amp; GLORY (2016)</strong></em></td>
-                        </tr>
-                        <tr>
-                            <td><iframe allow="encrypted-media" allowtransparency="true" frameborder="0" height="350" scrolling="no" src="https://open.spotify.com/embed/album/3pv7mROp3J3iN0V1Mx9LSc" width="152"></iframe></td>
-                            <td><iframe allow="encrypted-media" allowtransparency="true" frameborder="0" height="350" scrolling="no" src="https://open.spotify.com/embed/album/6hvKWnf9uHHiRYGYwZsl9E" width="152"></iframe></td>
-                        </tr>
+                                <td><iframe allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/6hvKWnf9uHHiRYGYwZsl9E" width="300"></iframe></td>
+                            </tr>
 
-                    </tbody>
-                </table>
-                <div class="col-padding">
-
-                </div>
-            </div>
-
-            <div class="col-md-8 videolist">
-                <h1><i class="fa fa-play" aria-hidden="true"></i></a>
-                    <span class="sr-only">Videos</span>
-                </h1>
-
-                <h2 class="text-center">Videos</h2>
-
-                <h3>Selection of Songs</h3>
-
-                <div class="zoom-gallery row">
-                    
-                    <!-- VIDEO - The Irish Pub -->
-
-                    <iframe class="video" src="https://www.youtube.com/embed/d4pe_noy2jM" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-        <!-- VIDEO - Galway Girl -->
-
-                    <iframe class="video" src="https://www.youtube.com/embed/rSzQkd1bfto"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                    
-        <!-- VIDEO - Step it out Mary -->
-                    
-                    <iframe class="video" src="https://www.youtube.com/embed/P_HxQjsMxiQ" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-                    
-                    
-        
-                    
-        <!-- VIDEO - The Parting Glass -->
-                    
-                    <iframe class="video" src="https://www.youtube.com/embed/mUbNMxGdnCs" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen></iframe>
-
-
+                        </tbody>
+                    </table>
 
                     
-
-
-                    
-
                 </div>
 
 
 
+        <!-- VIDEO LIST TAKEN FROM HIGH KINGS WEBSITE   -->
 
+                <div class="col-md-8  col-padding videolist">
+                    <h1><i class="fa fa-play" aria-hidden="true"><span>Videos</span></i></h1><br>
+                        
+
+                    <div class="row">
+
+                        <!-- VIDEO - The Irish Pub -->
+
+                        <iframe class="video" src="https://www.youtube.com/embed/d4pe_noy2jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- VIDEO - Galway Girl -->
+
+                        <iframe class="video" src="https://www.youtube.com/embed/rSzQkd1bfto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <!-- VIDEO - Step it out Mary -->
+
+                        <iframe class="video" src="https://www.youtube.com/embed/P_HxQjsMxiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <!-- VIDEO - The Parting Glass -->
+
+                        <iframe class="video" src="https://www.youtube.com/embed/mUbNMxGdnCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+                </div>
             </div>
-
-
-
         </div>
+
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->
