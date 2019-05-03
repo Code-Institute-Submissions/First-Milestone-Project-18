@@ -1,16 +1,16 @@
 /* GENERAL  */
 
 body {
-    margin:0;
+    margin: 0;
 }
 
 a {
-     text-decoration: none;
- }
-    
+    text-decoration: none;
+}
 
 
 
+/* HOME PAGE */
 
 /*  HEADER     */
 
@@ -19,53 +19,56 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height:64px;
-    min-width:224px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
-    
+    min-height: 64px;
+    min-width: 224px;
+   
+
 }
 
 .bg-photo {
-    position:relative;
-    top:80px;
-    background-size:contain; 
+    background-position: left 40%;
+    background-image:url("../images/Mob_THKStageBackdrop.jpg");
+    top: 80px;
+    background-size: cover;
+    -webkit-background-size: cover;
     background-repeat: no-repeat;
     width:100vw;
-    height:90vh;
-    border:0;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
-
-} 
-
-
-/* .bg-photo {
-    position:relative; */
-    /* background-size:contain; */
-    /* background-repeat: no-repeat; */
-/*    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-    border:0;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
-} */
-
-.col-12-photo {
-    background-color:purple;
+    min-height: 550px;
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
+
+@media(min-width:768px) {
+    .bg-photo {
+    background-position: center 55%;
+    background-image:url("../images/HK_BandCrowd-Cologne2018.jpg");
+    top: 80px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    min-height: 550px;
+    border: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+
+
+
 
 .navbar {
     background-color: #facb0d;
 }
 
-.social-nav {
-    
-}
+.social-nav {}
 
 .social-fb {
     border: solid red;
@@ -77,18 +80,18 @@ a {
 
 .aside-col {
     background-color: #0dcbfa;
-    padding-left:20px;
-    padding-bottom:500px;
+    padding-left: 20px;
+    padding-bottom: 500px;
 }
 
 .aside-item {
-    margin-bottom:20px;
-        
+    margin-bottom: 20px;
+
 
 }
 
 .section-column {
-    padding-bottom:200px;
+    padding-bottom: 200px;
 }
 
 h1 {
@@ -101,7 +104,7 @@ h1 {
 
 .col-md-8 {
     background-color: orange;
-    margin-left:0;
+    margin-left: 0;
 }
 
 
@@ -124,5 +127,32 @@ footer p {
 
 .col-sm-8 {
     background-color: green;
-    margin-left:0;
+    margin-left: 0;
+}
+
+
+/* MUSIC PAGE */
+
+.col-padding {
+    padding-bottom: 50px;
+}
+
+.table {
+    width: 140px;
+    position: relative;
+    background-color: #d2d6d2;
+}
+
+.playlist {
+    background-color: #d6d2d2;
+}
+
+.videolist {
+    background-color: #cfc9c9;
+}
+
+.video {
+    width: 140;
+    height: 78;
+    padding: 20px;
 }
