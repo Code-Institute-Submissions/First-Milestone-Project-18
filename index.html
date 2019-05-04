@@ -18,118 +18,111 @@
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
 
     <header>
-        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+        <div class="row no-gutters">
+            <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
 
-        <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
+            <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
 
-            <a href="index.html" class="logo navbar-brand"></a>
-            
-            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
+                <a href="index.html" class="logo navbar-brand"></a>
 
-            
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
-            aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            
+                <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">The Band</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Tours</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Music</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-                </ul>
-            </div>
 
-            <div class="d-none d-md-block social-fb">
-                <ul>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link  social-nav" target="_blank" href="#">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto navbar-pad">
+                        <li class="active nav-item mr-2 menuitem"><a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">The Band</a></li>
+                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">Tours</a></li>
+                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">Music</a></li>
+                        <li class="nav-item menuitem"><a class="nav-link" href="#">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-block social-fb">
+                    <ul>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link  social-nav" target="_blank" href="#">
                         <i class="fa fa-facebook"></i>
                         <span class="sr-only">Facebook</span></a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        </li>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-twitter"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        </li>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-instagram"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
+                        </li>
 
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-youtube"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
-                    </li>
+                        </li>
 
-                </ul>
-            </div>
-        </nav>
-
-
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
     </header>
 
     <!-- MIDDLE SECTION: LATEST NEWS & BAND BACKGROUND              -->
 
-    <section>
+    <section class="container-fluid">
 
         <!-- Band Photo  -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 bg-photo">
-                </div>
-            </div>
+        <div class="row no-gutters set-pos">
+            <div class="col photo-bg"></div>
         </div>
 
 
-        <main>
-            <div class="row no-gutters">
+        <div class="row no-gutters set-pos">
 
-                <!-- AN ASIDE FOR NEWS              -->
+            <!-- AN ASIDE FOR NEWS              -->
 
-                <div class="col-md-4">
-                    <aside class="aside-col">
-                        <div class="col-12 aside-item">
-                            <h1><strong>NEWS</strong></h1>
-                        </div>
-                        <div class="aside-item">
-                            <a href="#">New Tour Dates Anounced.</a>
-                        </div>
-                        <div class="aside-item">
-                            <a href="#">Listen to Latest Album.</a>
-                        </div>
-                        <div class="aside-item">
-                            <a href="#">Recent Concerts</a>
-                        </div>
+            <div class="col-md-4">
+                <aside class="aside-col">
+                    <div class="col-12 aside-item">
+                        <h1><strong>NEWS</strong></h1>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#"><i class="fa fa-ticket" aria-hidden="true"></i>New Tour Dates Anounced.</a>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#">Listen to Latest Album.</a>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#">Recent Concerts</a>
+                    </div>
 
-                    </aside>
-
-                </div>
-
-
-                <div class="col-md-8">
-                    <h1 class="text-uppercase">The Band</h1>
-                    <p>
-                        Ten years ago, four Irish singers, performers and songwriters decided to take a calculated risk. The constituent parts of The High Kings each had a wealth of history in the music business behind them, but knew that in order to maintain any level of creative
-                        interest they would have to boldly go where no other Irish ballad group had gone before. In truth, back in the mid-late noughties, Ireland needed a group like The High Kings. The heyday of ballad groups such as The Clancy Brothers
-                        and The Dubliners was a distant memory for generations of music fans, and to have another bunch of Irish lads taking up the baton and continuing the tradition was great news to thousands of fans worldwide. “We could sing well,
-                        play our instruments well and harmonise well,” says Darren Holden, humbly underselling somewhat the numerous skill sets of the individual members. “People were looking for guys with character, presence – not just cardboard cut-outs
-                        – so the respective experience we all had wasn't just helpful but essential. The four members immediately knew that something special was taking place (“we knew within the space of a few songs that there was magic”), and within
-                        months had clicked as a creative unit as well as friends.
-                    </p>
-
-                </div>
+                </aside>
 
             </div>
 
-        </main>
+
+            <div class="col-md-8 band-section">
+                <h1 class="text-uppercase">The Band</h1>
+                <p class="band-details">
+                   The High Kings came together in 2007. The heyday of ballad groups such as 
+                   The Clancy Brothers and The Dubliners was a distant memory for generations of music 
+                   fans, a new Irish band taking up the baton and continuing the tradition was great 
+                   news to thousands of fans worldwide. In time, The High Kings received the stamp of
+                   approval from the likes of Christy Moore and, perhaps more pertinently, 
+                   Ronnie Drew, the lead singer of The Dubliners.
+                </p>
+
+            </div>
+
+        </div>
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->

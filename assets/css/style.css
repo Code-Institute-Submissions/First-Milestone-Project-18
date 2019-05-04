@@ -1,7 +1,20 @@
-/* GENERAL  */
+/*                                                                 GENERAL  */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700|Open+Sans:100,400,700');
 
 body {
     margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+    
+}
+
+
+
+.container-fluid {
+    padding: 0;
 }
 
 a {
@@ -12,64 +25,100 @@ a {
 
 /* HOME PAGE */
 
-/*  HEADER     */
+/*                                                                  HEADER     */
 
 .logo {
-    background: url("../images/HKLogo.jpg");
+    background: url("../images/high-kings-logo_small.jpg");
+    min-height: 64px;
+    min-width: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 64px;
-    min-width: 224px;
-     transition: all .5s ease-in-out;
+    
+    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all.51s ease-in-out;
 }
 
 
+/*                                         Bands photo positioning and details */
 
-
-
-.bg-photo {
-    background-position: left 40%;
-    background-image:url("../images/Mob_THKStageBackdrop.jpg");
+.set-pos {
+    position: relative;
     top: 80px;
+    left: 0px;
+}
+
+
+.photo-bg {
+    background-position: center;
+    background-image: url("../images/hk.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    width:100vw;
-    min-height: 550px;
+    width: 100vw;
+    min-height: 448px;
     border: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
+.band-section {
+    background-color: #f3f2f2;
+}
+
+.band-details {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding:50px;
+}
+
+/*                                                             MEDIA QUERIES */
 
 @media(min-width:768px) {
-    .bg-photo {
-    background-position: center 55%;
-    background-image:url("../images/HK_BandCrowd-Cologne2018.jpg");
-    top: 80px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    width:100vw;
-    min-height: 550px;
-    border: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+    .photo-bg {
+        background-image: url("../images/high-kings-band.jpg");
+
+    }
+    .logo {
+        background: url("../images/high-kings-logo.jpg");
+        min-height: 64px;
+        min-width: 225px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all.51s ease-in-out;
+    }
 }
+
+.navbar-pad {
+    padding-left:160px;
+}
+
+.menuitem {
+    background-color:#9c3d3d;
+}
+
+.menuitem a i {
+    display: block;
+    color: #3d3d9c;
+    font-size: 26px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
 .bg-color {
-    background-color:#fafafa;
-    color:red;
-    
+    background-color: #fafaf2;
+    padding-left:80px;
 }
 
 .social-nav {}
@@ -82,8 +131,12 @@ a {
 
 /*   MIDDLE SECTION */
 
+.main-pos {
+    position: absolute;
+
+}
+
 .aside-col {
-    background-color: #0dcbfa;
     padding-left: 20px;
     padding-bottom: 500px;
 }
@@ -102,16 +155,7 @@ h1 {
     text-align: center;
 }
 
-.col-md-4 {
-    background-color: pink;
-}
-
-
-
-
-/* FOOTER DETAILS    */
-
-/* FOOTER */
+/*                                                         FOOTER DETAILS    */
 
 .footer {
     border: solid red;
@@ -131,7 +175,7 @@ footer p {
 }
 
 
-/* MUSIC PAGE */
+/*                                                                 MUSIC PAGE */
 
 .col-padding {
     padding-bottom: 200px;
@@ -159,8 +203,7 @@ footer p {
 
 
 .col-style {
-    position:relative;
+    position: relative;
     top: 80px;
-    margin:0px;
+    margin: 0px;
 }
-
