@@ -8,7 +8,7 @@ body {
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-    
+
 }
 
 
@@ -63,8 +63,16 @@ a {
 }
 
 .nav-menu-spacing {
-    padding-left:150px;
+    padding-left: 65px;
 }
+
+@media(min-width:1367px) {
+    .nav-menu-spacing {
+        padding-left: 80px;
+    }
+}
+
+
 
 .band-section {
     background-color: #f3f2f2;
@@ -73,7 +81,7 @@ a {
 .band-details {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    padding:50px;
+    padding: 50px;
 }
 
 /*                                                             MEDIA QUERIES */
@@ -116,13 +124,12 @@ a {
 }
 
 .social-nav {
-   padding-top: 20px;
-   background-color: grey;
+    padding-top: 16px;
 }
 
 .social-nav a i {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
     padding: 12px 0;
     font-size: 16px;
     line-height: 7px;
@@ -134,8 +141,11 @@ a {
     -o-transition: all 0.35s ease-in-out;
 }
 
+
+
+
 .social-nav-link {
-    text-align:center;
+    text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -143,34 +153,47 @@ a {
 }
 
 .social-nav-icon {
-    width:42px;
-    height:42px;
-    text-align:center;
+    width: 42px;
+    height: 42px;
+    text-align: center;
 }
 
 .social-fbk {
+    background-color: #3b5998;
     border-radius: 50%;
-    background-color:#3b5998;
-    
 
 }
 
+
 .social-twt {
-    background-color:#38A1F3;
+    background-color: #38A1F3;
     border-radius: 50%;
-    
-   
+
 }
 
 .social-itg {
-    background-color:#bc2a8d;
+    background-color: #bc2a8d;
     border-radius: 50%;
- 
+
+
+
 }
 
 .social-ytb {
-    background-color:#FF0000;
+    width: 26px;
+    height: 26px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    background-color: #FF0000;
     border-radius: 50%;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
 }
 
 
