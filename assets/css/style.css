@@ -1,4 +1,4 @@
-/*                                                                 GENERAL  */
+/*                                                                   GENERAL  */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700|Open+Sans:100,400,700');
 
@@ -23,9 +23,9 @@ a {
 
 
 
-/* HOME PAGE */
+/*                                                                  HOME PAGE */
 
-/*                                                                  HEADER     */
+/*                                                                   <header> */
 
 .logo {
     background: url("../images/high-kings-logo_small.jpg");
@@ -34,21 +34,19 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all.51s ease-in-out;
 }
 
 
-/*                                         Bands photo positioning and details */
+/*                                        Bands photo positioning and details */
 
-.set-pos {
+.photo-pos {
     position: relative;
     top: 80px;
     left: 0px;
 }
-
 
 .photo-bg {
     background-position: center;
@@ -62,6 +60,10 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.nav-menu-spacing {
+    padding-left:150px;
 }
 
 .band-section {
@@ -94,21 +96,14 @@ a {
     }
 }
 
-.navbar-pad {
-    padding-left:160px;
-}
 
-.menuitem {
-    background-color:#9c3d3d;
-}
-
-.menuitem a i {
+.list-item a i {
     display: block;
     color: #3d3d9c;
     font-size: 26px;
 }
 
-.menuitem a {
+.list-item a {
     width: 100%;
     text-decoration: none;
     color: #fff;
@@ -118,13 +113,64 @@ a {
 
 .bg-color {
     background-color: #fafaf2;
-    padding-left:80px;
 }
 
-.social-nav {}
+.social-nav {
+   padding-top: 20px;
+   background-color: grey;
+}
 
-.social-fb {
-    border: solid red;
+.social-nav a i {
+    width: 26px;
+    height: 26px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-nav-link {
+    text-align:center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-nav-icon {
+    width:42px;
+    height:42px;
+    text-align:center;
+}
+
+.social-fbk {
+    border-radius: 50%;
+    background-color:#3b5998;
+    
+
+}
+
+.social-twt {
+    background-color:#38A1F3;
+    border-radius: 50%;
+    
+   
+}
+
+.social-itg {
+    background-color:#bc2a8d;
+    border-radius: 50%;
+ 
+}
+
+.social-ytb {
+    background-color:#FF0000;
+    border-radius: 50%;
 }
 
 

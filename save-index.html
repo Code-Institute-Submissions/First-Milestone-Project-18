@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="hk.ico" />
 
-    <title>MUSIC</title>
+    <title>HIGH KINGS</title>
 </head>
 
 <body>
@@ -17,18 +18,17 @@
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
 
     <header>
-        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+        <div class="row no-gutters">
+            <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
 
-        <nav class="navbar navbar-expand-sm">
+            <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
 
-            <!-- REVISIT: Removing 'logo' class from here for now -->
+                <a href="index.html" class="logo navbar-brand"></a>
 
-            <a href="index.html" class="logo navbar-brand"></a>
+                <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
-
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
 
                 <div class="collapse navbar-collapse" id="collapseMenu">
@@ -42,55 +42,88 @@
                     </ul>
                 </div>
 
-            <div class="d-none d-md-block social-fb">
-                <ul>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link  social-nav" target="_blank" href="#">
+                <div class="d-none d-md-block social-fb">
+                    <ul>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link  social-nav" target="_blank" href="#">
                         <i class="fa fa-facebook"></i>
                         <span class="sr-only">Facebook</span></a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        </li>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-twitter"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        </li>
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-instagram"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-                    </li>
+                        </li>
 
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" target="_blank" href="#">
+                        <li class="nav-item list-inline-item">
+                            <a class="nav-link" target="_blank" href="#">
                             <i class="fa fa-youtube"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
-                    </li>
+                        </li>
 
-                </ul>
-            </div>
-        </nav>
-
-        <div class="row no-gutters">
-
-            <img src="assets/images/HighKingsPhoto.png" class="bg-photo">
-
-
-
+                    </ul>
+                </div>
+            </nav>
         </div>
-
-
 
     </header>
 
-    <!-- MIDDLE SECTION:             -->
+    <!-- MIDDLE SECTION: LATEST NEWS & BAND BACKGROUND              -->
 
-    <section>
-        <main>
+    <section class="container-fluid">
 
-        </main>
+        <!-- Band Photo  -->
+        <div class="row no-gutters set-pos">
+            <div class="col photo-bg"></div>
+        </div>
+
+
+        <div class="row no-gutters set-pos">
+
+            <!-- AN ASIDE FOR NEWS              -->
+
+            <div class="col-md-4">
+                <aside class="aside-col">
+                    <div class="col-12 aside-item">
+                        <h1><strong>NEWS</strong></h1>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#"><i class="fa fa-ticket" aria-hidden="true"></i>New Tour Dates Anounced.</a>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#">Listen to Latest Album.</a>
+                    </div>
+                    <div class="aside-item">
+                        <a href="#">Recent Concerts</a>
+                    </div>
+
+                </aside>
+
+            </div>
+
+
+            <div id="band" class="col-md-8 band-section">
+                <h1 class="text-uppercase">The Band</h1>
+                <p class="band-details">
+                   The High Kings came together in 2007. The heyday of ballad groups such as 
+                   The Clancy Brothers and The Dubliners was a distant memory for generations of music 
+                   fans, a new Irish band taking up the baton and continuing the tradition was great 
+                   news to thousands of fans worldwide. In time, The High Kings received the stamp of
+                   approval from the likes of Christy Moore and, perhaps more pertinently, 
+                   Ronnie Drew, the lead singer of The Dubliners.
+                </p>
+
+            </div>
+
+        </div>
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->

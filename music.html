@@ -29,28 +29,19 @@
 
             <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="menuDropdown">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">The Band</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                </ul>
-            </div>
+
+                <div class="collapse navbar-collapse" id="collapseMenu">
+                    <ul class="navbar-nav mr-auto navbar-pad">
+                        <li class="active nav-item mr-2 menuitem"><a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li class="nav-item mr-2 menuitem text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
+                        <li class="nav-item mr-2 menuitem text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                        <li class="nav-item mr-2 menuitem text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                        <li class="nav-item menuitem text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item menuitem text-uppercase"><a class="nav-link" href="gallery.html">News</a></li>
+                    </ul>
+                </div>
 
             <div class="d-none d-md-block social-fb">
                 <ul>
@@ -162,16 +153,17 @@
         <div class="footer row no-gutters">
 
             <div class="col-sm-4">
-                <h5>The High Kings</h5>
-                <p><a href="#">The Band</a></p>
-                <p><a href="#">Home</a></p>
+                <h5 class="text-uppercase">The High Kings</h5>
+                <p><a href="#band">The Band</a></p>
+                <p><a href="news.html">News</a></p>
+                <p><a href="index.html">Home</a></p>
 
             </div>
 
             <div class="col-sm-4">
                 <h5>Media</h5>
-                <p><a href="#">Music</a></p>
-                <p><a href="#">Gallery</a></p>
+                <p><a href="music.html" class="text-uppercase">Music</a></p>
+                <p><a href="gallery.html" class="text-uppercase">Gallery</a></p>
             </div>
 
             <div class="col-sm-4">

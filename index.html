@@ -28,45 +28,46 @@
                 <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-auto navbar-pad">
-                        <li class="active nav-item mr-2 menuitem"><a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">The Band</a></li>
-                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">Tours</a></li>
-                        <li class="nav-item mr-2 menuitem"><a class="nav-link" href="#">Music</a></li>
-                        <li class="nav-item menuitem"><a class="nav-link" href="#">Gallery</a></li>
+                <div class="collapse navbar-collapse" id="collapseMenu">
+                    <ul class="navbar-nav mr-auto nav-menu-spacing">
+                        <li class="active nav-item mr-2 list-item"><a class="nav-link " href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
+                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">News</a></li>
                     </ul>
                 </div>
 
-                <div class="d-none d-md-block social-fb">
-                    <ul>
-                        <li class="nav-item list-inline-item">
-                            <a class="nav-link  social-nav" target="_blank" href="#">
+                <div class="d-none d-md-block">
+                    <ul class="list-inline social-nav">
+                        <li class="list-inline-item">
+                            <a class="social-fbk rounded" target="_blank" href="#">
                         <i class="fa fa-facebook"></i>
                         <span class="sr-only">Facebook</span></a>
                         </li>
                         <li class="nav-item list-inline-item">
-                            <a class="nav-link" target="_blank" href="#">
+                            <a class="social-twt" target="_blank" href="#">
                             <i class="fa fa-twitter"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                         </li>
                         <li class="nav-item list-inline-item">
-                            <a class="nav-link" target="_blank" href="#">
+                            <a class="social-itg" target="_blank" href="#">
                             <i class="fa fa-instagram"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                         </li>
 
                         <li class="nav-item list-inline-item">
-                            <a class="nav-link" target="_blank" href="#">
+                            <a class="social-ytb" target="_blank" href="#">
                             <i class="fa fa-youtube"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
-                        </li>
+                        </l
 
                     </ul>
                 </div>
@@ -80,12 +81,20 @@
     <section class="container-fluid">
 
         <!-- Band Photo  -->
-        <div class="row no-gutters set-pos">
+        
+        <div class="row no-gutters photo-pos">
             <div class="col photo-bg"></div>
         </div>
 
+        <div class="row no-gutters photo-pos">
+            <div id="band" class="col-md-8 band-section">
+                <h1 class="text-uppercase">The Band</h1>
+                <p class="band-details">
+                    The High Kings came together in 2007. The heyday of ballad groups such as The Clancy Brothers and The Dubliners was a distant memory for generations of music fans, a new Irish band taking up the baton and continuing the tradition was great news to thousands
+                    of fans worldwide. In time, The High Kings received the stamp of approval from the likes of Christy Moore and, perhaps more pertinently, Ronnie Drew, the lead singer of The Dubliners.
+                </p>
 
-        <div class="row no-gutters set-pos">
+            </div>
 
             <!-- AN ASIDE FOR NEWS              -->
 
@@ -103,24 +112,9 @@
                     <div class="aside-item">
                         <a href="#">Recent Concerts</a>
                     </div>
-
                 </aside>
-
             </div>
 
-
-            <div class="col-md-8 band-section">
-                <h1 class="text-uppercase">The Band</h1>
-                <p class="band-details">
-                   The High Kings came together in 2007. The heyday of ballad groups such as 
-                   The Clancy Brothers and The Dubliners was a distant memory for generations of music 
-                   fans, a new Irish band taking up the baton and continuing the tradition was great 
-                   news to thousands of fans worldwide. In time, The High Kings received the stamp of
-                   approval from the likes of Christy Moore and, perhaps more pertinently, 
-                   Ronnie Drew, the lead singer of The Dubliners.
-                </p>
-
-            </div>
 
         </div>
     </section>
@@ -131,16 +125,17 @@
         <div class="footer row no-gutters">
 
             <div class="col-sm-4">
-                <h5>The High Kings</h5>
-                <p><a href="#">The Band</a></p>
-                <p><a href="#">Home</a></p>
+                <h5 class="text-uppercase">The High Kings</h5>
+                <p><a href="#band">The Band</a></p>
+                <p><a href="news.html">News</a></p>
+                <p><a href="index.html">Home</a></p>
 
             </div>
 
             <div class="col-sm-4">
                 <h5>Media</h5>
-                <p><a href="#">Music</a></p>
-                <p><a href="#">Gallery</a></p>
+                <p><a href="music.html" class="text-uppercase">Music</a></p>
+                <p><a href="gallery.html" class="text-uppercase">Gallery</a></p>
             </div>
 
             <div class="col-sm-4">
