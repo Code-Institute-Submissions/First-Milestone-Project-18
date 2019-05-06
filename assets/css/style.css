@@ -1,15 +1,11 @@
 /*                                                                   GENERAL  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700|Open+Sans:100,400,700');
-
-body {
-    margin: 0;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson+Text:100,400,700|Nunito+Sans:100,400,700|Open+Sans:100,400,700|Tangerine:100,400,700');
 
 
 .col-height {
-    height:800px;
+    height: 800px;
+    padding:20px;
 }
 
 
@@ -32,6 +28,9 @@ a {
     background: url("../images/high-kings-logo_small.jpg");
     min-height: 64px;
     min-width: 180px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #ce2029;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,15 +42,12 @@ a {
 
 /*                                        Divs position / padding             */
 
-.div-pos {
-    position: relative;
-    top: 80px;
-    left: 0px;
+.div-padding {
+    padding-left:20px;
 }
 
-.div-padding {
-    padding:20px;
-}
+
+
 
 .photo-bg {
     background-position: center;
@@ -67,28 +63,39 @@ a {
     margin-right: auto;
 }
 
+.photo-band-member {
+    width:50px;
+    height:50px;
+    
+    
+}
+
+
+
+
 .nav-menu-spacing {
     padding-left: 65px;
 }
 
 @media(min-width:768px) {
     .nav-menu-spacing {
-        padding-left: 70px;
+        padding-left: 60px;
     }
-} 
+}
 
 @media(min-width:1024px) {
     .nav-menu-spacing {
         padding-left: 100px;
     }
+    
 }
 
 @media(min-width:1025px) {
     .nav-menu-spacing {
         padding-left: 180px;
     }
-} 
-
+   
+}
 
 
 .band-section {
@@ -96,17 +103,28 @@ a {
 }
 
 .band-details {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    padding: 10px;
+    font-family: "Courgette", sans-serif;
+/*    font-family: "Tangerine", sans-serif;    */
+/*    font-family: "Crimson+text", sans-serif;    */  
+/*    font-family: "Open+sans", sans-serif;    */  
+/*    font-family: "Nunito+", sans-serif;    */  
+    font-weight: 100;
+    padding: 5px;
 }
 
+.icon-details {
+    font-size: 50px;
+    color: #ce2029;
+
+}
+
+
 /*                                                             MEDIA QUERIES */
+
 
 @media(min-width:768px) {
     .photo-bg {
         background-image: url("../images/high-kings-band.jpg");
-
     }
     .logo {
         background: url("../images/high-kings-logo.jpg");
@@ -136,12 +154,15 @@ a {
 
 
 
-.bg-color {
-    background-color: #fafaf2;
+.navbar-style {
+    background-color: #fafaff;
 }
+
+
 
 .social-links {
     padding-top: 16px;
+
 }
 
 /*         ".social-links a i" Copied from Rosie Resume Project and modified  */
@@ -162,6 +183,7 @@ a {
 
 
 /*                            Found the social media icon colours on google   */
+
 .social-fbk {
     background-color: #3b5998;
     border-radius: 50%;
@@ -169,7 +191,7 @@ a {
 
 .social-fbk:hover {
     background-color: #fafafa;
-    color:#3b5998;
+    color: #3b5998;
 }
 
 .social-twt {
@@ -180,7 +202,7 @@ a {
 
 .social-twt:hover {
     background-color: #fafafa;
-    color:#38A1F3;
+    color: #38A1F3;
 }
 
 
@@ -191,7 +213,7 @@ a {
 
 .social-itg:hover {
     background-color: #fafafa;
-    color:#bc2a8d;
+    color: #bc2a8d;
 }
 
 .social-ytb {
@@ -201,7 +223,7 @@ a {
 
 .social-ytb:hover {
     background-color: #fafafa;
-    color:#FF0000;
+    color: #FF0000;
 }
 
 
@@ -224,24 +246,17 @@ a {
 
 }
 
-.section-column {
-    padding-bottom: 200px;
-}
-
-h1 {
-    text-align: center;
-}
 
 /*                                                         FOOTER DETAILS    */
 
 .footer {
-    position:relative;
-    top:80px;
+    position: relative;
+    top: 80px;
     background-color: #3b3b3b;
-    color:#e0e3e0;
+    color: #e0e3e0;
     margin-bottom: 0px;
-    padding:20px;
-    text-align:center;
+    padding: 20px;
+    text-align: center;
 }
 
 /*                                                                 MUSIC PAGE */

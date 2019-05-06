@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" href="hk.ico" />
+
 
     <title>HIGH KINGS</title>
 </head>
@@ -16,61 +19,59 @@
 <body>
 
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
-
     <header>
-        <div class="row no-gutters">
-            <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
-
-            <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
-
-                <a href="index.html" class="logo navbar-brand border border-light"></a>
-
-                <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+
+        <nav class="navbar navbar-expand-sm navbar-light navbar-style fixed-top">
+
+            <a href="index.html" class="logo navbar-brand border-light"></a>
+
+            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-                <div class="collapse navbar-collapse" id="collapseMenu">
-                    <ul class="navbar-nav nav-menu-spacing">
-                        <li class="active nav-item mr-2 list-item"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
-                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
-                    </ul>
-                </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-                <div class="d-none d-lg-block ml-auto">
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
+
+            <div class="collapse navbar-collapse" id="collapseMenu">
+                <ul class="navbar-nav nav-menu-spacing">
+                    <li class="active nav-item mr-2 list-item"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block ml-auto">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-facebook social-fbk"></i>
                             <span class="sr-only">Facebook</span></a>
-                        </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-twitter social-twt"></i>
                             <span class="sr-only">Twitter</span></a>
-                        </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-instagram social-itg"></i>
                             <span class="sr-only">Instagram</span></a>
-                        </li>
+                    </li>
 
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-youtube social-ytb"></i>
                             <span class="sr-only">Youtube</span></a>
-                        </li>
+                    </li>
 
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!-- MIDDLE SECTION: LATEST NEWS & BAND BACKGROUND              -->
@@ -79,84 +80,122 @@
 
         <!-- Band Photo  -->
 
-        <div class="row no-gutters div-pos">
+        <div class="row no-gutters">
             <div class="col photo-bg"></div>
         </div>
 
-        <div class="row no-gutters div-pos col-height">
-                <div class="col-md-8 band-section div-padding">
-                    <h1 class="text-uppercase" id="band">The Band</h1>
-                    <p class="band-details">
-                        The High Kings came together in 2007. The heyday of ballad groups such as The Clancy Brothers and The Dubliners was a distant memory for generations of music fans, a new Irish band taking up the baton and continuing the tradition was great news to thousands
-                        of fans worldwide. In time, The High Kings received the stamp of approval from the likes of Christy Moore and, perhaps more pertinently, Ronnie Drew, the lead singer of The Dubliners.
-                    </p>
+        <div class="row">
+            <!-- Holds Band details and Aside -->
 
+            <div class="col-md-8 band-section col-height">
+                <div class="row band-details">
+                    <div class="col-12">
+                        <h2>The High Kings</h2>
+                    </div>
+                </div>
+
+                <div class="row band-details">
+                    <div class="col-1">
+                        <i class="fas fa-guitar icon-details " aria-hidden="true "></i>
+                    </div>
+
+                    <div class="col-8">
+                        <h3>Background</h3>
+                        <p>
+                            The High Kings came together in 2007. The heyday of ballad groups such as The Clancy Brothers and The Dubliners was a distant memory for generations of music fans, a new Irish band taking up the baton and continuing the tradition was great news to thousands
+                            of fans worldwide.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row band-details">
+                    <div class="col-1">
+                        <img src="../assets/images/darrenholden.jpg" class="rounded-circle photo-band-member">
+                    </div>
+                </div>
+                <div class="row band-details">
+                    <div class="col-1">
+                        <img src="../assets/images/finbarclancy.jpg" class="rounded-circle photo-band-member">
+                    </div>
+                </div>
+                <div class="row band-details">
+                    <div class="col-1">
+                        <img src="../assets/images/brianholden.jpg" class="rounded-circle photo-band-member">
+                    </div>
+                </div>
+                <div class="row band-details">
+                    <div class="col-1">
+                        <img src="../assets/images/georgemurphy.jpg" class="rounded-circle photo-band-member">
+                    </div>
+                </div>
             </div>
-
-            <!-- AN ASIDE FOR NEWS              -->
-
-            <div class="col-md-4 col-height">
-                <aside class="aside-col">
-                    <div class="col-12 aside-item div-padding">
-                        <h1><strong>NEWS</strong></h1>
-                    </div>
-                    <div class="aside-item">
-                        <a href="#"><i class="fa fa-ticket" aria-hidden="true"></i>New Tour Dates Anounced.</a>
-                    </div>
-                    <div class="aside-item">
-                        <a href="#">Listen to Latest Album.</a>
-                    </div>
-                    <div class="aside-item">
-                        <a href="#">Recent Concerts</a>
-                    </div>
-                </aside>
-            </div>
-
-
         </div>
+
+
+
+        <!-- AN ASIDE FOR NEWS              -->
+
+        <div class="col-md-4 col-height div-padding ">
+            <aside class="aside-col ">
+                <div class="col-12 aside-item ">
+                    <h1><strong>NEWS</strong></h1>
+                </div>
+                <div class="aside-item ">
+                    <a href="# "><i class="fa fa-ticket " aria-hidden="true "></i>New Tour Dates Anounced.</a>
+                </div>
+                <div class="aside-item ">
+                    <a href="# ">Listen to Latest Album.</a>
+                </div>
+                <div class="aside-item ">
+                    <a href="# ">Recent Concerts</a>
+                </div>
+            </aside>
+        </div>
+        </div>
+
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->
     <footer>
-        <div class="footer row">
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">The High Kings</h5>
-                <p><a href="#band">The Band</a></p>
-                <p><a href="news.html">News</a></p>
-                <p><a href="index.html">Home</a></p>
+        <div class="footer row ">
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">The High Kings</h5>
+                <p><a href="#band ">The Band</a></p>
+                <p><a href="news.html ">News</a></p>
+                <p><a href="index.html ">Home</a></p>
             </div>
 
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">Media</h5>
-                <p><a href="music.html">Music</a></p>
-                <p><a href="gallery.html">Gallery</a></p>
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">Media</h5>
+                <p><a href="music.html ">Music</a></p>
+                <p><a href="gallery.html ">Gallery</a></p>
             </div>
 
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">Social</h5>
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">Social</h5>
 
                 <div>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-facebook social-fbk"></i>
-                            <span class="sr-only">Facebook</span></a>
+                    <ul class="list-inline social-links ">
+                        <li class="list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-facebook social-fbk "></i>
+                            <span class="sr-only ">Facebook</span></a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-twitter social-twt"></i>
-                            <span class="sr-only">Twitter</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-twitter social-twt "></i>
+                            <span class="sr-only ">Twitter</span></a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-instagram social-itg"></i>
-                            <span class="sr-only">Instagram</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-instagram social-itg "></i>
+                            <span class="sr-only ">Instagram</span></a>
                         </li>
 
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-youtube social-ytb"></i>
-                            <span class="sr-only">Youtube</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-youtube social-ytb "></i>
+                            <span class="sr-only ">Youtube</span></a>
                         </li>
 
                     </ul>
@@ -166,9 +205,9 @@
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>
