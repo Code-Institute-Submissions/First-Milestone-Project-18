@@ -41,12 +41,16 @@ a {
 }
 
 
-/*                                        Bands photo positioning and details */
+/*                                        Divs position / padding             */
 
-.photo-pos {
+.div-pos {
     position: relative;
     top: 80px;
     left: 0px;
+}
+
+.div-padding {
+    padding:20px;
 }
 
 .photo-bg {
@@ -94,7 +98,7 @@ a {
 .band-details {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    padding: 50px;
+    padding: 10px;
 }
 
 /*                                                             MEDIA QUERIES */
@@ -157,6 +161,7 @@ a {
 }
 
 
+/*                            Found the social media icon colours on google   */
 .social-fbk {
     background-color: #3b5998;
     border-radius: 50%;
