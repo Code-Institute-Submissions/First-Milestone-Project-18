@@ -1,11 +1,21 @@
 /*                                                                   GENERAL  */
 
-@import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson+Text:100,400,700|Nunito+Sans:100,400,700|Open+Sans:100,400,700|Tangerine:100,400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson+Text:100,400,700|Nunito+Sans:100,400,700|Open+Sans:100,400,700|Tangerine:100,400,700'); */
 
+@import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700|Open:100,400,700|Tangerine:100,400,700');
 
 .col-height {
     height: 800px;
-    padding:20px;
+    padding: 20px;
+}
+
+.set-pos {
+    position:relative;
+    top:80px;
+}
+
+.row-color {
+    background-color: red;
 }
 
 
@@ -43,7 +53,7 @@ a {
 /*                                        Divs position / padding             */
 
 .div-padding {
-    padding-left:20px;
+    padding-left: 20px;
 }
 
 
@@ -64,10 +74,8 @@ a {
 }
 
 .photo-band-member {
-    width:50px;
-    height:50px;
-    
-    
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -87,14 +95,14 @@ a {
     .nav-menu-spacing {
         padding-left: 100px;
     }
-    
+
 }
 
 @media(min-width:1025px) {
     .nav-menu-spacing {
         padding-left: 180px;
     }
-   
+
 }
 
 
@@ -102,25 +110,49 @@ a {
     background-color: #f3f2f2;
 }
 
-.band-details {
+
+.band-details-header {
     font-family: "Courgette", sans-serif;
-/*    font-family: "Tangerine", sans-serif;    */
-/*    font-family: "Crimson+text", sans-serif;    */  
-/*    font-family: "Open+sans", sans-serif;    */  
-/*    font-family: "Nunito+", sans-serif;    */  
     font-weight: 100;
+    font-size: 14px;
     padding: 5px;
 }
 
-.icon-details {
-    font-size: 50px;
-    color: #ce2029;
+.band-details-background {
+    padding-left: 10px;
+}
 
+
+.band-details {
+    /*    font-family: "Courgette", sans-serif; */
+    /*      font-family: "Tangerine", sans-serif;    */
+    /*    font-family: "Crimson+Text", sans-serif;   */
+    /*    font-family: "Open", sans-serif;     */
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.band-member {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.band-member-name {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.icon-details {
+    /*    font-size: 32px;
+    color: #ce2029;  */
 }
 
 
 /*                                                             MEDIA QUERIES */
-
 
 @media(min-width:768px) {
     .photo-bg {
@@ -250,8 +282,8 @@ a {
 /*                                                         FOOTER DETAILS    */
 
 .footer {
-    position: relative;
-    top: 80px;
+    position: relative;  
+    top: 80px; 
     background-color: #3b3b3b;
     color: #e0e3e0;
     margin-bottom: 0px;
