@@ -16,75 +16,137 @@
 <body>
 
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
-
     <header>
-        <div class="row no-gutters">
-            <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
-
-            <nav class="navbar bg-color navbar-expand-sm navbar-light fixed-top">
-
-                <a href="index.html" class="logo navbar-brand border border-light"></a>
-
-                <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+
+        <nav class="navbar navbar-expand-sm navbar-light navbar-style fixed-top">
+
+            <a href="index.html" class="logo navbar-brand border-light"></a>
+
+            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
 
 
-                <div class="collapse navbar-collapse" id="collapseMenu">
-                    <ul class="navbar-nav nav-menu-spacing">
-                        <li class="active nav-item mr-2 list-item"><a class="nav-link " href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="index.html#band">The Band</a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
-                        <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
-                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item list-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
-                    </ul>
-                </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-                <div class="d-none d-lg-block ml-auto">
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
+
+            <div class="collapse navbar-collapse" id="collapseMenu">
+                <ul class="navbar-nav nav-menu-spacing">
+                    <li class="active nav-item mr-2 list-item"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block ml-auto">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-facebook social-fbk"></i>
                             <span class="sr-only">Facebook</span></a>
-                        </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-twitter social-twt"></i>
                             <span class="sr-only">Twitter</span></a>
-                        </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    </li>
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-instagram social-itg"></i>
                             <span class="sr-only">Instagram</span></a>
-                        </li>
+                    </li>
 
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
+                    <li class="nav-item list-inline-item">
+                        <a target="_blank" href="#">
                             <i class="fa fa-youtube social-ytb"></i>
                             <span class="sr-only">Youtube</span></a>
-                        </li>
+                    </li>
 
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
+                </ul>
+            </div>
+        </nav>
     </header>
 
 
     <!-- MIDDLE SECTION:             -->
 
-    <section>
-        <div class="container-fluid">
-            <div class="row col-style">
-                <div class="col-md-4 col-padding playlist">
-                    <h1 class="uppercase"><i class="fa fa-headphones" aria-hidden="true"><span> Playlist</span></i><br><br>
+    <section class="container-fluid no-gutters set-pos">
 
-                        <!-- PLAYLIST TAKEN FROM HIGH KINGS WEBSITE AND MODIFIED SLIGHTLY  -->
+        <div class="row no-gutters">
 
-                        <table class="table" border="2" cellpadding="1" cellspacing="1" align="center">
+
+            <!-- Videos Section -->
+
+
+            <div class="col-md-8 p-0 videolist">
+
+                <div class="row no-gutters text-center">
+                    <div class="col-12">
+                        <h1><i class="fa fa-play play-icon" aria-hidden="true"><span>Videos</span></i></h1><br>
+                    </div>
+                </div>
+
+                <!-- VIDEO LIST - EMBED CODE COPIED FROM YOUTUBE   -->
+
+                <div class="row no-gutters">
+                    <div class="col-12 col-md-6">
+                        <!-- VIDEO - The Irish Pub -->
+                        <div class="row no-gutters">
+                            <div class="col-12">
+                                <iframe class="video" src="https://www.youtube.com/embed/d4pe_noy2jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!-- VIDEO - Galway Girl -->
+                        <div class="row no-gutters">
+                            <div class="col-12">
+                                <iframe class="video" src="https://www.youtube.com/embed/rSzQkd1bfto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-6">
+                            <!-- VIDEO - Step it out Mary -->
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <iframe class="video" src="https://www.youtube.com/embed/P_HxQjsMxiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <!-- VIDEO - The Parting Glass -->
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <iframe class="video" src="https://www.youtube.com/embed/mUbNMxGdnCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlists for Decade & Hope and Glory -->
+
+            <div class="col-md-4 playlist">
+
+                <div class="row no-gutters">
+                    <div class="col-12 text-center">
+                        <h1 class="uppercase"><i class="fa fa-headphones headphones-icon" aria-hidden="true"><span> Playlist</span></i><br>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-12 mus-col-padding">
+
+                        <!-- Playlists code copied from High Kings website (https://www.thehighkings.com/). 
+                            2 Play lists appear side by side on the website.
+                            I modified this to show the playlists, one on top of the other and widened the window so that the name 
+                            of the songs could be read more easily. -->
+
+                        <table class="table mus-table" align="center" border="2" cellpadding="1" cellspacing="1">
                             <tbody>
                                 <tr>
                                     <td class="text-center"><em>DECADE (2017)</em></td>
@@ -94,97 +156,70 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
 
-                        <table class="table" border="2" cellpadding="1" cellspacing="1" align="center">
+                <div class="row no-gutters">
+                    <div class="col-12 mus-col-padding">
+
+                        <table class="table mus-table" border="2" cellpadding="1" cellspacing="1" align="center">
                             <tbody>
                                 <tr>
-
                                     <td class="text-center"><em>GRACE &amp; GLORY (2016)</em></td>
                                 </tr>
                                 <tr>
-
                                     <td><iframe allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/6hvKWnf9uHHiRYGYwZsl9E" width="300"></iframe></td>
                                 </tr>
-
                             </tbody>
                         </table>
-
-
-                </div>
-
-
-
-                <!-- VIDEO LIST TAKEN FROM HIGH KINGS WEBSITE   -->
-
-                <div class="col-md-8  col-padding videolist">
-                    <h1><i class="fa fa-play" aria-hidden="true"><span>Videos</span></i></h1><br>
-
-
-                    <div class="row">
-
-                        <!-- VIDEO - The Irish Pub -->
-
-                        <iframe class="video" src="https://www.youtube.com/embed/d4pe_noy2jM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <!-- VIDEO - Galway Girl -->
-
-                        <iframe class="video" src="https://www.youtube.com/embed/rSzQkd1bfto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        <!-- VIDEO - Step it out Mary -->
-
-                        <iframe class="video" src="https://www.youtube.com/embed/P_HxQjsMxiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        <!-- VIDEO - The Parting Glass -->
-
-                        <iframe class="video" src="https://www.youtube.com/embed/mUbNMxGdnCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->    
-    <footer>
-        <div class="footer row">
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">The High Kings</h5>
-                <p><a href="index.html#band">The Band</a></p>
-                <p><a href="news.html">News</a></p>
-                <p><a href="index.html">Home</a></p>
+    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->
+
+    <footer class="footer set-pos row-color ">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">The High Kings</h5>
+                <p><a href="#band ">The Band</a></p>
+                <p><a href="news.html ">News</a></p>
+                <p><a href="index.html ">Home</a></p>
             </div>
 
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">Media</h5>
-                <p><a href="music.html">Music</a></p>
-                <p><a href="gallery.html">Gallery</a></p>
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">Media</h5>
+                <p><a href="music.html ">Music</a></p>
+                <p><a href="gallery.html ">Gallery</a></p>
             </div>
 
-            <div class="col-sm-4">
-                <h5 class="text-uppercase">Social</h5>
+            <div class="col-sm-4 ">
+                <h5 class="text-uppercase ">Social</h5>
 
                 <div>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-facebook social-fbk"></i>
-                            <span class="sr-only">Facebook</span></a>
+                    <ul class="list-inline social-links ">
+                        <li class="list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-facebook social-fbk "></i>
+                            <span class="sr-only ">Facebook</span></a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-twitter social-twt"></i>
-                            <span class="sr-only">Twitter</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-twitter social-twt "></i>
+                            <span class="sr-only ">Twitter</span></a>
                         </li>
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-instagram social-itg"></i>
-                            <span class="sr-only">Instagram</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-instagram social-itg "></i>
+                            <span class="sr-only ">Instagram</span></a>
                         </li>
 
-                        <li class="nav-item list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-youtube social-ytb"></i>
-                            <span class="sr-only">Youtube</span></a>
+                        <li class="nav-item list-inline-item ">
+                            <a target="_blank " href="# ">
+                            <i class="fa fa-youtube social-ytb "></i>
+                            <span class="sr-only ">Youtube</span></a>
                         </li>
 
                     </ul>
