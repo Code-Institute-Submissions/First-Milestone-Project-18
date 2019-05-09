@@ -1,19 +1,19 @@
-/*                                                                   GENERAL  */
-
-/* @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson+Text:100,400,700|Nunito+Sans:100,400,700|Open+Sans:100,400,700|Tangerine:100,400,700'); */
+/*  FONTS - copied from google fonts         */
 
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700|Open:100,400,700|Tangerine:100,400,700');
 
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+/*                           GENERAL                                        */
+
+/* For classes that are used in more than one page. These all start with "gen-" */
+
+.gen-main-section {
+    background-color: #f3f2f2;
 }
+
+
+
+
 
 .col-height {
     height: 800px;
@@ -118,11 +118,12 @@ a {
 
 }
 
-
-.band-section {
-    background-color: #f3f2f2;
+.ind-headings-h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 5px;
 }
-
 
 .band-details-header {
     font-family: "Courgette", sans-serif;
@@ -173,12 +174,14 @@ a {
 
 .headphones-icon {
     font-size: 20px;
-    color: #9a181f;
+/*    color: #9a181f; */
+    
 }
 
 .play-icon {
     font-size: 20px;
-    color: #9a181f;
+/*    color: #9a181f;   */
+    
 
 }
 
@@ -349,34 +352,99 @@ a {
     background-color: #3b3b3b;
     color: #b3b3b3;
     margin-bottom: 0px;
-    padding: 20px; 
+    padding: 20px;
     text-align: center;
 }
 
 /*                                                                 MUSIC PAGE */
 
 .mus-col-padding {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
-.mus-table {
-    width: 75%;
+
+.mus-main-section {
+    border: solid;
+    border-color: #999999;
+}
+
+
+.music-video-title {
+    font-family: "Courgette", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mus-video {
+    width: 240px;
+    height: 150px;
+    margin-top: 20px;
+    border: solid #b3b3b3;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 5px;
+    background-color: #d2d6d2;
+}
+
+@media (min-width:1024px) {
+    .mus-video {
+        width: 300px;
+        height:180px;
+    }
+}
+
+.mus-headings-h1 {
+    font-family: "Crimson", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mus-headings-h2 {
+    font-family: "Crimson", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9a181f; 
+}
+
+
+.mus-video-x {
+    width: 270px;
+    height: 150px;
+    padding: 10px;
+    margin: 20px;
+    border: solid #999999;
+    border-radius: 5px;
+    background-color: #d2d6d2;
+}
+
+
+
+.mus-playlist-col {
+    padding-right: 10px;
+    padding-left: 20px;
+    border: solid;
+    border-color: #999999;
+    background-color: #f3f2f2;
+}
+
+.mus-playlist-table {
+    width: 240px;
     position: relative;
     background-color: #d2d6d2;
 
 }
 
-
-
-.playlist {
-    background-color: #d6d2d2;
+.mus-playlist-width {
+    width: 216px;
 }
 
-.videolist {
-    background-color: #cfc9c9;
-}
-
-.video {
-    width: 140;
-    height: 78;
-    padding: 20px;
+@media (min-width:1024px) {
+    .mus-playlist-table {
+        width: 300px;
+    }
+    .mus-playlist-width {
+        width: 276px;
+    }
 }
