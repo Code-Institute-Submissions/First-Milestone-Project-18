@@ -118,10 +118,17 @@ a {
 
 }
 
-.ind-headings-h1 {
+.ind-band-headings-h1 {
     font-family: "Courgette", sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     font-size: 20px;
+    padding: 5px;
+}
+
+.ind-aside-headings-h2 {
+    font-family: "Open", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
     padding: 5px;
 }
 
@@ -316,7 +323,7 @@ a {
 /*                                               ASIDE SECTION             */
 
 .aside-item-padding {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .aside-col {
@@ -333,14 +340,14 @@ a {
 }
 
 .cd-photo {
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
 
-    /* Copied the following lines from w3c to center the image */
+    /* Copied the following lines from w3c to center the image 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50%;  */
 
 }
 
