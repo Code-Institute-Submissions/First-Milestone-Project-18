@@ -1,6 +1,6 @@
 /*  FONTS - copied from google fonts         */
 
-@import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700|Open:100,400,700|Tangerine:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700');
 
 
 /*                           GENERAL                                        */
@@ -11,19 +11,12 @@
     background-color: #f3f2f2;
 }
 
-
-
-
-
-.col-height {
-    height: 800px;
-    padding: 20px;
-}
-
-.set-pos {
+.gen-set-pos {
     position: relative;
     top: 80px;
 }
+
+
 
 .row-color {
     background-color: red;
@@ -121,16 +114,33 @@ a {
 .ind-band-headings-h1 {
     font-family: "Courgette", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px;
 }
 
 .ind-aside-headings-h2 {
-    font-family: "Open", sans-serif;
+    font-family: "Crimson", sans-serif;
     font-weight: 700;
     font-size: 18px;
     padding: 5px;
 }
+
+.ind-page-padding {
+    padding-bottom: 40px;
+}
+
+.ind-aside-item-padding {
+    padding-bottom: 30px;
+}
+
+.ind-aside-col {
+    padding-right: 10px;
+    padding-left: 20px;
+    border-left: solid;
+    border-color: #999999;
+}
+
+
 
 .band-details-header {
     font-family: "Courgette", sans-serif;
@@ -145,13 +155,9 @@ a {
 
 
 .band-details {
-    /*    font-family: "Courgette", sans-serif; */
-    /*      font-family: "Tangerine", sans-serif;    */
-    /*    font-family: "Crimson+Text", sans-serif;   */
-    /*    font-family: "Open", sans-serif;     */
     font-family: "Nunito", sans-serif;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
 }
 
@@ -167,29 +173,26 @@ a {
     font-weight: 700;
 }
 
-/* icons are fire red - i found the code on google - somewhat similar to high kings icon on tab */
+/* icons are fire. Trying to match the color with color on high kings icon on tab */
 
 .guitar-icon {
     font-size: 40px;
-    color: #9a181f;
+    color: #c71f27;
 }
 
 .ticket-icon {
     font-size: 20px;
-    color: #9a181f;
+    color: #c71f27;
 }
 
 .headphones-icon {
     font-size: 20px;
-/*    color: #9a181f; */
-    
+    /*    color: #c71f27; */
 }
 
 .play-icon {
     font-size: 20px;
-/*    color: #9a181f;   */
-    
-
+    /*    color: #c71f27;   */
 }
 
 .icon-link {
@@ -222,7 +225,7 @@ a {
 .list-item a i {
     display: block;
     /* color: #3d3d9c; */
-    color: #9a181f;
+    color: #c71f27;
     font-size: 26px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -231,7 +234,7 @@ a {
 }
 
 .list-item a i:hover {
-    background-color: #9a181f;
+    background-color: #c71f27;
     color: #fafafa;
 }
 
@@ -322,18 +325,6 @@ a {
 
 /*                                               ASIDE SECTION             */
 
-.aside-item-padding {
-    padding-bottom: 30px;
-}
-
-.aside-col {
-    padding-right: 10px;
-    padding-left: 20px;
-    border-left: solid;
-    border-color: #999999;
-}
-
-
 .feature-pos {
     position: relative;
 
@@ -348,7 +339,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;  */
-
 }
 
 
@@ -366,7 +356,7 @@ a {
 /*                                                                 MUSIC PAGE */
 
 .mus-col-padding {
-    padding-bottom: 20px;
+    padding-bottom: 65px;
 }
 
 .mus-main-section {
@@ -393,12 +383,15 @@ a {
     border-style: inset;
     border-radius: 5px;
     background-color: #d2d6d2;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
 }
 
 @media (min-width:1024px) {
     .mus-video {
         width: 300px;
-        height:180px;
+        height: 180px;
     }
 }
 
@@ -412,7 +405,7 @@ a {
     font-family: "Crimson", sans-serif;
     font-weight: 700;
     font-size: 16px;
-    color: #9a181f; 
+    color: #c71f27;
 }
 
 
@@ -443,15 +436,71 @@ a {
 
 }
 
-.mus-playlist-width {
+.mus-playlist {
     width: 216px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
 }
 
 @media (min-width:1024px) {
     .mus-playlist-table {
         width: 300px;
     }
-    .mus-playlist-width {
+    .mus-playlist {
         width: 276px;
     }
+}
+
+/*                    Tours Page     */
+
+.tour-title {
+    background-color: #c71f27;
+}
+
+.tour-headings-h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 60px;
+    color: #fafafa;
+
+}
+
+.tour-table {
+    font-size: 11px;
+}
+
+.table td {
+    padding-right:0px;
+    padding-left:2px;
+}
+
+@media (min-width:768px) {
+    .tour-table {
+        font-size: 16px;
+    }
+}
+
+
+
+.tour-row {
+    flex-wrap: nowrap;
+}
+
+
+
+.tour-button {
+    font-weight: 700;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.tour-button:hover {
+    background-color: #c71f27;
+    color: #fafafa;
 }
