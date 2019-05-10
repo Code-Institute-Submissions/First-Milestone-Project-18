@@ -129,6 +129,22 @@ a {
     padding-bottom: 40px;
 }
 
+/* guitar icon is a shade of red. Trying to match with the color of the high kings icon on the tab */
+
+.ind-guitar-icon {
+    font-size: 40px;
+    color: #c71f27;
+}
+
+.ind-guitar-icon-aside {
+    padding-left:5px;
+}
+
+.ind-guitar-link {
+    color: inherit;
+    font-weight: 700;
+}
+
 .ind-aside-item-padding {
     padding-bottom: 30px;
 }
@@ -173,32 +189,7 @@ a {
     font-weight: 700;
 }
 
-/* icons are fire. Trying to match the color with color on high kings icon on tab */
 
-.guitar-icon {
-    font-size: 40px;
-    color: #c71f27;
-}
-
-.ticket-icon {
-    font-size: 20px;
-    color: #c71f27;
-}
-
-.headphones-icon {
-    font-size: 20px;
-    /*    color: #c71f27; */
-}
-
-.play-icon {
-    font-size: 20px;
-    /*    color: #c71f27;   */
-}
-
-.icon-link {
-    color: inherit;
-    font-weight: 700;
-}
 
 
 /*                                                             MEDIA QUERIES */
@@ -365,13 +356,22 @@ a {
 }
 
 
-.music-video-title {
+.mus-video-title {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
     font-size: 16px;
     padding: 5px;
     text-decoration: none;
     color: inherit;
+}
+
+.mus-play-icon {
+    font-size: 20px;
+}
+
+.mus-headphones-icon {
+    font-size: 20px;
+
 }
 
 .mus-video {
@@ -503,4 +503,52 @@ a {
 .tour-button:hover {
     background-color: #c71f27;
     color: #fafafa;
+}
+
+.gall-main-section {
+    border: solid;
+    border-color: #999999;
+}
+
+.gall-camera-icon {
+    font-size:20px;
+}
+
+.gall-headings-h1 {
+    font-family: "Crimson", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.gall-image {
+    max-height:300px;
+    max-width:100%;
+    padding:5px;
+}
+
+.gall-row-padding {
+    padding:10px;
+}
+
+.gall-title {
+    background-color: #c71f27;
+}
+
+.gall-headings-h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 60px;
+    color: #fafafa;
+
+}
+
+.gall-image-title {
+    font-family: "Courgette", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
 }

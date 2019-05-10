@@ -19,7 +19,7 @@
 <body>
 
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
-    
+
     <header>
 
         <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
@@ -41,7 +41,7 @@
                     <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
                     <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
                     <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="#news">News</a></li>
                 </ul>
             </div>
 
@@ -91,7 +91,7 @@
 
             <!--  Band background and member details and Aside for news   -->
 
-            <div class="col-md-8 gen-main-section ind-page-padding">
+            <div class="col-md-8 gen-main-section ind-page-padding" id="news">
 
                 <!-- Band background -->
 
@@ -208,10 +208,10 @@
                     <div class="col-12 col-md-6">
                         <div class="row no-gutters">
                             <div class="col-2">
-                                <i class="fas fa-guitar guitar-icon" aria-hidden="true "></i>
+                                <i class="fas fa-guitar ind-guitar-icon" aria-hidden="true "></i>
                             </div>
                             <div class="col-10">
-                                <a href="# " class="icon-link">Read More . . .</a>
+                                <a href="# " class="ind-guitar-link">Read More . . .</a>
                             </div>
                         </div>
                     </div>
@@ -222,6 +222,44 @@
             <!-- AN ASIDE FOR NEWS, FEATURED ITEMS, ETC             -->
 
             <div class="col-md-4 ind-aside-col ind-page-padding">
+
+                <!--               Featured Section                  -->
+
+                <div class="row no-gutters feature-pos">
+                    <div class="col-12">
+                        <div class="row no-gutters">
+                            <div class="col-12">
+                                <h2 class="text-center ind-aside-headings-h2"><strong>Featured</strong></h2>
+                            </div>
+                        </div>
+
+                        <div class="row no-gutters ind-aside-item-padding">
+                            <div class="col-3">
+                                <!-- <i class="fas fa-headphones headphones-icon"></i> -->
+                                <img class="pl-2" src="assets/images/thkdec.ico" height="40" width="40">
+                            </div>
+                            <div class="col-9">
+                                <a href="music.html">Listen to the Latest Albums.</a>
+                            </div>
+                        </div>
+                        <!--     <div class="row no-gutters ind-aside-item-padding ">
+                            <div class="col-12 ">
+                                <a href="music.html "><img src="../assets/images/THKDecade.jpg " align="middle " class="cd-photo "></a>
+                            </div>
+                        </div> -->
+
+                        <div class="row no-gutters ind-aside-item-padding">
+                            <div class="col-3">
+                                <img class="pl-2" src="assets/images/hkbkdrop.ico" height="40" width="40">
+                            </div>
+                            <div class="col-9">
+                                <a href="music.html#concerts ">Watch Recent Concerts.</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
 
                 <!--               News Section                  -->
 
@@ -240,51 +278,21 @@
                                 <a href="tours.html">New Tour Dates Anounced. Tickets on sale now.</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <hr>
-
-
-                <!--               Featured Section                  -->
-
-
-                <div class="row no-gutters feature-pos">
-                    <div class="col-12">
-                        <div class="row no-gutters">
-                            <div class="col-12">
-                                <h2 class="text-center ind-aside-headings-h2"><strong>Featured</strong></h2>
-                            </div>
-                        </div>
 
                         <div class="row no-gutters ind-aside-item-padding">
                             <div class="col-3">
-                               <!-- <i class="fas fa-headphones headphones-icon"></i> -->
-                               <img class="pl-2" src="assets/images/thkdec.ico" height="40" width="40">
+                                <i class="fas fa-guitar ind-guitar-icon ind-guitar-icon-aside" aria-hidden="true "></i>
                             </div>
                             <div class="col-9">
-                                <a href="music.html">Listen to the Latest Albums.</a>
+                                <a href="# " class="ind-guitar-link">Read More . . .</a>
                             </div>
                         </div>
-                   <!--     <div class="row no-gutters ind-aside-item-padding ">
-                            <div class="col-12 ">
-                                <a href="music.html "><img src="../assets/images/THKDecade.jpg " align="middle " class="cd-photo "></a>
-                            </div>
-                        </div> -->
-
-                        <div class="row no-gutters ind-aside-item-padding">
-                            <div class="col-3">
-                                <img class="pl-2" src="assets/images/hkbkdrop.ico" height="40" width="40">
-                            </div>
-                            <div class="col-9">
-                                <a href="music.html#concerts ">Watch Recent Concerts.</a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
+
 
             </div>
+        </div>
 
     </section>
 
@@ -295,7 +303,7 @@
             <div class="col-sm-4 ">
                 <h5 class="text-uppercase ">The High Kings</h5>
                 <p><a href="tours.html">Tours</a></p>
-                <p><a href="news.html ">News</a></p>
+                <p><a href="#news">News</a></p>
                 <p><a href="index.html ">Home</a></p>
             </div>
 
