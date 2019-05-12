@@ -3,6 +3,25 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700');
 
 
+
+/* MODIFIED BOOTSTRAP CLASSES */
+
+.nav-link {
+    font-size: 12px;
+}
+
+@media (min-width:1025px) {
+    .nav-link {
+        font-size: 16px;
+    }
+}
+
+/*   I want the text color to remain white on hover    */
+
+.btn-warning:hover {
+    color: #fff;
+}
+
 /*                           GENERAL                                        */
 
 /* For classes that are used in more than one page. These all start with "gen-" */
@@ -85,13 +104,13 @@
 
 @media(min-width:768px) {
     .nav-menu-spacing {
-        padding-left: 60px;
+        padding-left: 55px;
     }
 }
 
 @media(min-width:1024px) {
     .nav-menu-spacing {
-        padding-left: 100px;
+        padding-left: 80px;
     }
 
 }
@@ -356,7 +375,7 @@
     background-color: #3b3b3b;
     color: #b3b3b3;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
 }
 
@@ -530,11 +549,6 @@
     font-size: 20px;
 }
 
-.gall-headings-h1 {
-    font-family: "Crimson", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
 
 .gall-image {
     max-height: 300px;
@@ -544,7 +558,7 @@
 
 .gall-row-padding {
     padding: 10px;
-}
+} 
 
 .gall-title {
     background-color: #c71f27;
@@ -554,9 +568,11 @@
     font-family: "Courgette", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom:5px;
     line-height: 60px;
     color: #fafafa;
+    margin-bottom:0px;
 
 }
 
@@ -568,3 +584,44 @@
     text-decoration: none;
     color: inherit;
 }
+
+/*    CONTACT PAGE CLASSES  */
+
+.con-center-form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #c71f27;
+    border-color: #c71f27;
+}
+
+.con-headings-h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    line-height: 60px;
+    color: #171a1c;
+    margin-bottom:0px;
+
+}
+
+.con-headings-h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #171a1c;
+}
+
+.con-message {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+}
+

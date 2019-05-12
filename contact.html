@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" href="hk.ico" />
 
-    <title>GALLERY</title>
+
+    <title>CONTACT</title>
 </head>
 
 <body>
@@ -72,125 +75,31 @@
         </nav>
     </header>
 
-
-    <!-- MIDDLE SECTION:             -->
+    <!-- Contact Details Section - Code copied from Rosie project and modified -->
 
     <section class="container-fluid no-gutters gen-set-pos gen-main-section gall-main-section">
 
-        <div class="row no-gutters">
-
-            <div class="col-12">
-
-                <div class="row no-gutters text-center gall-title">
-                    <div class="col">
-                        <h1 class="gall-headings-h1">GALLERY</h1>
+        <div class="row bg-color-contact">
+        <div class="col">
+            <h1 class="con-headings-h1 uppercase text-center">Contact us</h3>
+            <h2 class="uppercase text-center con-headings-h2">What can we do for you?</h5>
+            <div class="con-center-form">
+                <form class="con-message">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-warning">Send Message</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
 
-            <!-- Photos Section - 3 photos across large screens screen across -->
-            <!-- PHOTOGRAPH COPIED FROM HIGH KINGS WEBSITE (thehighkings.com)   -->
-
-            <!-- First 3 photos in this row -->
-
-            <div class="row no-gutters gall-row-padding">
-
-                <!-- IMAGE: HK Stage Backdrop -->
-
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkstagebackdrop.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings Stage Backdrop.</p>
-                </div>
-
-
-                <!-- IMAGE: HK Group Photo -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkgroupphoto.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings Group Photo</p>
-                </div>
-
-                <!-- IMAGE: HK in Ulster Hall -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkulsterhall.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings in Ulster Hall</p>
-                </div>
-            </div>
-
-            <!-- Second 3 photos in this row -->
-
-            <div class="row no-gutters gall-row-padding">
-
-                <!-- IMAGE: Brian in Cologne -->
-
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/briancologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">Brian in Cologne</p>
-                </div>
-
-
-                <!-- IMAGE: Darren in Cologne -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/darrencologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">Darren in Cologne</p>
-                </div>
-
-                <!-- IMAGE: Finbar in Cologne -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/finbarcologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">Finbar in Cologne</p>
-                </div>
-            </div>
-
-            <!-- Third 3 photos in this row -->
-
-            <div class="row no-gutters gall-row-padding">
-
-                <!-- IMAGE: George in Cologne-->
-
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/georgecologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">George in Cologne</p>
-                </div>
-
-
-                <!-- IMAGE: The High Kings in Studio   -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkstudio.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings in Studio</p>
-                </div>
-
-                <!-- IMAGE: Vocalising in Cologne -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/vocalscologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">Vocalising in Cologne</p>
-                </div>
-            </div>
-
-            <!-- Fourth 3 photos in this row -->
-
-            <div class="row no-gutters gall-row-padding">
-
-                <!-- IMAGE: Encore in Cologne-->
-
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkencorecologne.jpeg" class="gall-image"><br>
-                    <p class="gall-image-title">Encore in Cologne</p>
-                </div>
-
-
-                <!-- IMAGE: The High Kings Onstage in Cologne   -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkonstgcologne.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings Onstage in Cologne</p>
-                </div>
-
-                <!-- IMAGE: The High Kings with Ryan Tubridy in Cologne -->
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/hkrtubridy.jpg" class="gall-image"><br>
-                    <p class="gall-image-title">The High Kings with Ryan Tubridy</p>
-                </div>
-            </div>
         </div>
+    </div>
+
+
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA. Learnt from Rosie project              -->
@@ -246,10 +155,8 @@
 
     </footer>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script></body>
 
 </html>
