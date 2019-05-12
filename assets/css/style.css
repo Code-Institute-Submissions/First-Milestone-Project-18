@@ -1,30 +1,58 @@
-/*  FONTS - copied from google fonts         */
+/*    This stylesheet is laid out as follows:            *
+/*    1. Import Fonts
+/*    2. Classes used in all pages - these are prefixed with "gen-"    */
+/*    3. Classes used in index.html only - these are prefixed with "ind-"  */
+/*    4. Classes used in tours.html only - these are prefixed with "tour-"  */
+/*    5. Classes used in music.html only - these are prefixed with "mus-"  */
+/*    6. Classes used in gallery.html only - these are prefixed with "gall-"  */
+/*    7. Classes used in contact.html only - these are prefixed with "con-"  */
+
+/*    NOTE: Where a class is modified by a Media Query, I have added the Media */
+/*          Query after the relevant class.                                    */
+
+/*  IMPORT FONTS - copied from google fonts         */
 
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700');
 
 
+/*      GENERAL - CLASSES USED IN ALL PAGES. These all begin with "gen-"      */
 
-/* MODIFIED BOOTSTRAP CLASSES */
-
-.nav-link {
-    font-size: 12px;
+.gen-nav-menu-spacing {
+    padding-left: 65px;
 }
 
-@media (min-width:1025px) {
-    .nav-link {
-        font-size: 16px;
+@media(min-width:768px) {
+    .gen-nav-menu-spacing {
+        padding-left: 55px;
     }
 }
 
-/*   I want the text color to remain white on hover    */
+@media(min-width:1024px) {
+    .gen-nav-menu-spacing {
+        padding-left: 80px;
+    }
 
-.btn-warning:hover {
-    color: #fff;
 }
 
-/*                           GENERAL                                        */
+@media(min-width:1025px) {
+    .gen-nav-menu-spacing {
+        padding-left: 180px;
+    }
 
-/* For classes that are used in more than one page. These all start with "gen-" */
+}
+
+.gen-headings-h1 {
+    font-family: "Courgette", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.gen-headings-h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 .gen-main-section {
     background-color: #f3f2f2;
@@ -35,24 +63,7 @@
     top: 80px;
 }
 
-
-
-.row-color {
-    background-color: red;
-}
-
-
-
-.container-fluid {
-    padding: 0;
-}
-
-
-/*                                                                  HOME PAGE */
-
-/*                                                                   <header> */
-
-.logo {
+.gen-logo {
     background: url("../images/high-kings-logo_small.jpg");
     min-height: 64px;
     min-width: 180px;
@@ -66,17 +77,26 @@
     -webkit-transition: all.51s ease-in-out;
 }
 
-
-/*                                        Divs position / padding             */
-
-.div-padding {
-    padding-left: 20px;
+@media(min-width:768px) {
+    .gen-logo {
+        background: url("../images/high-kings-logo.jpg");
+        min-height: 64px;
+        min-width: 225px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all.51s ease-in-out;
+    }
 }
 
 
+/*        CLASSES USED IN INDEX.HTML.  These all begin with "ind-"            */
 
+/*    Background photo of the border    */
 
-.photo-bg {
+.ind-bg-photo {
     background-position: center;
     background-image: url("../images/hk.jpg");
     background-size: cover;
@@ -90,75 +110,40 @@
     margin-right: auto;
 }
 
-.photo-band-member {
+@media(min-width:768px) {
+    .ind-bg-photo {
+        background-image: url("../images/high-kings-band.jpg");
+    }
+}
+
+.ind-band-member-photo {
     width: 40px;
     height: 40px;
 }
 
-
-
-
-.nav-menu-spacing {
-    padding-left: 65px;
-}
-
-@media(min-width:768px) {
-    .nav-menu-spacing {
-        padding-left: 55px;
-    }
-}
-
-@media(min-width:1024px) {
-    .nav-menu-spacing {
-        padding-left: 80px;
-    }
-
-}
-
-@media(min-width:1025px) {
-    .nav-menu-spacing {
-        padding-left: 180px;
-    }
-
-}
-
-.ind-band-headings-h1 {
-    font-family: "Courgette", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.ind-aside-headings-h2 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+.ind-headings-h2 {
     color: #d9d9d9;
 }
 
-.ind-aside-headings-h3 {
+.ind-headings-h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    padding: 1px;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-bottom: 1px;
     color: #d9d9d9;
 }
 
 .ind-aside-items-text {
-    /*   font-family: "Crimson", sans-serif; */
     font-family: "Nunito", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px;
     text-decoration: none;
     color: #d9d9d9;
 }
 
 .ind-aside-image {
-    max-width: 100%;
-    height: 50px;
-}
-
-.ind-aside-iffs-image {
     max-width: 100%;
     height: 50px;
 }
@@ -174,17 +159,8 @@
     color: #c71f27;
 }
 
-.ind-aside-guitar-icon {
-    padding-left: 5px;
-}
-
-.ind-guitar-link {
-    color: inherit;
-    font-weight: 700;
-}
-
 .ind-aside-item-padding {
-    padding-bottom: 18px;
+    padding-bottom: 20px;
 }
 
 .ind-aside-col {
@@ -192,64 +168,37 @@
     padding-left: 20px;
     border-left: solid;
     border-color: #999999;
-
-
 }
 
-
-
-.band-details-header {
+.ind-band-intro {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
     font-size: 14px;
     padding: 5px;
 }
 
-.band-details-background {
+.ind-band-intro-padding {
     padding-left: 10px;
 }
 
 
-.band-details {
+.ind-band-details {
     font-family: "Nunito", sans-serif;
     font-weight: 300;
     font-size: 12px;
     padding: 5px;
 }
 
-.band-member {
+.ind-band-member {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-
-
-.band-member-name {
+.ind-band-member-name {
     font-size: 13px;
     font-weight: 700;
 }
 
-
-
-
-/*                                                             MEDIA QUERIES */
-
-@media(min-width:768px) {
-    .photo-bg {
-        background-image: url("../images/high-kings-band.jpg");
-    }
-    .logo {
-        background: url("../images/high-kings-logo.jpg");
-        min-height: 64px;
-        min-width: 225px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all.51s ease-in-out;
-    }
-}
 
 /*    Home icon  */
 
@@ -430,16 +379,7 @@
     }
 }
 
-.mus-headings-h1 {
-    font-family: "Crimson", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
 .mus-headings-h2 {
-    font-family: "Crimson", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
     color: #c71f27;
 }
 
@@ -494,9 +434,6 @@
 }
 
 .tour-headings-h1 {
-    font-family: "Courgette", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
     padding: 5px;
     line-height: 60px;
     color: #fafafa;
@@ -565,9 +502,6 @@
 }
 
 .gall-headings-h1 {
-    font-family: "Courgette", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
     padding-top: 5px;
     padding-bottom:5px;
     line-height: 60px;
@@ -587,10 +521,40 @@
 
 /*    CONTACT PAGE CLASSES  */
 
+.con-main-section {
+    border: solid #999999;
+}
+
+.con-main-padding {
+    padding-bottom: 80px;
+}
+
+.con-headings-h1 {
+    padding-top: 10px;
+    padding-bottom:10px;
+    line-height: 60px;
+    color: #171a1c;
+}
+
+.con-headings-h2 {
+    color: #171a1c;
+    padding-bottom: 20px;
+}
+
 .con-center-form {
     margin: 0 auto;
     width: 70%;
 }
+
+.con-message {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    
+}
+
+
+
+
 
 
 button[type="submit"] {
@@ -601,27 +565,26 @@ button[type="submit"] {
     border-color: #c71f27;
 }
 
-.con-headings-h1 {
-    font-family: "Courgette", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom:5px;
-    line-height: 60px;
-    color: #171a1c;
-    margin-bottom:0px;
+/*         MODIFIED BOOTSTRAP CLASSES */
 
+.container-fluid {
+    padding: 0;
 }
 
-.con-headings-h2 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #171a1c;
+
+
+.nav-link {
+    font-size: 12px;
 }
 
-.con-message {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+@media (min-width:1025px) {
+    .nav-link {
+        font-size: 16px;
+    }
 }
 
+/*   I want the text color to remain white on hover    */
+
+.btn-warning:hover {
+    color: #fff;
+}
