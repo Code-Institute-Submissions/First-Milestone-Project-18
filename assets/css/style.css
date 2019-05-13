@@ -1,21 +1,40 @@
-/*    This stylesheet is laid out as follows:            *
-/*    1. Import Fonts
-/*    2. Classes used in all pages - these are prefixed with "gen-"    */
-/*    3. Classes used in index.html only - these are prefixed with "ind-"  */
-/*    4. Classes used in tours.html only - these are prefixed with "tour-"  */
-/*    5. Classes used in music.html only - these are prefixed with "mus-"  */
-/*    6. Classes used in gallery.html only - these are prefixed with "gall-"  */
-/*    7. Classes used in contact.html only - these are prefixed with "con-"  */
+/* ========================================================================== */
 
-/*    NOTE: Where a class is modified by a Media Query, I have added the Media */
-/*          Query after the relevant class.                                    */
+/*   This stylesheet is laid out as follows:           
+
+      1. Import Fonts     
+      
+      2. Classes used in all pages - these are prefixed with "gen-"   
+
+      3. Classes used in index.html only - these are prefixed with "ind-"  
+
+      4. Classes used in tours.html only - these are prefixed with "tour-"  
+
+      5. Classes used in music.html only - these are prefixed with "mus-"  
+
+      6. Classes used in gallery.html only - these are prefixed with "gall-"  
+
+      7. Classes used in contact.html only - these are prefixed with "con-" 
+
+      NOTE: Where a class is modified by a Media Query, I have added the 
+      Media Query after the relevant class so that they're easy to see.   */
+
+/* ============================================================================*/
 
 /*  IMPORT FONTS - copied from google fonts         */
 
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,400,700|Crimson:100,400,700|Nunito:100,400,700');
 
 
+
 /*      GENERAL - CLASSES USED IN ALL PAGES. These all begin with "gen-"      */
+
+/* Navigation bar */
+
+.gen-navbar-style {
+    background-color: #fafaff;
+    color: #3b3b3b;
+}
 
 .gen-nav-menu-spacing {
     padding-left: 65px;
@@ -41,6 +60,141 @@
 
 }
 
+
+/*    Home icon in navigation bar  */
+
+.gen-home-icon a i {
+    display: block;
+    color: #c71f27;
+    font-size: 26px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.gen-home-icon a i:hover {
+    background-color: #c71f27;
+    color: #fafafa;
+}
+
+/* The links in the navigation bar */
+
+.gen-nav-link a {
+    width: 100%;
+    text-decoration: none;
+    color: #3b3b3b !important;
+}
+
+.gen-nav-link a:hover {
+    color: #c71f27 !important;
+    background-color: #fff;
+}
+
+.gen-social-links {
+    padding-top: 16px;
+
+}
+
+/* ".social-links a i" copied from Rosie Resume Project and modified to use their own colors  */
+
+.gen-social-links a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*      I Found the social media icon colours on google                       */
+
+/*      Facebook color found on: https://encycolorpedia.com/3b5998            */
+
+.gen-social-fbk {
+    background-color: #3b5998;
+    border-radius: 50%;
+}
+
+.gen-social-fbk:hover {
+    background-color: #fafafa;
+    color: #3b5998;
+}
+
+/* Twitter color found on: https://www.sitepoint.com/fonts-colors-used-facebook-twitter-google/  */
+
+.gen-social-twt {
+    background-color: #38A1F3;
+    border-radius: 50%;
+
+}
+
+.gen-social-twt:hover {
+    background-color: #fafafa;
+    color: #38A1F3;
+}
+
+/* Instagram color found on: https://www.designpieces.com/palette/instagram-new-logo-2016-color-palette/ */
+
+.gen-social-itg {
+    background-color: #bc2a8d;
+    border-radius: 50%;
+}
+
+.gen-social-itg:hover {
+    background-color: #fafafa;
+    color: #bc2a8d;
+}
+
+/*  Youtube color found on: https://www.designpieces.com/palette/youtube-hex-rgb/   */
+
+.gen-social-ytb {
+    background-color: #FF0000;
+    border-radius: 50%;
+}
+
+.gen-social-ytb:hover {
+    background-color: #fafafa;
+    color: #FF0000;
+}
+
+.gen-wrapper {
+    min-height: 100%;
+    margin-bottom: 144px;
+}
+
+/* Footer details. An extra 15px will be added to the bottom padding for each section of the footer. 
+   This is to create a space between each section when shown on the mobile, to make it easier to read. */
+   
+.gen-footer {
+    background-color: #3b3b3b;
+    color: #b3b3b3;
+    margin-bottom: 0px;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+}
+
+.gen-footer-pb {
+    padding-bottom: 20px;
+}
+
+.gen-footer-link a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.gen-footer-link a:hover {
+    color: #c71f27;
+    background-color: #fff;
+}
+
+
 .gen-headings-h1 {
     font-family: "Courgette", sans-serif;
     font-weight: 700;
@@ -53,14 +207,29 @@
     font-size: 18px;
 }
 
+.gen-no-margins {
+    margin-left: 0;
+    margin-right:0;
+}
 
 .gen-main-section {
     background-color: #f3f2f2;
 }
 
+/* @media(min-height:1030px) {
+    .ind-main-section {
+        height: calc(100vh - 688px)
+    }
+} */
+
+
+
+/* As the navigation bar is fixed, sections need to be moved down 80px  */
+
 .gen-set-pos {
     position: relative;
     top: 80px;
+    
 }
 
 .gen-logo {
@@ -94,7 +263,20 @@
 
 /*        CLASSES USED IN INDEX.HTML.  These all begin with "ind-"            */
 
-/*    Background photo of the border    */
+/*    Background photo of the band on large screens; High Kings logo on small screens    */
+
+
+
+
+.ind-page-padding {
+    padding: 35px;
+}
+
+
+.ind-bg-photo-border {
+    border-bottom: solid #999999;
+    ;
+}
 
 .ind-bg-photo {
     background-position: center;
@@ -103,7 +285,7 @@
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    min-height: 465px;
+    min-height: 480px;
     border: 0;
     display: block;
     margin-left: auto;
@@ -128,7 +310,7 @@
 .ind-headings-h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 5px;
     padding-bottom: 1px;
     color: #d9d9d9;
@@ -137,50 +319,47 @@
 .ind-aside-items-text {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
     padding: 5px;
     text-decoration: none;
     color: #d9d9d9;
 }
 
 .ind-aside-image {
-    max-width: 100%;
-    height: 50px;
+    width: 100%;
+    height: auto;
 }
 
-.ind-page-padding {
-    padding-bottom: 10px;
-}
+
 
 /* guitar icon is a shade of red. Trying to match with the color of the high kings icon on the tab */
 
 .ind-guitar-icon {
-    font-size: 26px;
     color: #c71f27;
+    font-size: 30px;
 }
 
 .ind-aside-item-padding {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .ind-aside-col {
-    padding-right: 10px;
-    padding-left: 20px;
     border-left: solid;
     border-color: #999999;
+
 }
 
 .ind-band-intro {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
     font-size: 14px;
-    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.ind-band-intro-padding {
-    padding-left: 10px;
+.ind-band-pb {
+    padding-bottom: 20px;
 }
-
 
 .ind-band-details {
     font-family: "Nunito", sans-serif;
@@ -199,136 +378,7 @@
     font-weight: 700;
 }
 
-
-/*    Home icon  */
-
-.list-item a i {
-    display: block;
-    /* color: #3d3d9c; */
-    color: #c71f27;
-    font-size: 26px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.list-item a i:hover {
-    background-color: #c71f27;
-    color: #fafafa;
-}
-
-
-.list-item a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-}
-
-
-
-.navbar-style {
-    background-color: #fafaff;
-}
-
-
-
-.social-links {
-    padding-top: 16px;
-
-}
-
-/*         ".social-links a i" Copied from Rosie Resume Project and modified  */
-
-.social-links a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    font-size: 16px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-
-/*                            Found the social media icon colours on google   */
-
-.social-fbk {
-    background-color: #3b5998;
-    border-radius: 50%;
-}
-
-.social-fbk:hover {
-    background-color: #fafafa;
-    color: #3b5998;
-}
-
-.social-twt {
-    background-color: #38A1F3;
-    border-radius: 50%;
-
-}
-
-.social-twt:hover {
-    background-color: #fafafa;
-    color: #38A1F3;
-}
-
-
-.social-itg {
-    background-color: #bc2a8d;
-    border-radius: 50%;
-}
-
-.social-itg:hover {
-    background-color: #fafafa;
-    color: #bc2a8d;
-}
-
-.social-ytb {
-    background-color: #FF0000;
-    border-radius: 50%;
-}
-
-.social-ytb:hover {
-    background-color: #fafafa;
-    color: #FF0000;
-}
-
-
-
-/*                                               MIDDLE SECTION */
-
-/*                                               ASIDE SECTION             */
-
-.cd-photo {
-    height: 50px;
-    width: 50px;
-
-    /* Copied the following lines from w3c to center the image 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;  */
-}
-
-
-/*                                                         FOOTER DETAILS    */
-
-.footer {
-    position: relative;
-    background-color: #3b3b3b;
-    color: #b3b3b3;
-    margin-bottom: 0px;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-}
-
-/*                                                                 MUSIC PAGE */
+/*                                  MUSIC PAGE                             */
 
 .mus-col-padding {
     padding-bottom: 65px;
@@ -338,7 +388,6 @@
     border: solid;
     border-color: #999999;
 }
-
 
 .mus-video-title {
     font-family: "Courgette", sans-serif;
@@ -355,7 +404,6 @@
 
 .mus-headphones-icon {
     font-size: 20px;
-
 }
 
 .mus-video {
@@ -382,18 +430,6 @@
 .mus-headings-h2 {
     color: #c71f27;
 }
-
-
-.mus-video-x {
-    width: 270px;
-    height: 150px;
-    padding: 10px;
-    margin: 20px;
-    border: solid #999999;
-    border-radius: 5px;
-    background-color: #d2d6d2;
-}
-
 
 
 .mus-playlist-col {
@@ -437,33 +473,19 @@
     padding: 5px;
     line-height: 60px;
     color: #fafafa;
+}
 
+.tour-page-padding {
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .tour-table {
     font-size: 11px;
 }
 
-.table td {
-    padding-right: 0px;
-    padding-left: 2px;
-}
 
-@media (min-width:768px) {
-    .tour-table {
-        font-size: 16px;
-    }
-}
-
-
-
-.tour-row {
-    flex-wrap: nowrap;
-}
-
-
-
-.tour-button {
+.tour-book-button {
     font-weight: 700;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -471,31 +493,14 @@
     -o-transition: all 0.35s ease-in-out;
 }
 
-
 .tour-button:hover {
     background-color: #c71f27;
+    border-color: #c71f27;
     color: #fafafa;
 }
 
-.gall-main-section {
-    border: solid;
-    border-color: #999999;
-}
 
-.gall-camera-icon {
-    font-size: 20px;
-}
-
-
-.gall-image {
-    max-height: 300px;
-    max-width: 100%;
-    padding: 5px;
-}
-
-.gall-row-padding {
-    padding: 10px;
-} 
+/*                        GALLERY PAGE                         */
 
 .gall-title {
     background-color: #c71f27;
@@ -503,11 +508,27 @@
 
 .gall-headings-h1 {
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom: 5px;
     line-height: 60px;
     color: #fafafa;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 
+}
+
+.gall-main-section {
+    border: solid;
+    border-color: #999999;
+
+}
+
+.gall-image {
+    max-height:350px;
+    max-width: 350px;
+    padding: 5px;
+}
+
+.gall-row-padding {
+    padding: 50px;
 }
 
 .gall-image-title {
@@ -519,19 +540,28 @@
     color: inherit;
 }
 
-/*    CONTACT PAGE CLASSES  */
+
+
+/*                    CONTACT PAGE CLASSES                      */
 
 .con-main-section {
     border: solid #999999;
 }
 
+@media(min-height:1024px) {
+    .con-main-section {
+        height: calc(100vh - 225px)
+    }
+}
+
 .con-main-padding {
-    padding-bottom: 80px;
+    padding-top: 20px;
+
 }
 
 .con-headings-h1 {
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     line-height: 60px;
     color: #171a1c;
 }
@@ -541,21 +571,18 @@
     padding-bottom: 20px;
 }
 
+.con-message {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+
+}
+
+/*    "center-form" & "button" copied from Rosie project and colors modified  */
+
 .con-center-form {
     margin: 0 auto;
     width: 70%;
 }
-
-.con-message {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    
-}
-
-
-
-
-
 
 button[type="submit"] {
     margin-top: 15px;
@@ -565,13 +592,14 @@ button[type="submit"] {
     border-color: #c71f27;
 }
 
+
 /*         MODIFIED BOOTSTRAP CLASSES */
 
 .container-fluid {
     padding: 0;
 }
 
-
+/* Adding a font-size and enlarging it for larger screens   */
 
 .nav-link {
     font-size: 12px;
@@ -587,4 +615,15 @@ button[type="submit"] {
 
 .btn-warning:hover {
     color: #fff;
+}
+
+.table td {
+    padding-right: 3px;
+    padding-left:0px;
+}
+
+@media (min-width:768px) {
+    .tour-table {
+        font-size: 16px;
+    }
 }

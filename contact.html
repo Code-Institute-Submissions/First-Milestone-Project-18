@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap classes & icons are used in this program  -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <!-- High Kings backdrop icon will appear on page tab. Icon created on converticon.com using a photo High Kings stage backdrop (from thehighkings.com/gallery)    -->
+
     <link rel="shortcut icon" href="hk.ico" />
 
 
@@ -18,133 +23,152 @@
 
 <body>
 
-    <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
+    <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA icons              -->
 
     <header>
 
-        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+        <!-- This navigation bar menu will be on one line on larger screens, and will collapse behind a "hamburger" menu button on mobile screens. The navigation bar is fixed to allow the user easy access to the website without having to scroll up or down. 
+            I copied the code for this navbar and collapsible menu from the Whiskey (bootstrap module) project and modified it for my own collapsible menu -->
 
-        <nav class="navbar navbar-expand-sm navbar-light navbar-style fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light gen-navbar-style fixed-top">
 
             <a href="index.html" class="gen-logo navbar-brand border-light"></a>
 
-            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
-
-
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
 
             <div class="collapse navbar-collapse" id="collapseMenu">
                 <ul class="navbar-nav gen-nav-menu-spacing">
-                    <li class="active nav-item mr-2 list-item"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="index.html#band">The Band</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="index.html#news">News</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="active nav-item mr-2 gen-home-icon"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="index.html#band">The Band</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
+            <!-- I learnt how to do the social links icons on the rosie resume project.
+                 I Copied the code and modified it to use the original icon colors.
+                 I found their colors on google (see style.css for webpages). 
+                 The Social Media icons will not appear on screens less than 1024 in width -->
+
             <div class="d-none d-lg-block ml-auto">
-                <ul class="list-inline social-links">
+                <ul class="list-inline gen-social-links">
+
+                    <!-- Facebook  -->
+
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-facebook social-fbk"></i>
+                            <i class="fa fa-facebook gen-social-fbk"></i>
                             <span class="sr-only">Facebook</span></a>
                     </li>
+
+                    <!-- Twitter  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-twitter social-twt"></i>
+                            <i class="fa fa-twitter gen-social-twt"></i>
                             <span class="sr-only">Twitter</span></a>
                     </li>
+
+                    <!-- Instagram  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-instagram social-itg"></i>
+                            <i class="fa fa-instagram gen-social-itg"></i>
                             <span class="sr-only">Instagram</span></a>
                     </li>
 
+                    <!-- Youtube  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-youtube social-ytb"></i>
+                            <i class="fa fa-youtube gen-social-ytb"></i>
                             <span class="sr-only">Youtube</span></a>
                     </li>
-
                 </ul>
             </div>
         </nav>
     </header>
+    
+        <!-- Contact Details Section - Code copied from Rosie project and modified -->
 
-    <!-- Contact Details Section - Code copied from Rosie project and modified -->
+        <section class="container-fluid no-gutters gen-set-pos gen-main-section con-main-section">
 
-    <section class="container-fluid no-gutters gen-set-pos gen-main-section con-main-section">
-
-        <div class="row no-gutters">
-        <div class="col con-main-padding">
-            <h1 class="gen-headings-h1 con-headings-h1 uppercase text-center">Contact us</h3>
-            <h2 class="uppercase text-center gen-headings-h2 con-headings-h2">What can we do for you?</h5>
-            <div class="con-center-form">
-                <form class="con-message">
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                    <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-warning">Send Message</button>
-                        </div>
+            <div class="row no-gutters">
+                <div class="col con-main-padding">
+                    <h1 class="gen-headings-h1 con-headings-h1 uppercase text-center">Contact us</h1>
+                    <h2 class="uppercase text-center gen-headings-h2 con-headings-h2">What can we do for you?</h2>
+                    <div class="con-center-form">
+                        <form class="con-message">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-warning">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                </form>
+
+                </div>
             </div>
 
-        </div>
-    </div>
 
+        </section>
 
-    </section>
+    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA ICONS. -->
+    <!-- Learnt from Rosie resume project  -->
+    <!-- Footer split into 3 columns. These break into one column on mobile screens.         -->
+    <!-- This navigation allows the user to easily find their way back to the Home page, -->
+    <!--   Tours, Gallery, Music and Contac pages without having to scroll back up to the top again.  -->
 
-    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA. Learnt from Rosie project              -->
-
-    <footer class="footer gen-set-pos">
-        <div class="row no-gutters">
-            <div class="col-sm-4 ">
+    <footer class="gen-footer gen-set-pos">
+        <div class="row gen-no-margins">
+            <div class="col-sm-4 gen-footer-pb">
                 <h5 class="text-uppercase ">The High Kings</h5>
-                <p class="mb-1"><a href="tours.html">Tours</a></p>
-                <p class="mb-1"><a href="index.html#news">News</a></p>
-                <p class="mb-1"><a href="index.html ">Home</a></p>
+                <p class="mb-1 gen-footer-link"><a href="index.html#band">The Band</a></p>
+                <p class="mb-1 gen-footer-link"><a href="tours.html">Tours</a></p>
+                <p class="mb-1 gen-footer-link"><a href="index.html ">Home</a></p>
             </div>
 
-            <div class="col-sm-4 ">
+            <div class="col-sm-4 gen-footer-pb">
                 <h5 class="text-uppercase ">Media</h5>
-                <p class="mb-1"><a href="music.html ">Music</a></p>
-                <p class="mb-1"><a href="music.html ">Playlists</a></p>
-                <p class="mb-1"><a href="gallery.html ">Gallery</a></p>
+                <p class="mb-1 gen-footer-link"><a href="music.html ">Music</a></p>
+                <p class="mb-1 gen-footer-link"><a href="music.html ">Playlists</a></p>
+                <p class="mb-1 gen-footer-link"><a href="gallery.html ">Gallery</a></p>
             </div>
 
-            <div class="col-sm-4 ">
+            <div class="col-sm-4 gen-footer-pb">
                 <h5 class="text-uppercase ">Social</h5>
-                <p class="mb-1"><a href="contact.html ">Contact Us</a></p>
+                <p class="mb-1 gen-footer-link"><a href="contact.html ">Contact Us</a></p>
+
+                <!-- Learnt how to do the social links icons on the rosie resume project. -->
+                <!-- I Copied the code and modified it to use original icon colors. -->
+                <!-- I found their colors on google (see style.css for webpages).  -->
 
                 <div>
-                    <ul class="list-inline social-links ">
+                    <ul class="list-inline gen-social-links ">
                         <li class="list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-facebook social-fbk "></i>
+                            <i class="fa fa-facebook gen-social-fbk "></i>
                             <span class="sr-only ">Facebook</span></a>
                         </li>
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-twitter social-twt "></i>
+                            <i class="fa fa-twitter gen-social-twt "></i>
                             <span class="sr-only ">Twitter</span></a>
                         </li>
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-instagram social-itg "></i>
+                            <i class="fa fa-instagram gen-social-itg "></i>
                             <span class="sr-only ">Instagram</span></a>
                         </li>
 
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-youtube social-ytb "></i>
+                            <i class="fa fa-youtube gen-social-ytb "></i>
                             <span class="sr-only ">Youtube</span></a>
                         </li>
 
@@ -157,6 +181,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script></body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
 
 </html>

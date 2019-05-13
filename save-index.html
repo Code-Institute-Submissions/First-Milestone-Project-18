@@ -5,382 +5,425 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap classes & icons, & a fontawesome.com icon are used in this program  -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="shortcut icon" href="hk.ico" />
 
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <!-- High Kings backdrop icon will appear on page tab. Icon created on converticon.com using a photo High Kings stage backdrop (from thehighkings.com/gallery)    -->
+
+    <link rel="shortcut icon" href="hk.ico" />
 
     <title>HIGH KINGS</title>
 </head>
 
 <body>
 
-    <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA              -->
+    <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA icons              -->
 
     <header>
 
-        <!-- This nav bar will collapse on xs devices (mobiles) due to class 'navbar-expand-sm' leaving room for collapsible menu. Menu will not appear on Ipad etc -->
+        <!-- This navigation bar menu will be on one line on larger screens, and will collapse behind a "hamburger" menu button on mobile screens. The navigation bar is fixed to allow the user easy access to the website without having to scroll up or down. 
+            I copied the code for this navbar and collapsible menu from the Whiskey (bootstrap module) project and modified it for my own collapsible menu -->
 
-        <nav class="navbar navbar-expand-sm navbar-light navbar-style fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light gen-navbar-style fixed-top">
 
-            <a href="index.html" class="logo navbar-brand border-light"></a>
-
-            <!-- Collapsible button code taken from Whiskey project done as part of Bootstrap module -->
-
+            <a href="index.html" class="gen-logo navbar-brand border-light"></a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-controls="collapseMenu" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-
             <div class="collapse navbar-collapse" id="collapseMenu">
-                <ul class="navbar-nav nav-menu-spacing">
-                    <li class="active nav-item mr-2 list-item"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="#band">The Band</a></li>
-                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
-                    <li class="nav-item mr-2 list-item text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item list-item text-uppercase"><a class="nav-link" href="#news">News</a></li>
+                <ul class="navbar-nav gen-nav-menu-spacing">
+                    <li class="active nav-item mr-2 gen-home-icon"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="index.html#band">The Band</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="tours.html">Tours</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="music.html">Music</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item gen-nav-link text-uppercase"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
+            <!-- I learnt how to do the social links icons on the rosie resume project.
+                 I Copied the code and modified it to use the original icon colors.
+                 I found their colors on google (see style.css for webpages). 
+                 The Social Media icons will not appear on screens less than 1024 in width -->
+
             <div class="d-none d-lg-block ml-auto">
-                <ul class="list-inline social-links">
+                <ul class="list-inline gen-social-links">
+
+                    <!-- Facebook  -->
+
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-facebook social-fbk"></i>
+                            <i class="fa fa-facebook gen-social-fbk"></i>
                             <span class="sr-only">Facebook</span></a>
                     </li>
+
+                    <!-- Twitter  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-twitter social-twt"></i>
+                            <i class="fa fa-twitter gen-social-twt"></i>
                             <span class="sr-only">Twitter</span></a>
                     </li>
+
+                    <!-- Instagram  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-instagram social-itg"></i>
+                            <i class="fa fa-instagram gen-social-itg"></i>
                             <span class="sr-only">Instagram</span></a>
                     </li>
 
+                    <!-- Youtube  -->
+
                     <li class="nav-item list-inline-item">
                         <a target="_blank" href="#">
-                            <i class="fa fa-youtube social-ytb"></i>
+                            <i class="fa fa-youtube gen-social-ytb"></i>
                             <span class="sr-only">Youtube</span></a>
                     </li>
-
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!--     MIDDLE SECTION: LATEST NEWS & BAND BACKGROUND                       -->
-    <!--     Because the nav bar is fixed this section needs to be pushed down 80px.   -->
+    <!--     MIDDLE SECTION: MAIN SECTION FOR DETAILS OF BAND; ASIDE FOR FEATURED ITEMS AND NEWS  -->
+    <!--     Because the nav bar is fixed this section needs to be pushed down 80px (gen-set-pos).   -->
 
     <section class="container-fluid no-gutters gen-set-pos">
 
-        <!--     This row displays the Band Photo in top section of screen           -->
+        <!--     This row displays the Band Photo (from thehighkings.com) in top section of screen           -->
 
         <div class="row no-gutters">
-            <div class="col photo-bg"></div>
+            <div class="col ind-bg-photo"></div>
         </div>
 
-        <!--     Next Row Holds Band details and Aside                               -->
+        <!--     This row hols Main section for band details and Aside for featured items and news          -->
 
         <div class="row no-gutters">
 
-            <!--  Band background and member details and Aside for news   -->
+            <!--  Band background and member details  -->
 
             <div class="col-md-8 gen-main-section ind-page-padding">
 
-                <!-- Band background -->
+                <main>
 
-                <div class="row no-gutters">
-                    <div class="col-12">
-                        <h1 class="ind-band-headings-h1 p-1 text-center">The High Kings</h1>
-                    </div>
-                </div>
+                    <!-- Band background (from thehighkings.com About page) -->
 
-                <div class="row no-gutters band-details-header" id="band">
-                    <div class="col-1 text-center">
-                        <i class="fas fa-guitar ind-guitar-icon" aria-hidden="true "></i>
-                    </div>
-                    <div class="col-11">
-                        <p class="band-details-background">
-                            The High Kings came together in 2007. They follow in the footsteps of ballad groups such as The Clancy Brothers and The Dubliners. For generations of music fans, a new Irish band taking up the baton and continuing the tradition was great news.
-                        </p>
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <h1 class="gen-headings-h1 p-1 text-center">The High Kings</h1>
+                        </div>
                     </div>
 
+                    <!-- Learnt how to use icons as bullets in Rosie resume project. Using guitar icon from fontawsome.com -->
 
-                    <!--    Darren Holden & Finbar Furey details -->
+                    <div class="row no-gutters ind-band-intro" id="band">
+                        <div class="col-1 text-center">
+                            <i class="fas fa-guitar ind-guitar-icon" aria-hidden="true "></i>
+                        </div>
+                        <div class="col-11">
+                            <p class="ind-band-intro-padding">
+                                The High Kings came together in 2007. They follow in the footsteps of ballad groups such as The Clancy Brothers and The Dubliners. For generations of music fans, a new Irish band taking up the baton and continuing the tradition was great news.
+                            </p>
+                        </div>
 
-                    <div class="row no-gutters band-details">
+                        <!-- Band member details -->
+                        <!--    Darren Holden & Finbar Furey details -->
 
-                        <!-- Darren Holden details  -->
+                        <div class="row no-gutters ind-band-details">
 
-                        <div class="col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-2">
-                                    <div>
-                                        <img src="assets/images/darrenholden.jpg" class="rounded-circle photo-band-member">
+                            <!-- Darren Holden details  (from thehighkings.com About page) -->
+
+                            <div class="col-12 col-md-6">
+                                <div class="row no-gutters">
+                                    <div class="col-2">
+                                        <div>
+                                            <img src="assets/images/darrenholden.jpg" class="rounded-circle ind-band-member-photo">
+                                        </div>
+                                    </div>
+                                    <div class="col-10">
+                                        <div>
+                                            <p class="ind-band-member-name">Darren Holden</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-10">
-                                    <div>
-                                        <p class="band-member-name">Darren Holden</p>
+                                <div class="row no-gutters">
+                                    <div class="offset-2 col-10">
+                                        <p class="ind-band-member">Darren is a prolific Songwriter and Musician, and a master interpreter of lyrics as well. Audiences around the world continue to praise his exceptional vocal talents. Originally from Mooncoin County Kilkenny, he
+                                            is comfortable performing all genres of music from Pop and Jazz to Country and Celtic.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row no-gutters">
-                                <div class="offset-2 col-10">
-                                    <p class="band-member">Darren is a prolific Songwriter and Musician, and a master interpreter of lyrics as well. Audiences around the world continue to praise his exceptional vocal talents. Originally from Mooncoin County Kilkenny, he is
-                                        comfortable performing all genres of music from Pop and Jazz to Country and Celtic.
-                                    </p>
+
+                            <!--    Finbar Clancy details (from thehighkings.com About page) -->
+
+                            <div class="col-12 col-md-6">
+                                <div class="row no-gutters">
+                                    <div class="col-2">
+                                        <img src="assets/images/finbarclancy.jpg" class="rounded-circle ind-band-member-photo">
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="ind-band-member-name">Finbar Clancy</p>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="offset-2 col-10">
+                                        <p class="ind-band-member">
+                                            Finbar was born in County Waterford to Moira and Bobby Clancy. Growing up in the Clancy dynasty, Finbar started learning the banjo and the bodhran from the age of 5. He went on to learn the guitar and flute and began writing songs at the age of 17. As
+                                            part of The Clancy Brothers, Finbar has played all over the world and has made many TV appearances.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!--    Finbar Clancy details -->
+                        <!--            Brian Dunphy & George Murphy details  -->
 
-                        <div class="col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-2">
-                                    <img src="assets/images/finbarclancy.jpg" class="rounded-circle photo-band-member">
+                        <div class="row ind-band-details">
+
+                            <!--        Brian Dunphy details  (from thehighkings.com About page) -->
+
+                            <div class="col-12 col-md-6">
+                                <div class="row no-gutters">
+                                    <div class="col-2">
+                                        <img src="assets/images/briandunphy.jpg" class="rounded-circle ind-band-member-photo">
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="ind-band-member-name">Brian Dunphy</p>
+                                    </div>
                                 </div>
-                                <div class="col-10">
-                                    <p class="band-member-name">Finbar Clancy</p>
+                                <div class="row no-gutters">
+                                    <div class="offset-2 col-10">
+                                        <p class="ind-band-member">
+                                            Brian was born in Dublin. He realised early on that the musical path would be the one he would follow. So far it has lead him to great accomplishments and also to meeting his wife Ann, with whom he appeared in a stage version of Rocky Horror Picture show.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row no-gutters">
-                                <div class="offset-2 col-10">
-                                    <p class="band-member">
-                                        Finbar was born in County Waterford to Moira and Bobby Clancy. Growing up in the Clancy dynasty, Finbar started learning the banjo and the bodhran from the age of 5. He went on to learn the guitar and flute and began writing songs at the age of 17. As
-                                        part of The Clancy Brothers, Finbar has played all over the world and has made many TV appearances.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!--            Brian Dunphy & George Murphy details  -->
+                            <!--            george murphy details  (from thehighkings.com About page) -->
 
-                    <div class="row band-details">
-
-                        <!--        Brian Dunphy details  -->
-
-                        <div class="col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-2">
-                                    <img src="assets/images/briandunphy.jpg" class="rounded-circle photo-band-member">
+                            <div class="col-12 col-md-6">
+                                <div class="row no-gutters">
+                                    <div class="col-2">
+                                        <img src="assets/images/georgemurphy.jpg" class="rounded-circle ind-band-member-photo">
+                                    </div>
+                                    <div class="col-10">
+                                        <p class="ind-band-member-name">George Murphy</p>
+                                    </div>
                                 </div>
-                                <div class="col-10">
-                                    <p class="band-member-name">Brian Dunphy</p>
-                                </div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="offset-2 col-10">
-                                    <p class="band-member">
-                                        Brian was born in Dublin. He realised early on that the musical path would be the one he would follow. So far it has lead him to great accomplishments and also to meeting his wife Ann, with whom he appeared in a stage version of Rocky Horror Picture show.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--            george murphy details  -->
-
-                        <div class="col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-2">
-                                    <img src="assets/images/georgemurphy.jpg" class="rounded-circle photo-band-member">
-                                </div>
-                                <div class="col-10">
-                                    <p class="band-member-name">George Murphy</p>
-                                </div>
-                            </div>
-                            <div class="row no-gutters">
-                                <div class="offset-2 col-10">
-                                    <p class="band-member">
-                                        George Murphy was born 30 Jan 1986, in Beaumont, County Dublin . George has a remarkable, unmistakable powerhouse of a voice. He has received critical acclaim from some of the greatest Irish music stars this country has ever heard.
-                                    </p>
+                                <div class="row no-gutters">
+                                    <div class="offset-2 col-10">
+                                        <p class="ind-band-member">
+                                            George Murphy was born 30 Jan 1986, in Beaumont, County Dublin . George has a remarkable, unmistakable powerhouse of a voice. He has received critical acclaim from some of the greatest Irish music stars this country has ever heard.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-                </div>
+                </main>
             </div>
 
 
-            <!-- AN ASIDE FOR NEWS, FEATURED ITEMS, ETC             -->
+
+            <!-- AN ASIDE FOR FEATURED ITEMS, NEWS, ETC             -->
 
             <div class="col-md-4 bg-info ind-aside-col ind-page-padding">
 
-                <!--               Featured Section                  -->
+                <aside>
 
-                <div class="row no-gutters">
-                    <div class="col-12">
-                        <div class="row no-gutters">
-                            <div class="col-12">
-                                <h2 class="text-center p-1 ind-aside-headings-h2"><strong>Featured</strong></h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!--               Featured Items Section                  -->
 
-
-                <div class="row no-gutters ind-aside-item-padding">
-                    <div class="col-2">
-                        <img class="pl-2 ind-aside-image" src="assets/images/thkdec.ico">
-                    </div>
-                    <div class="col-10">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <h3 class="ind-aside-headings-h3">DECADE ALBUM</h3>
-                            </div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <a href="music.html" class="ind-aside-items-text">Listen to Playlist.</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row no-gutters ind-aside-item-padding">
-                    <div class="col-2">
-                        <img class="pl-2 ind-aside-image" src="assets/images/hkhopeandgloryicon.ico">
-                    </div>
-                    <div class="col-10">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <h3 class="ind-aside-headings-h3">GRACE & GLORY ALBUM</h3>
-                            </div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <a href="music.html#concerts" class="ind-aside-items-text">Listen to Playlist.</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row no-gutters ind-aside-item-padding">
-                    <div class="col-2">
-                        <img class="pl-2 ind-aside-image" src="assets/images/hkbkdrop.ico">
-                    </div>
-                    <div class="col-10">
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <h3 class="ind-aside-headings-h3">CONCERTS</h3>
-                            </div>
-                        </div>
-                        <div class="row no-gutters">
-                            <div class="col">
-                                <a href="music.html#concerts " class="ind-aside-items-text">Watch Recent Concerts.</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-
-                <!--               News Section                  -->
-
-                <div class="row no-gutters" id="news">
-                    <div class="col-12">
-                        <div class="row no-gutters">
-                            <div class="col-12">
-                                <h1 class="text-center ind-aside-headings-h2"><strong>News</strong></h1>
-                            </div>
-                        </div>
-                        <div class="row no-gutters ind-aside-item-padding">
-                            <div class="col-2">
-                                <img class="pl-2 ind-aside-image" src="assets/images/hkbkdrop.ico">
-                            </div>
-                            <div class="col-10">
-                                <div class="row no-gutters">
-                                    <div class="col">
-                                        <h3 class="ind-aside-headings-h3">TOURS</h3>
-                                    </div>
-                                </div>
-                                <div class="row no-gutters">
-                                    <div class="col">
-                                        <a href="tours.html" class="ind-aside-items-text">New Tour Dates Anounced. Tickets on sale now!</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- This news item is taken from the High Kings website (thehighkings.com) -->
-
-                        <div class="row no-gutters ind-aside-item-padding">
-                            <div class="col-2">
-                                <img class="pl-2 ind-aside-iffs-image" src="assets/images/iffsicon.ico">
-                            </div>
-                            <div class="col-10">
-                                <div class="row no-gutters">
-                                    <div class="col">
-                                        <h3 class="ind-aside-headings-h3">IRELAND'S FAVORITE FOLK SONGS</h3>
-                                    </div>
-                                </div>
-                                <div class="row no-gutters">
-                                    <div class="col">
-                                        <a href="https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/" target="_blank" class="ind-aside-items-text">New Spotify playlist featuring all the tracks nominated on Ireland's Favourite Folk Song including a number by The High Kings. Read more . . .</a>
-                                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-12">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <h2 class="text-center p-1 gen-headings-h2 ind-headings-h2"><strong>Featured</strong></h2>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                    <!-- Album icon created on converticon.com using a photo of the Decade album cover (from thehighkings.com/gallery) -->
+
+                    <div class="row no-gutters ind-aside-item-padding">
+                        <div class="col-2">
+                            <img class="pl-2 ind-aside-image" src="assets/images/thkdec.ico">
+                        </div>
+                        <div class="col-10">
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <h3 class="ind-headings-h3">DECADE ALBUM</h3>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <a href="music.html" class="ind-aside-items-text">Listen to Playlist.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Album icon created on converticon.com using a photo of the Grace & Glory album cover (https://shop.celticcollections.com/collections/the-high-kings-all) -->
+
+                    <div class="row no-gutters ind-aside-item-padding">
+                        <div class="col-2">
+                            <img class="pl-2 ind-aside-image" src="assets/images/hkgraceandgloryicon.ico">
+                        </div>
+                        <div class="col-10">
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <h3 class="ind-headings-h3">GRACE & GLORY ALBUM</h3>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <a href="music.html#concerts" class="ind-aside-items-text">Listen to Playlist.</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Icon created on converticon.com using a photo High Kings stage backdrop (from thehighkings.com/gallery) -->
+
+                    <div class="row no-gutters ind-aside-item-padding">
+                        <div class="col-2">
+                            <img class="pl-2 ind-aside-image" src="assets/images/hkbkdrop.ico">
+                        </div>
+                        <div class="col-10">
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <h3 class="ind-headings-h3">CONCERTS</h3>
+                                </div>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <a href="music.html#concerts " class="ind-aside-items-text">Watch Recent Concerts.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <!--               News Section                  -->
+
+                    <div class="row no-gutters" id="news">
+                        <div class="col-12">
+                            <div class="row no-gutters">
+                                <div class="col-12">
+                                    <h1 class="text-center gen-headings-h2 ind-headings-h2"><strong>News</strong></h1>
+                                </div>
+                            </div>
+
+                            <!-- Icon created on converticon.com using a photo High Kings stage backdrop (from thehighkings.com/gallery) -->
+
+                            <div class="row no-gutters ind-aside-item-padding">
+                                <div class="col-2">
+                                    <img class="pl-2 ind-aside-image" src="assets/images/hkbkdrop.ico">
+                                </div>
+                                <div class="col-10">
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <h3 class="ind-headings-h3">TOURS</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <a href="tours.html" class="ind-aside-items-text">New Tour Dates Anounced. Tickets on sale now!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- This news item is taken from the High Kings website (thehighkings.com/news) -->
+                            <!-- Icon created on converticon.com using the iffs photo (from https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/) -->
+
+                            <div class="row no-gutters ind-aside-item-padding">
+                                <div class="col-2">
+                                    <img class="pl-2 ind-aside-image" src="assets/images/iffsicon.ico">
+                                </div>
+                                <div class="col-10">
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <h3 class="ind-headings-h3">IRELAND'S FAVORITE FOLK SONG</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col">
+                                            <a href="https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/" target="_blank" class="ind-aside-items-text">New Spotify playlist featuring all the tracks nominated on Ireland's Favourite Folk Song including a number by The High Kings. Read more . . .</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
             </div>
         </div>
 
     </section>
 
-    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA                     -->
+    <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA ICONS. -->
+    <!-- Learnt from Rosie resume project  -->
+    <!-- Footer split into 3 columns. These break into one column on mobile screens.         -->
+    <!-- This navigation allows the user to easily find their way back to the Home page, -->
+    <!--   Tours, Gallery, Music and Contac pages without having to scroll back up to the top again.  -->
 
-    <footer class="footer gen-set-pos row-color ">
+    <footer class="gen-footer gen-set-pos">
         <div class="row no-gutters">
             <div class="col-sm-4 ">
                 <h5 class="text-uppercase ">The High Kings</h5>
-                <p><a href="tours.html">Tours</a></p>
-                <p><a href="#news">News</a></p>
-                <p><a href="index.html ">Home</a></p>
+                <p class="mb-1 gen-footer-link"><a href="index.html#band">The Band</a></p>
+                <p class="mb-1 gen-footer-link"><a href="tours.html">Tours</a></p>
+                <p class="mb-1 gen-footer-link"><a href="index.html ">Home</a></p>
             </div>
 
             <div class="col-sm-4 ">
                 <h5 class="text-uppercase ">Media</h5>
-                <p><a href="music.html ">Music</a></p>
-                <p><a href="gallery.html ">Gallery</a></p>
+                <p class="mb-1 gen-footer-link"><a href="music.html ">Music</a></p>
+                <p class="mb-1 gen-footer-link"><a href="music.html ">Playlists</a></p>
+                <p class="mb-1 gen-footer-link"><a href="gallery.html ">Gallery</a></p>
             </div>
 
             <div class="col-sm-4 ">
                 <h5 class="text-uppercase ">Social</h5>
+                <p class="mb-1 gen-footer-link"><a href="contact.html ">Contact Us</a></p>
+
+                <!-- Learnt how to do the social links icons on the rosie resume project. -->
+                <!-- I Copied the code and modified it to use original icon colors. -->
+                <!-- I found their colors on google (see style.css for webpages).  -->
 
                 <div>
-                    <ul class="list-inline social-links ">
+                    <ul class="list-inline gen-social-links ">
                         <li class="list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-facebook social-fbk "></i>
+                            <i class="fa fa-facebook gen-social-fbk "></i>
                             <span class="sr-only ">Facebook</span></a>
                         </li>
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-twitter social-twt "></i>
+                            <i class="fa fa-twitter gen-social-twt "></i>
                             <span class="sr-only ">Twitter</span></a>
                         </li>
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-instagram social-itg "></i>
+                            <i class="fa fa-instagram gen-social-itg "></i>
                             <span class="sr-only ">Instagram</span></a>
                         </li>
 
                         <li class="nav-item list-inline-item ">
                             <a target="_blank " href="# ">
-                            <i class="fa fa-youtube social-ytb "></i>
+                            <i class="fa fa-youtube gen-social-ytb "></i>
                             <span class="sr-only ">Youtube</span></a>
                         </li>
 
