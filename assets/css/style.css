@@ -15,6 +15,8 @@
       6. Classes used in gallery.html only - these are prefixed with "gall-"  
 
       7. Classes used in contact.html only - these are prefixed with "con-" 
+      
+      8. Bootstrap classes that I have modified
 
       NOTE: Where a class is modified by a Media Query, I have added the 
       Media Query after the relevant class so that they're easy to see.   */
@@ -35,6 +37,8 @@
     background-color: #fafaff;
     color: #3b3b3b;
 }
+
+/*  Lining up the nave bar menu for different size screens   */
 
 .gen-nav-menu-spacing {
     padding-left: 65px;
@@ -96,7 +100,7 @@
 
 }
 
-/* ".social-links a i" copied from Rosie Resume Project and modified to use their own colors  */
+/* ".social-links a i" - Social Media links copied from Rosie Resume Project and modified to use their own colors  */
 
 .gen-social-links a i {
     width: 32px;
@@ -163,13 +167,8 @@
     color: #FF0000;
 }
 
-.gen-wrapper {
-    min-height: 100%;
-    margin-bottom: 144px;
-}
 
-/* Footer details. An extra 15px will be added to the bottom padding for each section of the footer. 
-   This is to create a space between each section when shown on the mobile, to make it easier to read. */
+/* Footer details.     */
 
 .gen-footer {
     background-color: #3b3b3b;
@@ -178,6 +177,9 @@
     padding: 30px 30px 10px 30px;
     text-align: center;
 }
+
+/*  An extra 20px will be added to the bottom padding for each section of the footer. 
+   This is to create a space between each section when shown on the mobile, to make it easier to read. */
 
 .gen-footer-pb {
     padding-bottom: 20px;
@@ -194,6 +196,7 @@
     background-color: #fff;
 }
 
+/* Courgette found on google fonts. Used to add a little decoration to the pages. */
 
 .gen-headings-h1 {
     font-family: "Courgette", sans-serif;
@@ -201,11 +204,15 @@
     font-size: 20px;
 }
 
+/* Nunito found on google fonts. Nice neat font, easy to read   */
+
 .gen-headings-h2 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
+
+/* remove margins from "row" classes, without affecting padding */
 
 .gen-no-margins {
     margin-left: 0;
@@ -216,12 +223,6 @@
     background-color: #f3f2f2;
 }
 
-/* @media(min-height:1030px) {
-    .ind-main-section {
-        height: calc(100vh - 688px)
-    }
-} */
-
 /* As the navigation bar is fixed, sections need to be moved down 80px  */
 
 .gen-set-pos {
@@ -229,6 +230,10 @@
     top: 80px;
 
 }
+
+/* Logo image */
+
+/* A smaller logo image will be used on small devices. */
 
 .gen-logo {
     background: url("../images/high-kings-logo_small.jpg");
@@ -261,7 +266,6 @@
 
 /*        CLASSES USED IN INDEX.HTML.  These all begin with "ind-"            */
 
-/*    Background photo of the band on large screens; High Kings logo on small screens    */
 
 .ind-page-padding {
     padding: 35px;
@@ -270,8 +274,10 @@
 
 .ind-bg-photo-border {
     border-bottom: solid #999999;
-    ;
 }
+
+/*    Background photo of the band on large screens; High Kings backdrop on small screens    */
+
 
 .ind-bg-photo {
     background-position: center;
@@ -303,6 +309,8 @@
     padding-bottom: 10px;
 }
 
+/* Nunito found on google fonts. Easy to read font.  */
+
 .ind-headings-h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
@@ -311,6 +319,8 @@
     padding-bottom: 1px;
     color: #d9d9d9;
 }
+
+/* Nunito found on google fonts. Easy to read font.  */
 
 .ind-aside-items-text {
     font-family: "Nunito", sans-serif;
@@ -345,6 +355,8 @@
 
 }
 
+/* Courgette found on google fonts. Used to add a little decoration to the pages. */
+
 .ind-band-intro {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
@@ -356,6 +368,8 @@
 .ind-band-pb {
     padding-bottom: 20px;
 }
+
+/* Nunito found on google fonts. Easy to read font.  */
 
 .ind-band-details {
     font-family: "Nunito", sans-serif;
@@ -383,6 +397,8 @@
     padding-bottom: 20px;
 }
 
+/* Courgette found on google fonts. Used to add a little decoration to the pages.  */
+
 .mus-video-title {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
@@ -399,6 +415,8 @@
 .mus-headphones-icon {
     font-size: 20px;
 }
+
+/* Music video size adjusted for different screens  */
 
 .mus-video {
     width: 240px;
@@ -425,6 +443,7 @@
     color: #c71f27;
 }
 
+/* Playlist section and table */ 
 
 .mus-playlist-col {
     padding: 20px;
@@ -436,6 +455,9 @@
 .mus-playlist-padding {
     padding-bottom:20px;
 }
+
+
+/* Playlist table and list size adjusted for different screen sizes */
 
 .mus-playlist-table {
     width: 250px;
@@ -460,6 +482,8 @@
     }
 }
 
+
+
 /*                    Tours Page     */
 
 .tour-title {
@@ -478,9 +502,16 @@
     
 }
 
+/*  Adjusting font size of table for different size screens. I dont want the screen to scroll on small devices */
+
 .tour-table {
     font-size: 11px;
-    
+}
+
+@media (min-width:768px) {
+    .tour-table {
+        font-size: 16px;
+    }
 }
 
 
@@ -518,6 +549,8 @@
     border: solid;
     border-color: #999999;
 }
+
+/* Gallery images sizing and padding adjusted for different size screens */
 
 .gall-row-padding {
     padding: 10px 15px 10px 15px;
@@ -577,6 +610,9 @@
 }
 
 
+
+/* Courgette found on google fonts. Used to add a little decoration to the pages */
+
 .gall-image-title {
     font-family: "Courgette", sans-serif;
     font-weight: 100;
@@ -586,7 +622,7 @@
     color: inherit;
 }
 
-
+/* The photos displayed in the Gallery have all been copied from the High Kings website (thehighkings.com)  */
 
 .gall-hkbackdrop {
     background: url("../images/hkstagebackdrop.jpg");
@@ -779,10 +815,10 @@
     border: solid #999999;
 }
 
-/* To make footer always appear at the bottom of or just below the viewport.
+/* To make the footer on the contact page always appear at the bottom of or just below the viewport.
    On screens below 520px in height, the footer will follow logically after the main section.
    On screens from 520px in height, the footer will be just below the viewport.
-   On screens from 100px up the footer will be visible at the bottom of the viewport. */
+   On screens from 800px up the footer will be visible at the bottom of the viewport. */
 
 /*   Height of "contact" section of screen is 440px. The 80px is used to position it below the fixed nav bar. 
      The 80px must be removed here so that the footer appears just below the viewport. 
@@ -819,6 +855,8 @@
     padding-bottom: 20px;
 }
 
+/* Nunito found on google fonts. Easy to read.  */
+
 .con-message {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
@@ -843,6 +881,8 @@ button[type="submit"] {
 
 /*         MODIFIED BOOTSTRAP CLASSES */
 
+/* Removing padding as I want to control how much padding i add to rows and columns */
+
 .container-fluid {
     padding: 0;
 }
@@ -865,13 +905,9 @@ button[type="submit"] {
     color: #fff;
 }
 
+/* Adding padding on left to make the table readable. Removing it from right to keep table as narrow as possible  */
+
 .table td {
     padding-right: 3px;
     padding-left: 0px;
-}
-
-@media (min-width:768px) {
-    .tour-table {
-        font-size: 16px;
-    }
 }
