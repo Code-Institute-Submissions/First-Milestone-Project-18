@@ -473,10 +473,12 @@
 .tour-page-padding {
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 .tour-table {
     font-size: 11px;
+    
 }
 
 
@@ -535,7 +537,7 @@
     }
     .gall-image-size {
         height: 200px;
-        width: 240px;
+        width: 238px;
     }
     .gall-image-padding {
         padding: 5px 5px;
@@ -544,14 +546,16 @@
 
 @media (min-width:1024px) {
     .gall-row-padding {
-        padding: 20px 20px 20px 20px;
+        padding: 10px;
+       
     }
     .gall-image-size {
         height: 200px;
-        width: 300px;
+        width: 321px;
     }
     .gall-image-padding {
-        padding: 5px 20px;
+        padding-top: 5px;
+        padding-right:10px;
     }
 
 }
@@ -562,7 +566,7 @@
     }
     .gall-image-size {
         height: 250px;
-        width: 350px;
+        width: 346px;
     }
     .gall-image-padding {
         padding: 5px 20px;
