@@ -21,9 +21,16 @@
 
 <body>
 
+    <!-- The purpose of this page is to show videos of HK songs and concerts, as well as album playlists. The idea is to give
+    people a quick link to the types of music videos or playlists the user is interested in, rather than having to trawl through
+    numerous videos to find what they're looking for. -->
+
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA icons              -->
 
     <header>
+
+        <!-- The navigation bar provides quick links to other pages on the website. The intent is to allow the user to go quickly to those
+             sections that interest them the most.  Social Media links are provided for quick access to the HK Social Media accounts. -->
 
         <!-- This navigation bar menu will be on one line on larger screens, and will collapse behind a "hamburger" menu button on mobile screens. The navigation bar is fixed to allow the user easy access to the website without having to scroll up or down. 
             I copied the code for this navbar and collapsible menu from the Whiskey (bootstrap module) project and modified it for my own collapsible menu -->
@@ -94,178 +101,186 @@
 
     <section class="container-fluid gen-no-margins gen-set-pos">
 
-        <!-- This row holds the videos -->
+        <!-- In this section videos are shown under two titles - "songs" and "concerts". Two playlists for 2 different albums are also
+        shown separately. The idea is to give people a quick link to the types of music videos or playlists the user is interested in, and to
+        allow people, whether fans or not, to quickly access and play the music they wish to hear. -->
 
-        <div class="row gen-no-margins">
 
-            <!-- Videos Section - 100% of the screen across -->
+        <!-- This row holds videos of songs and concerts -->
+        <main>
 
-            <div class="col-12 gen-main-section mus-main-section">
+            <div class="row gen-no-margins">
 
-                <div class="row gen-no-margins text-center">
-                    <div class="col-12">
-                        <h1><i class="fa fa-play mus-play-icon" aria-hidden="true"><span class="gen-headings-h1"> VIDEOS</span></i></h1>
+                <!-- Videos Section - 100% of the screen across -->
+
+                <div class="col-12 gen-main-section mus-main-section">
+
+                    <div class="row gen-no-margins text-center">
+                        <div class="col-12">
+                            <h1><i class="fa fa-play mus-play-icon" aria-hidden="true"><span class="gen-headings-h1"> VIDEOS</span></i></h1>
+                        </div>
+                    </div>
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 text-center">
+                            <h2 class="gen-headings-h2 mus-headings-h2">Songs</h2>
+                        </div>
+                    </div>
+
+                    <!-- SONG VIDEOS - EMBED CODE COPIED FROM YOUTUBE   -->
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 col-md-6 text-center">
+                            <!-- VIDEO - The Irish Pub -->
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/bp3UsU5pQT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/bp3UsU5pQT8" class="mus-video-title">The Irish Pub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- VIDEO - Galway Girl -->
+                        <div class="col-12 col-md-6 text-center">
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/kF1hXNA6Ews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/kF1hXNA6Ews" class="mus-video-title">Galway Girl</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 col-md-6 text-center">
+                            <!-- VIDEO - Step it out Mary -->
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/ZihHiwzTZ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/ZihHiwzTZ88" class="mus-video-title" id="concerts">Step it Out Mary</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- VIDEO - The Parting Glass -->
+                        <div class="col-12 col-md-6 text-center">
+                            <div class="row nogutters">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/XhJp0W0ku2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/XhJp0W0ku2w" class="mus-video-title">The Parting Glass</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+
+                    <!-- CONCERT VIDEOS - EMBED CODE COPIED FROM YOUTUBE   -->
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 text-center">
+                            <h2 class="gen-headings-h2 mus-headings-h2">Concerts</h2>
+                        </div>
+                    </div>
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 col-md-6 text-center">
+                            <!-- CONCERT VIDEO - The High Kings at Union Chapel -->
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/A8pSTkuavOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/A8pSTkuavOc" class="mus-video-title">The High Kings @ The Union Chapel 2018</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- CONCERT VIDEO - The High Kings in Kansas City 2017 -->
+                        <div class="col-12 col-md-6 text-center">
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/xd_3e-r6YE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/xd_3e-r6YE0" class="mus-video-title">The High Kings in Kansas City 2017</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gen-no-margins">
+                        <div class="col-12 col-md-6 text-center">
+                            <!--CONCERT VIDEO - The High Kings in Derry 2014 -->
+                            <div class="row gen-no-margins">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/xIc5pZZDmP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/xIc5pZZDmP8" class="mus-video-title">The High Kings in Derry 2014</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONCERT VIDEO - The High Kings in Dublin 2008 -->
+                        <div class="col-12 col-md-6 text-center">
+                            <div class="row nogutters">
+                                <div class="col-12">
+                                    <iframe class="mus-video" src="https://www.youtube.com/embed/-PahsHxIeyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                    <a href="https://www.youtube.com/embed/-PahsHxIeyc" class="mus-video-title">The High Kings in Dublin 2008</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- PLAYLISTS - for Decade Album & Hope and Glory Album -->
+        <aside>
+            <div class="col-12 mus-playlist-col">
+
+                <div class="row gen-no-margins">
+                    <div class="col-12 text-center">
+                        <h1 class="uppercase" id="playlists"><i class="fa fa-headphones mus-headphones-icon" aria-hidden="true"><span class="gen-headings-h1"> ALBUMS</span></i></h1>
                     </div>
                 </div>
 
                 <div class="row gen-no-margins">
                     <div class="col-12 text-center">
-                        <h2 class="gen-headings-h2 mus-headings-h2">Songs</h2>
+                        <h2 class="gen-headings-h2 mus-headings-h2">Playlists</h2>
                     </div>
                 </div>
 
-                <!-- SONG VIDEOS - EMBED CODE COPIED FROM YOUTUBE   -->
-
-                <div class="row gen-no-margins">
-                    <div class="col-12 col-md-6 text-center">
-                        <!-- VIDEO - The Irish Pub -->
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/bp3UsU5pQT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/bp3UsU5pQT8" class="mus-video-title">The Irish Pub</a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- VIDEO - Galway Girl -->
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/kF1hXNA6Ews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/kF1hXNA6Ews" class="mus-video-title">Galway Girl</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gen-no-margins">
-                    <div class="col-12 col-md-6 text-center">
-                        <!-- VIDEO - Step it out Mary -->
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/ZihHiwzTZ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/ZihHiwzTZ88" class="mus-video-title" id="concerts">Step it Out Mary</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- VIDEO - The Parting Glass -->
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="row nogutters">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/XhJp0W0ku2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/XhJp0W0ku2w" class="mus-video-title">The Parting Glass</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <hr>
-
-                <!-- CONCERT VIDEOS - EMBED CODE COPIED FROM YOUTUBE   -->
-
-                <div class="row gen-no-margins">
-                    <div class="col-12 text-center">
-                        <h2 class="gen-headings-h2 mus-headings-h2">Concerts</h2>
-                    </div>
-                </div>
-
-                <div class="row gen-no-margins">
-                    <div class="col-12 col-md-6 text-center">
-                        <!-- CONCERT VIDEO - The High Kings at Union Chapel -->
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/A8pSTkuavOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/A8pSTkuavOc" class="mus-video-title">The High Kings @ The Union Chapel 2018</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- CONCERT VIDEO - The High Kings in Kansas City 2017 -->
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/xd_3e-r6YE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/xd_3e-r6YE0" class="mus-video-title">The High Kings in Kansas City 2017</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gen-no-margins">
-                    <div class="col-12 col-md-6 text-center">
-                        <!--CONCERT VIDEO - The High Kings in Derry 2014 -->
-                        <div class="row gen-no-margins">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/xIc5pZZDmP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/xIc5pZZDmP8" class="mus-video-title">The High Kings in Derry 2014</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CONCERT VIDEO - The High Kings in Dublin 2008 -->
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="row nogutters">
-                            <div class="col-12">
-                                <iframe class="mus-video" src="https://www.youtube.com/embed/-PahsHxIeyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                                <a href="https://www.youtube.com/embed/-PahsHxIeyc" class="mus-video-title">The High Kings in Dublin 2008</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Playlists for Decade & Hope and Glory -->
-
-        <div class="col-12 mus-playlist-col">
-
-            <div class="row gen-no-margins">
-                <div class="col-12 text-center">
-                    <h1 class="uppercase" id="playlists"><i class="fa fa-headphones mus-headphones-icon" aria-hidden="true"><span class="gen-headings-h1"> ALBUMS</span></i></h1>
-                </div>
-            </div>
-
-            <div class="row gen-no-margins">
-                <div class="col-12 text-center">
-                    <h2 class="gen-headings-h2 mus-headings-h2">Playlists</h2>
-                </div>
-            </div>
-
-            <!-- Playlists from Spotify. Code copied from High Kings website (https://www.thehighkings.com/). 
+                <!-- Playlists from Spotify. Code copied from High Kings website (https://www.thehighkings.com/). 
                 2 Play lists appear side by side on the website and its not easy to see the song names.
                 I modified this to show the playlists, one on top of the other and widened the window so that the name 
                 of the songs could be read more easily. -->
 
-            <div class="row gen-no-margins">
-                <div class="col-12 col-md-6 mus-playlist-padding">
-                    <table class="table table-responsive mus-playlist-table" align="center" border="2" cellpadding="1" cellspacing="1">
-                        <tbody>
-                            <tr>
-                                <td class="text-center"><em>DECADE (2017)</em></td>
-                            </tr>
-                            <tr>
-                                <td><iframe class="mus-playlist" allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/3pv7mROp3J3iN0V1Mx9LSc"></iframe></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="row gen-no-margins">
+                    <div class="col-12 col-md-6 mus-playlist-padding">
+                        <table class="table table-responsive mus-playlist-table" align="center" border="2" cellpadding="1" cellspacing="1">
+                            <tbody>
+                                <tr>
+                                    <td class="text-center"><em>DECADE (2017)</em></td>
+                                </tr>
+                                <tr>
+                                    <td><iframe class="mus-playlist" allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/3pv7mROp3J3iN0V1Mx9LSc"></iframe></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
-                <div class="col-12 col-md-6">
-                    <table class="table table-responsive mus-playlist-table" border="2" cellpadding="1" cellspacing="1" align="center">
-                        <tbody>
-                            <tr>
-                                <td class="text-center"><em>GRACE &amp; GLORY (2016)</em></td>
-                            </tr>
-                            <tr>
-                                <td><iframe class="mus-playlist" allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/6hvKWnf9uHHiRYGYwZsl9E"></iframe></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="col-12 col-md-6">
+                        <table class="table table-responsive mus-playlist-table" border="2" cellpadding="1" cellspacing="1" align="center">
+                            <tbody>
+                                <tr>
+                                    <td class="text-center"><em>GRACE &amp; GLORY (2016)</em></td>
+                                </tr>
+                                <tr>
+                                    <td><iframe class="mus-playlist" allow="encrypted-media" allowtransparency="true" frameborder="0" height="360" scrolling="no" src="https://open.spotify.com/embed/album/6hvKWnf9uHHiRYGYwZsl9E"></iframe></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
+        </aside>
 
 
     </section>
@@ -273,8 +288,9 @@
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA ICONS. -->
     <!-- Learnt from Rosie resume project  -->
     <!-- Footer split into 3 columns. These break into one column on mobile screens.         -->
-    <!-- This navigation allows the user to easily find their way back to the Home page, -->
-    <!--   Tours, Gallery, Music and Contac pages without having to scroll back up to the top again.  -->
+
+    <!-- This navigation allows the user to easily find their way back to the Home page, Tours, Gallery, Music and Contact pages 
+         without having to scroll back up to the top again.  -->
 
     <footer class="gen-footer gen-set-pos">
         <div class="row gen-no-margins">
@@ -330,6 +346,8 @@
         </div>
 
     </footer>
+
+    <!-- Scripts added here as learnt in the course -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

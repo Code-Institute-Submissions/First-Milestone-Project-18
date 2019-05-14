@@ -23,12 +23,18 @@
 
 <body>
 
+    <!-- The purpose of this page is to allow users who wish to contact the High Kings, to book them for an event for example, to send the band
+    a quick message. -->
+
     <!-- TOP SECTION: LOGO & NAVIGATION BAR & SOCIAL MEDIA icons              -->
 
     <header>
 
+        <!-- The navigation bar provides quick links to other pages on the website. The intent is to allow the user to go quickly to those
+             sections that interest them the most.  Social Media links are provided for quick access to the HK Social Media accounts. -->
+
         <!-- This navigation bar menu will be on one line on larger screens, and will collapse behind a "hamburger" menu button on mobile screens. The navigation bar is fixed to allow the user easy access to the website without having to scroll up or down. 
-            I copied the code for this navbar and collapsible menu from the Whiskey (bootstrap module) project and modified it for my own collapsible menu -->
+            I copied the code for this navbar and collapsible menu from the Whiskey (bootstrap module) project and modified it slightly for my own collapsible menu -->
 
         <nav class="navbar navbar-expand-sm navbar-light gen-navbar-style fixed-top">
 
@@ -91,39 +97,44 @@
         </nav>
     </header>
 
-    <!-- Contact Details Section - Code copied from Rosie project and modified -->
+    <!-- Contact Details Section - Code copied from Rosie project and modified the button color.
+         Allows people to send a message to the High Kings, perhaps to book them for an event     -->
 
     <section class="container-fluid no-gutters gen-set-pos gen-main-section con-main-section">
-
-        <div class="row no-gutters">
-            <div class="col con-main-padding">
-                <h1 class="gen-headings-h1 con-headings-h1 uppercase text-center">Contact us</h1>
-                <h2 class="uppercase text-center gen-headings-h2 con-headings-h2">What can we do for you?</h2>
-                <div class="con-center-form">
-                    <form class="con-message">
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-warning">Send Message</button>
-                                <br>
+        <main>
+            <div class="row no-gutters">
+                <div class="col con-main-padding">
+                    <h1 class="gen-headings-h1 con-headings-h1 uppercase text-center">Contact us</h1>
+                    <h2 class="uppercase text-center gen-headings-h2 con-headings-h2">What can we do for you?</h2>
+                    <div class="con-center-form">
+                        <form class="con-message">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                            <textarea rows="1" name="subject" id="subject" class="form-control" placeholder="Subject" required></textarea>
+                            <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-warning">Send Message</button>
+                                    <br>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
 
-
+        </main>
     </section>
 
     <!-- FOOTER SECTION: NAVIGATION & SOCIAL MEDIA ICONS. -->
     <!-- Learnt from Rosie resume project  -->
     <!-- Footer split into 3 columns. These break into one column on mobile screens.         -->
-    <!-- This navigation allows the user to easily find their way back to the Home page, -->
-    <!--   Tours, Gallery, Music and Contac pages without having to scroll back up to the top again.  -->
+    <!-- This navigation allows the user to easily find their way back to the Home page, Tours, Gallery, Music and Contact
+         pages without having to scroll back up to the top again.  -->
+
+    <!-- As the content on this page doesn't take up the whole viewport, the footer is coded in css to appear just below the viewport
+         on screens of 520px up and at the bottom of the viewport on screens of 800px up -->
 
     <footer class="gen-footer gen-set-pos">
         <div class="row gen-no-margins">
