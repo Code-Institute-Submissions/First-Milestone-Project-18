@@ -300,6 +300,7 @@
 
 .ind-headings-h2 {
     color: #d9d9d9;
+    padding-bottom: 10px;
 }
 
 .ind-headings-h3 {
@@ -375,13 +376,11 @@
 
 /*                                  MUSIC PAGE                             */
 
-.mus-col-padding {
-    padding-bottom: 65px;
-}
 
 .mus-main-section {
     border: solid;
     border-color: #999999;
+    padding-bottom: 20px;
 }
 
 .mus-video-title {
@@ -417,7 +416,7 @@
 
 @media (min-width:1024px) {
     .mus-video {
-        width: 300px;
+        width: 350px;
         height: 180px;
     }
 }
@@ -428,22 +427,25 @@
 
 
 .mus-playlist-col {
-    padding-right: 10px;
-    padding-left: 20px;
+    padding: 20px;
     border: solid;
     border-color: #999999;
     background-color: #f3f2f2;
 }
 
+.mus-playlist-padding {
+    padding-bottom:20px;
+}
+
 .mus-playlist-table {
-    width: 240px;
+    width: 250px;
     position: relative;
     background-color: #d2d6d2;
 
 }
 
 .mus-playlist {
-    width: 216px;
+    width: 240px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all.51s ease-in-out;
@@ -451,10 +453,10 @@
 
 @media (min-width:1024px) {
     .mus-playlist-table {
-        width: 300px;
+        width: 290px;
     }
     .mus-playlist {
-        width: 276px;
+        width: 280px;
     }
 }
 
