@@ -170,7 +170,7 @@
 
 /* Footer details. An extra 15px will be added to the bottom padding for each section of the footer. 
    This is to create a space between each section when shown on the mobile, to make it easier to read. */
-   
+
 .gen-footer {
     background-color: #3b3b3b;
     color: #b3b3b3;
@@ -209,7 +209,7 @@
 
 .gen-no-margins {
     margin-left: 0;
-    margin-right:0;
+    margin-right: 0;
 }
 
 .gen-main-section {
@@ -222,14 +222,12 @@
     }
 } */
 
-
-
 /* As the navigation bar is fixed, sections need to be moved down 80px  */
 
 .gen-set-pos {
     position: relative;
     top: 80px;
-    
+
 }
 
 .gen-logo {
@@ -264,9 +262,6 @@
 /*        CLASSES USED IN INDEX.HTML.  These all begin with "ind-"            */
 
 /*    Background photo of the band on large screens; High Kings logo on small screens    */
-
-
-
 
 .ind-page-padding {
     padding: 35px;
@@ -476,8 +471,8 @@
 }
 
 .tour-page-padding {
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tour-table {
@@ -518,18 +513,63 @@
 .gall-main-section {
     border: solid;
     border-color: #999999;
-
-}
-
-.gall-image {
-    max-height:350px;
-    max-width: 350px;
-    padding: 5px;
 }
 
 .gall-row-padding {
-    padding: 50px;
+    padding: 10px 15px 10px 15px;
+
 }
+
+.gall-image-padding {
+    padding: 5px;
+}
+
+.gall-image-size {
+    height: 200px;
+    width: 100%;
+}
+
+@media (min-width:768px) {
+     .gall-row-padding {
+        padding: 10px;
+    }
+    .gall-image-size {
+        height: 200px;
+        width: 240px;
+    }
+    .gall-image-padding {
+        padding: 5px 5px;
+    }
+}
+
+@media (min-width:1024px) {
+    .gall-row-padding {
+        padding: 20px 20px 20px 20px;
+    }
+    .gall-image-size {
+        height: 200px;
+        width: 300px;
+    }
+    .gall-image-padding {
+        padding: 5px 20px;
+    }
+
+}
+
+@media (min-width:1025px) {
+    .gall-row-padding {
+        padding: 20px 50px 20px 50px;
+    }
+    .gall-image-size {
+        height: 250px;
+        width: 350px;
+    }
+    .gall-image-padding {
+        padding: 5px 20px;
+    }
+
+}
+
 
 .gall-image-title {
     font-family: "Courgette", sans-serif;
@@ -542,15 +582,217 @@
 
 
 
+.gall-hkbackdrop {
+    background: url("../images/hkstagebackdrop.jpg");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkgroupphoto {
+    background: url("../images/hkgroupphoto.jpg");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkulsterhall {
+    background: url("../images/hkulsterhall.jpg");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkbriancologne {
+    background: url("../images/briancologne.jpg");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkdarrencologne {
+    background: url("../images/darrencologne.jpg");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkfinbarcologne {
+    background: url("../images/finbarcologne.jpg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkgeorgecologne {
+    background: url("../images/georgecologne.jpg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkstudio {
+    background: url("../images/hkstudio.jpg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkvocalscologne {
+    background: url("../images/vocalscologne.jpg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkencorecologne {
+    background: url("../images/hkencorecologne.jpeg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkonstgcologne {
+    background: url("../images/hkonstgcologne.jpg  ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+.gall-hkrtubridy {
+    background: url("../images/hkrtubridy.jpg ");
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all.51s ease-in-out;
+}
+
+
+
+
+
+
 /*                    CONTACT PAGE CLASSES                      */
 
 .con-main-section {
     border: solid #999999;
 }
 
-@media(min-height:1024px) {
+/* To make footer always appear at the bottom of or just below the viewport.
+   On screens below 520px in height, the footer will follow logically after the main section.
+   On screens from 520px in height, the footer will be just below the viewport.
+   On screens from 100px up the footer will be visible at the bottom of the viewport. */
+
+/*   Height of "contact" section of screen is 440px. The 80px is used to position it below the fixed nav bar. 
+     The 80px must be removed here so that the footer appears just below the viewport. 
+     A screen height of 520px allows for the 440px of the main section to cover the viewport */
+
+@media(min-height:520px) {
     .con-main-section {
-        height: calc(100vh - 225px)
+        height: calc(100vh - 80px);
+    }
+}
+
+/* On taller screens, there will be plenty of room for the footer to appear in the viewport */
+
+@media(min-height:800px) {
+    .con-main-section {
+        height: calc(100vh - 264px)
     }
 }
 
@@ -619,7 +861,7 @@ button[type="submit"] {
 
 .table td {
     padding-right: 3px;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
 @media (min-width:768px) {
