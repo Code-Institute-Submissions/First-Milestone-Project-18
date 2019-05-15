@@ -901,7 +901,7 @@ button[type="submit"] {
 
 /*   I want the text color to remain white on hover    */
 
-.btn-warning:hover {
+.btn-info:hover {
     color: #fff;
 }
 
