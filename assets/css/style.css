@@ -523,7 +523,7 @@
     -o-transition: all 0.35s ease-in-out;
 }
 
-.tour-button:hover {
+.tour-book-button:hover {
     background-color: #c71f27;
     border-color: #c71f27;
     color: #fafafa;
