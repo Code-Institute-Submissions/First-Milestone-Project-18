@@ -244,9 +244,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 @media(min-width:768px) {
@@ -259,13 +260,14 @@
         background-size: cover;
         transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all.51s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
     }
 }
 
 
 /*        CLASSES USED IN INDEX.HTML.  These all begin with "ind-"            */
-
 
 .ind-page-padding {
     padding: 35px;
@@ -277,7 +279,6 @@
 }
 
 /*    Background photo of the band on large screens; High Kings backdrop on small screens    */
-
 
 .ind-bg-photo {
     background-position: center;
@@ -390,7 +391,6 @@
 
 /*                                  MUSIC PAGE                             */
 
-
 .mus-main-section {
     border: solid;
     border-color: #999999;
@@ -427,9 +427,10 @@
     border-style: inset;
     border-radius: 5px;
     background-color: #d2d6d2;
-    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 @media (min-width:1024px) {
@@ -443,7 +444,7 @@
     color: #c71f27;
 }
 
-/* Playlist section and table */ 
+/* Playlist section and table */
 
 .mus-playlist-col {
     padding: 20px;
@@ -453,7 +454,7 @@
 }
 
 .mus-playlist-padding {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 
@@ -468,9 +469,10 @@
 
 .mus-playlist {
     width: 240px;
-    transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 @media (min-width:1024px) {
@@ -499,7 +501,7 @@
 .tour-page-padding {
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 
 /*  Adjusting font size of table for different size screens. I dont want the screen to scroll on small devices */
@@ -567,7 +569,7 @@
 }
 
 @media (min-width:768px) {
-     .gall-row-padding {
+    .gall-row-padding {
         padding: 10px;
     }
     .gall-image-size {
@@ -582,7 +584,7 @@
 @media (min-width:1024px) {
     .gall-row-padding {
         padding: 10px;
-       
+
     }
     .gall-image-size {
         height: 200px;
@@ -590,7 +592,7 @@
     }
     .gall-image-padding {
         padding-top: 5px;
-        padding-right:10px;
+        padding-right: 10px;
     }
 
 }
@@ -636,7 +638,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkgroupphoto {
@@ -651,7 +654,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkulsterhall {
@@ -666,7 +670,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkbriancologne {
@@ -681,7 +686,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkdarrencologne {
@@ -696,7 +702,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkfinbarcologne {
@@ -711,7 +718,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkgeorgecologne {
@@ -726,7 +734,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkstudio {
@@ -741,7 +750,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkvocalscologne {
@@ -756,7 +766,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkencorecologne {
@@ -771,7 +782,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkonstgcologne {
@@ -786,7 +798,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .gall-hkrtubridy {
@@ -801,7 +814,8 @@
     background-size: cover;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all.51s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 
