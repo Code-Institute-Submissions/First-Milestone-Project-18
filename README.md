@@ -98,7 +98,7 @@ for *High Kings* merchandise.
 ## **2.3 USER STORIES** ##
 
 |No. |Who I am                 |What I want to do                                             | Why I want to do it
-|------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+|----|-------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 |1.  |**Potential Fan**        | I want to listen to the music the High Kings play.           |I want to see what their music is like.                                                                                 |
 |2.  |**Potential Fan**        | I want to know who the band members are, what their story is.|If I like their music I will want to know more about the band.                                                          |
 |3.  |**Potential Fan**        | I want to know about their latest releases.                  |I want to know what their latest material is like and if they’re still active.                                          |
