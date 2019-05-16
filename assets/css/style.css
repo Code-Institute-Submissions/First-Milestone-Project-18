@@ -17,9 +17,12 @@
       7. Classes used in contact.html only - these are prefixed with "con-" 
       
       8. Bootstrap classes that I have modified
-
+      
       NOTE: Where a class is modified by a Media Query, I have added the 
-      Media Query after the relevant class so that they're easy to see.   */
+      Media Query after the relevant class so that they're easy to see.   
+      
+      Colors arrived at using color picker website (https://www.w3schools.com/colors/colors_picker.asp)
+      and color wheel (https://www.sessions.edu/color-calculator/), and colors used in code institute course - e.g. #fafafa. */
 
 /* ============================================================================*/
 
@@ -31,11 +34,13 @@
 
 /*      GENERAL - CLASSES USED IN ALL PAGES. These all begin with "gen-"      */
 
-/* Navigation bar */
+/* Navigation bar. Font-family Nunito from google fonts, easy to read */
 
 .gen-navbar-style {
     background-color: #fafaff;
     color: #3b3b3b;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
 }
 
 /*  Lining up the nave bar menu for different size screens   */
@@ -301,8 +306,8 @@
 }
 
 .ind-band-member-photo {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
 }
 
 .ind-headings-h2 {
@@ -315,10 +320,18 @@
 .ind-headings-h3 {
     font-family: "Nunito", sans-serif;
     font-weight: 700;
-    font-size: 12px;
-    padding-left: 5px;
+    font-size: 14px;
     padding-bottom: 1px;
     color: #d9d9d9;
+}
+
+.ind-aside-padding {
+    padding: 15px;
+}
+
+
+.ind-aside-items-padding {
+   padding:10px;
 }
 
 /* Nunito found on google fonts. Easy to read font.  */
@@ -326,14 +339,18 @@
 .ind-aside-items-text {
     font-family: "Nunito", sans-serif;
     font-weight: 400;
-    font-size: 11px;
-    padding: 5px;
+    font-size: 14px;
+    text-align:left;
     text-decoration: none;
     color: #d9d9d9;
 }
 
+.ind-aside-text-padding {
+    padding-left: 20px;
+}
+
 .ind-aside-image {
-    width: 100%;
+    width: 95%;
     height: auto;
 }
 
@@ -343,10 +360,10 @@
 
 .ind-guitar-icon {
     color: #c71f27;
-    font-size: 30px;
+    font-size: 32px;
 }
 
-.ind-aside-item-padding {
+.padding {
     padding-bottom: 30px;
 }
 
@@ -375,17 +392,18 @@
 .ind-band-details {
     font-family: "Nunito", sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
 }
 
 .ind-band-member {
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 .ind-band-member-name {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -499,15 +517,17 @@
 }
 
 .tour-page-padding {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
-/*  Adjusting font size of table for different size screens. I dont want the screen to scroll on small devices */
+/*  Adjusting font size of table for different size screens. I dont want the screen to scroll on small devices
+    Nunito font from google fonts, easy to read*/
 
 .tour-table {
-    font-size: 11px;
+    font-size: 12px;
+    font-family:"Nunito", sans-serif;
 }
 
 @media (min-width:768px) {
