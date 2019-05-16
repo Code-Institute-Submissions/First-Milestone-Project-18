@@ -1,4 +1,4 @@
-# **HIGH KINGS WEBSITE**
+# **WEBSITE FOR *THE HIGH KINGS* **
 
 ## **PURPOSE**
 
@@ -13,4 +13,5 @@ This site will showcase the band’s music, publicise their tours, and keep fans
 
 It will also allow fans to send a message to the band in the event that they may wish to book them for an event.
 
-And, as the band have a social media presence, links to their Facebook, Twitter, Instagram and YouTube pages will be added to the website.
+And, as the band have a social media presence, users will be able to link to *The High Kings* Facebook, Twitter, Instagram and YouTube pages 
+from this website.
