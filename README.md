@@ -97,9 +97,11 @@ for *High Kings* merchandise.
 
 ## **2.3 USER STORIES** ##
 
-1.  I am a **Potential Fan**,  I want to listen to the music the High Kings play,  because I want to see what their music is like.
-2.  I am a **Potential Fan**,  I want to know who the band members are, what their story is,  because if I like their music I will want to know more about the band.
-3.  I am a **Potential Fan**,  I want to know about their latest releases,  because I want to know what their latest material is like and if they’re still active.
+|Who I am              |What I want to do                                | Why I want to do it
+|----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------
+|1.  **Potential Fan** | I want to listen to the music the High Kings play.           |because I want to see what their music is like.
+|2.  **Potential Fan** | I want to know who the band members are, what their story is.|because if I like their music I will want to know more about the band.
+|3.  **Potential Fan** | I want to know about their latest releases.                  |  because I want to know what their latest material is like and if they’re still active.
 
 5.  Fan				I want to see the latest news.									I want to see what’s new, and what's currently featured
 6.  Fan				I want to see the latest tour dates and locations.				I want to see if there’s a concert near me and to book it
