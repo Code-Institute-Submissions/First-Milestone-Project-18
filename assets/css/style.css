@@ -516,6 +516,11 @@
     color: #fafafa;
 }
 
+.tour-main-section {
+    border: solid;
+    border-color: #999999;
+}
+
 .tour-page-padding {
     padding-left: 30px;
     padding-right: 30px;
