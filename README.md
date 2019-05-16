@@ -86,12 +86,9 @@ To achieve the above the following requirements have been identified:
 ### **Gallery Page Requirements**
 
 1.		The website must have a **Gallery Page** to display highlights from *The High Kings'* activities
-		
 2.		The **Gallery Page** must display a selection of photgraph of *The High Kings* and events they have been
 		involved in
-
 3.		It must have links to all the other pages on the website, at the top and bottom of the page
-
 
 ### **Contact Page Requirements**
 
