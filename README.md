@@ -122,13 +122,21 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
 
 # **4. TECHNOLOGIES USED**
 
-|TECHNOLOGY       |WEBSITE                                            |COMMENTS                                                                           |
-|-----------------|---------------------------------------------------|-----------------------------------------------------------------------------------|
-|html & css       |https://www.w3schools.com/                         |I relied heavily on this website to understand how certain html & css rules work.  |
-|                 |https://www.w3schools.com/colors/colors_picker.asp |I used these 2 websites for choosing colors for my website                         |
-|                 |https://www.sessions.edu/color-calculator/         |                                                                                   |  
-|bootstrap        |https://getbootstrap.com/                          |
- 
+|TECHNOLOGY       |WEBSITE                                                                         |COMMENTS                                                                           |
+|-----------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|html & css       |https://www.w3schools.com/                                                      |I relied heavily on this website to understand how certain html & css rules work.  |
+|                 |https://www.w3schools.com/colors/colors_picker.asp                              |I used these 2 websites for choosing colors for my website.                        |
+|                 |https://www.sessions.edu/color-calculator/                                      |                                                                                   |  
+|bootstrap css    |https://getbootstrap.com/                                                       |I used bootstrap classes for my navbar, grid and to make my websiet responsive.    |
+|                 |https://stackpath.bootstrapcdn.com                                              |I used some of the color classes, e.g. bg-info, btn-info.                          |
+|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used margin classes (ml-auto, mb-1) and padding classes (pr-0, pl-0) also        |                           |
+|                 |https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css  |I used the social media icons from bootstrap/fontawesome.                          |
+|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                   |
+|Font awesome     |https://use.fontawesome.com/releases/v5.8.1/css/all.css                         |The guitar icon on the home page comes from fontawesome.                           |
+|jQuery           |https://code.jquery.com/jquery-3.3.1.slim.min.js                                |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the      |
+|Cloudflare       |https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js       |navigation bar.                                                                    |
+|Bootstrap        |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                   |
+
 See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 
 
@@ -143,9 +151,38 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 
 ## **7.1 CONTENT**
 
+All the content on this website was copied from *The High Kings* website: thehighkings.com.
+
+There are 2 links to external websites:
+1. The **Shop** links to https://shop.celticcollections.com/collections/the-high-kings-all
+2. The link for the **Ireland's Favourite Folk Song** items links to https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/
+    
+
 ## **7.2 MEDIA**
 
+### **7.2.1 PHOTOGRAPHS**
+
+All the Photographs, on this website were copied from *The High Kings* website: thehighkings.com.
+
+
+### **7.2.2 VIDEOS**
+
+All the Videos on this website are embedded from www.youtube.com.
+
+### **7.2.2 PLAYLISTS**
+
+All the Playlists on this website are embedded from https://www.spotify.com/.
+
+
 ## **7.3 ACKNOWLEDGEMENTS**
+
+|NAME                                           |COMMENTS
+|-----------------------------------------------|--------------------------------------------------------------------------------------------|
+|The Code Institute                             |I learnt everything I needed to know to build this website from the Code Institute.         |
+|Fellow students on Slack                       |I received a lot of assistance from students on Slack                                       | 
+
+
+
 
 
 
