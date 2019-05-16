@@ -98,20 +98,18 @@ for *High Kings* merchandise.
 ## **2.3 USER STORIES** ##
 
 |No. |Who I am                 |What I want to do                                             | Why I want to do it
-|------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------
-|1.  |**Potential Fan**        | I want to listen to the music the High Kings play.           |I want to see what their music is like.
-|2.  |**Potential Fan**        | I want to know who the band members are, what their story is.|If I like their music I will want to know more about the band.
-|3.  |**Potential Fan**        | I want to know about their latest releases.                  |I want to know what their latest material is like and if they’re still active.
-
-|5.  |Fan				       |I want to see the latest news.								  |I want to see what’s new, and what's currently featured\
-|6.  |Fan			           |	I want to see the latest tour dates and locations.		  |I want to see if there’s a concert near me and to book it
-|7.  |Fan				       |I want to book a ticket for a concert.						  |I want to go to a specific HK concert.
-|8.  |Fan			           |I want to access the HK social media pages.					  |I want to read the latest messages from the HK.
-|9.  |Fan				       |I want to be able to buy cds / vinyl / band merchandise		  |I may wish to buy newly release albums or merchandise.		
-  
-|10. |HK Band Member	       |I want to see the latest news 								  |We want to keep fans informed of the latest news to encourage them to visit the site regularly
-|11. |HK Band Member	       |I want to see the current featured items 					  |We want to keep fans informed of the latest news and new featured items, to encourage them to visit the site regularly.
-|12. |HK Band Member	       |I want to see  the list of tours 							  |We want to make sure that fans have accurate information about our tours, so that they will come and see us play.
+|------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+|1.  |**Potential Fan**        | I want to listen to the music the High Kings play.           |I want to see what their music is like.                                                                                 |
+|2.  |**Potential Fan**        | I want to know who the band members are, what their story is.|If I like their music I will want to know more about the band.                                                          |
+|3.  |**Potential Fan**        | I want to know about their latest releases.                  |I want to know what their latest material is like and if they’re still active.                                          |
+|4.  |Fan				       |I want to see the latest news.								  |I want to see what’s new, and what's currently featured                                                                 |
+|5.  |Fan			           |	I want to see the latest tour dates and locations.		  |I want to see if there’s a concert near me and to book it                                                               |
+|6.  |Fan				       |I want to book a ticket for a concert.						  |I want to go to a specific HK concert.                                                                                  |
+|7.  |Fan			           |I want to access the HK social media pages.					  |I want to read the latest messages from the HK.                                                                         |
+|8.  |Fan				       |I want to be able to buy cds / vinyl / band merchandise		  |I may wish to buy newly release albums or merchandise.	                                                               |	
+|9 . |HK Band Member	       |I want to see the latest news 								  |We want to keep fans informed of the latest news to encourage them to visit the site regularly.                         |
+|10. |HK Band Member	       |I want to see the current featured items 					  |We want to keep fans informed of the latest news and new featured items, to encourage them to visit the site regularly. |
+|11. |HK Band Member	       |I want to see  the list of tours 							  |We want to make sure that fans have accurate information about our tours, so that they will come and see us play.       |
 
 
 
