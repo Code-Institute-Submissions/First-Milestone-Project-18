@@ -1,26 +1,16 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# **HIGH KINGS WEBSITE**
 
+## **PURPOSE**
 
-Hi there! Welcome to Cloud9 IDE!
+The purpose of this project is to create a website for *The High Kings.*
 
-To get you started, we included a small hello world application.
+*The High Kings* came together in 2007. They are a band that is keeping **Irish traditional** music and songs alive for another generation.
 
-1) Open the hello-world.html file
+The primary target audiences for this website are the fans and potential fans of *The High Kings* who wish to use the site to see what they 
+have to offer and to listen to their music. 
 
-2) Click on the Preview button to open a live preview pane
+This site will showcase the band’s music, publicise their tours, and keep fans up to date with the latest news and featured items. 
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+It will also allow fans to send a message to the band in the event that they may wish to book them for an event.
 
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+And, as the band have a social media presence, links to their Facebook, Twitter, Instagram and YouTube pages will be added to the website.
