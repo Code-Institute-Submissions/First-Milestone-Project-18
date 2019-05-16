@@ -32,19 +32,12 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
 *The High Kings* require a website that will:
 
 1. Tell users who *The High Kings* are
- 
 2. Keep their fans up to date about events and activities relating to the band 
- 
 3. Hold a selection of music videos in different categories that are easily accessible
- 
-4. Hold playlists for featured albums, with the song titles easy to read
-
+4. Hold playlists for featured albums, with the song titles easy to rea
 5. Allow the user to book tours
- 
 6. Allow users to shop for merchandise
- 
 7. Allow users to navigate easily from one section of the site to another
- 
 8. Will be responsive on all devices
 
 
@@ -54,9 +47,12 @@ To achieve the above the following requirements have been identified:
 
 1.		The **Home Page** must show background information about the band and its members
 		
-2.		It must have a section to feature items, e.g. latest album, playlists, etc, with links to the featured items
+2.		It must have a section to feature items, e.g. latest album, playlists, etc, with links to the 
+		featured items
 		
-3.		It must have a news section with news headlines - e.g. to advertise new tour dates, or interesting news snippets, with links to more details about the news item - this will take the user to an external website
+3.		It must have a news section with news headlines - e.g. to advertise new tour dates, or 
+		interesting news snippets, with links to more details about the news item - this will take the 
+        user to an external website
 		
 4.		It must have links to *The High Kings* Social Media pages
 		
@@ -91,7 +87,8 @@ To achieve the above the following requirements have been identified:
 
 1.		The website must have a **Gallery Page** to display highlights from *The High Kings'* activities
 		
-2.		The **Gallery Page** must display a selection of photgraph of *The High Kings* and events they have been involved in
+2.		The **Gallery Page** must display a selection of photgraph of *The High Kings* and events they have been
+		involved in
 
 3.		It must have links to all the other pages on the website, at the top and bottom of the page
 
@@ -100,7 +97,8 @@ To achieve the above the following requirements have been identified:
 
 1.		The website must have a **Contact Page** to allow users to contact *The High Kings*
 		
-2.		The **Contact Page** allow users to input their name and email address and send a short message to *The High Kings*
+2.		The **Contact Page** allow users to input their name and email address and send a short message to 
+		*The High Kings*
 
 3.		It must have links to all the other pages on the website, at the top and bottom of the page
 
@@ -109,6 +107,9 @@ To achieve the above the following requirements have been identified:
 
 The website must have a shop link in the top and bottom navigation bars that will take the user to an external website, where they can shop
 for *High Kings* merchandise.
+
+
+## **USER STORIES** ##
 
 
 
