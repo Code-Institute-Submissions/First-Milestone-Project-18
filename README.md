@@ -163,7 +163,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 13. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
 14. - Click on "Contact" and verify that it goes to the Contact page. Browse back to the Home page
 15. - Click on "Shop" and verify that it opens a new tab to the website 
-        https://shop.celticcollections.com/collections/the-high-kings-all. Return to the Home page
+        [shop] (https://shop.celticcollections.com/collections/the-high-kings-all). Return to the Home page
 16. - Click on the "facebook" icon and verify that it opens a new tab to the website 
         https://www.facebook.com/thehighkings. Return to the Home page
 17. - Click on the "twitter" icon and verify that it opens a new tab to the website 
@@ -184,7 +184,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
         https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/. Return to the Home page
 26. - Click on the "Read More . . ." link and verify that it is opening a new tab to the website
         https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/. Return to the Home page
-27. - In the bottom navigation links:
+27. Do the following tests on the bottom navigation links:
 28. - Click on "Home" and verify that it stays on the Home page
 29. - Click on "Tours" and verify that it goes to the Tours page. Browse back to the Home page
 30. - Click on "Shop" and verify that it opens a new tab to the website 
@@ -216,47 +216,98 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
    (i.e. background color changes to white, font color to #c71f27)
 6. In the bottom navigation links, hover over the social media icons and verify that the hover affects are working 
    (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
-7. Hover over the links in the "Featured" and "News" section, and verify they are changing to blue
-8. In the top navigation bar:
-9.  - Click on "Home" and verify that it goes to the Home page. Browse back to the Tours page
-10. - Click on "The Band" and verify that it jumps to the section of the Home screen where 
+7. Do the following tests on the top navigation bar:
+8. - Click on "Home" and verify that it goes to the Home page. Browse back to the Tours page
+9. - Click on "The Band" and verify that it jumps to the section of the Home screen where 
         the Band details are displayed. Browse back to the Tours page
-11. - Click on "Tours" and verify that it stays on the Tours page. 
-12. - Click on "Music" and verify that it goes to the Music page. Browse back to the Tours page
-13. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Tours page
-14. - Click on "Contact" and verify that it goes to the Contact page. Browse back to the Tours page
-15. - Click on "Shop" and verify that it opens a new tab to the website 
+10. - Click on "Tours" and verify that it stays on the Tours page. 
+11. - Click on "Music" and verify that it goes to the Music page. Browse back to the Tours page
+12. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Tours page
+13. - Click on "Contact" and verify that it goes to the Contact page. Browse back to the Tours page
+14. - Click on "Shop" and verify that it opens a new tab to the website 
         https://shop.celticcollections.com/collections/the-high-kings-all. Return to the Tours page
-16. - Click on the "facebook" icon and verify that it opens a new tab to the website 
+15. - Click on the "facebook" icon and verify that it opens a new tab to the website 
         https://www.facebook.com/thehighkings. Return to Tours page
-17. - Click on the "twitter" icon and verify that it opens a new tab to the website 
+16. - Click on the "twitter" icon and verify that it opens a new tab to the website 
         https://twitter.com/. Return to Tours page
-18. - Click on the "instagram" icon and verify that it opens a new tab to the website
+17. - Click on the "instagram" icon and verify that it opens a new tab to the website
         https://www.instagram.com/thehighkingsofficial/. Return to Tours page
-19. - Click on the "youtube" icon and verify that it opens a new tab to the website
+18. - Click on the "youtube" icon and verify that it opens a new tab to the website
         https://www.youtube.com/user/TheHighKingsOfficial. Return to Tours page
-20. Hover over each of the "Book" buttons and verify that the color is changing from blue to to #c71f27
-21. Click on each "Book" button and verify that it is opening a new tab to the website
-    https://www.thehighkings.com/tour-dates/. Return to the Tours page after each test
-22. In the bottom navigation links:
-23. - Click on "Home" and verify that it goes on the Home page. Browse back to the Tours page
-24. - Click on "Tours" and verify that it stays on the Tours page.
-25. - Click on "Shop" and verify that it opens a new tab to the website 
+19. Do the following tests on the bottom navigation links:
+20. - Click on "Home" and verify that it goes on the Home page. Browse back to the Tours page
+21. - Click on "Tours" and verify that it stays on the Tours page.
+22. - Click on "Shop" and verify that it opens a new tab to the website 
         https://shop.celticcollections.com/collections/the-high-kings-all. Return to the Tours page
-26. - Click on "Music" and verify that it goes to the Music page. Browse back to the Tours page
-27. - Click "Playlists" and verify that it goes to the section of the Music 
+23. - Click on "Music" and verify that it goes to the Music page. Browse back to the Tours page
+24. - Click "Playlists" and verify that it goes to the section of the Music 
         page where the Playlists are. Browse back to the Tours page
-28. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Tours page
-29. - Click on "Contact Us" and verify that it goes to the Contact page. Browse back to the Tours page
-30. - Click on the "facebook" icon and verify that it opens a new tab to the website 
+25. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Tours page
+26. - Click on "Contact Us" and verify that it goes to the Contact page. Browse back to the Tours page
+27. - Click on the "facebook" icon and verify that it opens a new tab to the website 
         https://www.facebook.com/thehighkings. Return to the Tours page
-31. - Click on the "twitter" icon and verify that it opens a new tab to the website 
+28. - Click on the "twitter" icon and verify that it opens a new tab to the website 
         https://twitter.com/. Return to the Tours page
-32. - Click on the "instagram" icon and verify that it opens a new tab to the website
+29. - Click on the "instagram" icon and verify that it opens a new tab to the website
         https://www.instagram.com/thehighkingsofficial/. Return to the Tours page
-33. - Click on the "youtube" icon and verify that it opens a new tab to the website
+30. - Click on the "youtube" icon and verify that it opens a new tab to the website
         https://www.youtube.com/user/TheHighKingsOfficial. Return to the Tours page
+31. Hover over each of the "Book" buttons and verify that the color is changing from blue to to #c71f27
+32. Click on each "Book" button and verify that it is opening a new tab to the website
+    https://www.thehighkings.com/tour-dates/. Return to the Tours page after each test
 
+
+## **5.3 MUSIC PAGE**
+
+1. Go to the "Music" Page
+2. Verify that all links, icons and images are appearing correctly on the page
+3. In the top navigation bar, hover over each link and verify that the hover affects are working 
+   (i.e. background color changes to white, font color to #c71f27)
+4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+5. In the bottom navigation links, hover over each link  and verify that the hover affects are working
+   (i.e. background color changes to white, font color to #c71f27)
+6. In the bottom navigation links, hover over the social media icons and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+7. Do the following tests on the top navigation bar:
+8.  - Click on "Home" and verify that it goes to the Home page. Browse back to the Music page
+9. - Click on "The Band" and verify that it jumps to the section of the Home screen where 
+        the Band details are displayed. Browse back to the Music page
+10. - Click on "Tours" and verify that it stays on the Music page. 
+11. - Click on "Music" and verify that it stays on the Music page. 
+12. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Music page
+13. - Click on "Contact" and verify that it goes to the Contact page. Browse back to the Music page
+14. - Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Return to the Music page
+15. - Click on the "facebook" icon and verify that it opens a new tab to the website 
+        https://www.facebook.com/thehighkings. Return to Music page
+16. - Click on the "twitter" icon and verify that it opens a new tab to the website 
+        https://twitter.com/. Return to Music page
+17. - Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/. Return to Music page
+18. - Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial. Return to Music page
+21. Do the following tests on the bottom navigation links:
+22. - Click on "Home" and verify that it goes on the Home page. Browse back to the Tours page
+23. - Click on "Tours" and verify that it goes to the Tours page.
+24. - Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Return to the Music page
+25. - Click on "Music" and verify that it stays on the Music page. 
+26. - Click "Playlists" and verify that it goes to the section of the Music 
+        page where the Playlists are. 
+27. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Music page
+28. - Click on "Contact Us" and verify that it goes to the Contact page. Browse back to the Music page
+29. - Click on the "facebook" icon and verify that it opens a new tab to the website 
+        https://www.facebook.com/thehighkings. Return to the Music page
+30. - Click on the "twitter" icon and verify that it opens a new tab to the website 
+        https://twitter.com/. Return to the Music page
+31. - Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/. Return to the Music page
+32. - Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial. Return to the Music page
+33. Click on each video on the music page an verify that it plays
+34. Click on each playlist on the music page and verify that it plays
+ 
 
     
 # **6. DEPLOYMENT**
