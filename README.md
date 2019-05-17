@@ -78,28 +78,28 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
        page which holds the band members' summary details
 2.  The Aside section on the Home page gives the user quick access to featured items - it has links to those items on other pages 
 3.  The Aside section also gives the user quick access to news items - it has with links to those items on other pages. 
-    [One of these news items links to The *High Kings'* website: https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ ]
+    One of these news items links to the News Page on [*The High Kings* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ ])
 
 
 ## **3.2 TOURS PAGE**
 
 1. The **Tours** page allows the user to see a list of upcoming tours, the dates, countries, states, cities, and venues. (The 
    countries and states are excluded from small screens to prevent the screen from scroll left and right)
-2. The Tours page allows the user book a concert ticket. (Clicking on the "Book" button will take the user to the *High Kings'* 
-   website, https://www.thehighkings.com/tour-dates/, where they can book tickets for a concert)
+2. The Tours page allows the user to book a concert ticket. Clicking on the "Book" button will take the user to 
+   the Booking Page on [*The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
 
 
 ## **3.3 MUSIC PAGE**
 
-1. The **Music** page allows the user to play a video from a selection of music videos, embedded from www.youtube.com 
+1. The **Music** page allows the user to play a video from a selection of music videos, embedded from [Youtube](www.youtube.com) 
    and separated into 2 categories - "Songs" and "Concerts"
-2. The Music page allows the user to play 2 playlists for the 2 latest albums, embedded from https://open.spotify.com
+2. The Music page allows the user to play 2 playlists for the 2 latest albums, embedded from [Spotify](https://open.spotify.com)
 3. The user easily select any song from the playlists, as the playlist table has been made wide enough to make it easy to read the song titles on all devices
 
 
 ## **3.4 GALLERY PAGE**
 
-1. The **Gallery** page allows the user to view a selection of photographs copied from the *HightKings'* website, https://www.thehighkings.com/gallery/,  
+1. The **Gallery** page allows the user to view a selection of photographs, copied from [*The Hight Kings Official Website'*](https://www.thehighkings.com/gallery/),  
    and see *The High Kings* in various poses, and at various events and concerts
 
 
@@ -122,28 +122,26 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
 
 # **4. TECHNOLOGIES USED**
 
-- HTML - [website](https://www.w3schools.com/)
-- CSS - [website](https://www.w3schools.com/)
-- Javascript
-- Jquery
-- Bootstrap - [website](https://getbootstrap.com/)
-- Font Awesome - [website](https://fontawesome.com/)
-- Google Fonts -[website](https://fonts.google.com/)
-- AutoPrefixer - [website](https://autoprefixer.github.io/)
-- Wireframes - [website](https://balsamiq.cloud/sdqaii0/pewl50s/r2278.)
+|Technologies                 |Website                                                  |
+|-----------------------------|---------------------------------------------------------|
+|HTML                         |[w3schools](https://www.w3schools.com/)                  |
+|CSS                          |[w3schools](https://www.w3schools.com/)                  |
+|Javascript                   |                                                         |
+|Jquery                       |                                                         |
+|Bootstrap                    |Bootstrap](https://getbootstrap.com/)                    |
+|Font Awesome                 |[Font Awesome](https://fontawesome.com/)                 |
+|Google Fonts                 |[Google Fonts](https://fonts.google.com/)                |
+|AutoPrefixer                 |[Autoprefixer](https://autoprefixer.github.io/)          |
 
-|Technologies          |WEBSITE                                                                         |COMMENTS                                                                                  |
-|-----------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Colors          |https://www.w3schools.com/colors/colors_picker.asp                              |I used this websites for choosing different shades of color for my website.               |
-| Colors          |https://www.sessions.edu/color-calculator/                                      |I used this website when choosing colors for my website.                                  |                                                                    |  
-| Colors          |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used some of the color classes, e.g. bg-info, btn-info.                                 |
-| Grids           |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I bootstraps container, row and column classes to create my page grids                    |                           |
-|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                          |
-|jQuery           |https://code.jquery.com/j                    |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the             |
-|Cloudflare       |https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js       |navigation bar.                                                                           |
-|Font awesome     |https://use.fontawesome.com/releases/v5.8.1/css/all.css                         |The social media icons and the guitar icon come from fontawesome.                         |
-|auto-prefixer    |https://autoprefixer.github.io/                                                 |I scanned my style.css file with auto-prefixer to check for code requiring a vendor prefix|
 
+
+|Features         |Website                                                         |COMMENTS                                                                                  |
+|-----------------|----------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Colors          |[w3schools](https://www.w3schools.com/colors/colors_picker.asp) |I used this websites for choosing different shades of color for my website.               |
+| Colors          |[w3schools](https://www.sessions.edu/color-calculator/)         |I used this website when choosing colors for my website.                                  |                                                                    |  
+| Colors          |[w3schools](https://getbootstrap.com/)                          |I used some of the color classes, e.g. bg-info, btn-info.                                 |
+| Grids           |[w3schools](https://getbootstrap.com/)                          |I bootstraps container, row and column classes to create my page grids                    |                           |
+|Wireframes       |[Balsamiq](https://balsamiq.cloud/sdqaii0/pewl50s/r2278.)       |
 
 
 
@@ -420,9 +418,9 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
         [The High Kings' instagram page](https://www.instagram.com/thehighkingsofficial/). Return to the Contact page
 30. - Click on the "youtube" icon and verify that it opens a new tab to 
         [The High Kings' youtube page](https://www.youtube.com/user/TheHighKingsOfficial). Return to the Contact page
-31. Click on each video on the music page an verify that it plays
-32. Click on each playlist on the music page and verify that it plays
-
+31. Attempt to send a message while leaving some the the fields blank and verify that an error message is returned
+32. Enter an email address in an invalid format and click "Send". Verify that an error message is returned
+33. Enter details in all fields, including a valid email address in the email field. Verify that the message is accepted
 
 
     
