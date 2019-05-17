@@ -163,7 +163,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 13. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
 14. - Click on "Contact" and verify that it goes to the Contact page. Browse back to the Home page
 15. - Click on "Shop" and verify that it opens a new tab to the website 
-        [shop] (https://shop.celticcollections.com/collections/the-high-kings-all). Return to the Home page
+        [shop](https://shop.celticcollections.com/collections/the-high-kings-all). Return to the Home page
 16. - Click on the "facebook" icon and verify that it opens a new tab to the website 
         https://www.facebook.com/thehighkings. Return to the Home page
 17. - Click on the "twitter" icon and verify that it opens a new tab to the website 
