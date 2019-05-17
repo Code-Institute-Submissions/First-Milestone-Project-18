@@ -480,6 +480,13 @@ All the Videos on this website are embedded from [Youtube](www.youtube.com).
 All the Playlists on this website are embedded from [Spotify](https://www.spotify.com/).
 
 
+## **CODE SNIPPETS**
+
+A certain amount of the code I used has been copied from Projects I did during the course 
+(e.g. the Rosie Resume project and the Whiskey project). Comments have been added in the files where copied code
+is used.
+
+
 ## **7.3 ACKNOWLEDGEMENTS**
 
 |NAME                          |COMMENTS
