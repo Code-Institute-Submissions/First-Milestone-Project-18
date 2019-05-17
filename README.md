@@ -76,7 +76,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
        page which holds the band members' summary details
 5.  The Aside section on the Home page gives the user quick access to featured items 
 6.  The Aside section also gives the user quick access to news items. 
-    This news item links to the News Page on [*The High Kings* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ ])
+    This news item links to the News Page on [*The High Kings* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ )
 
 
 ## **3.2 TOURS PAGE**
@@ -480,12 +480,12 @@ All the Playlists on this website are embedded from [Spotify](https://www.spotif
 
 ## **7.3 ACKNOWLEDGEMENTS**
 
-|NAME                                           |COMMENTS
-|-----------------------------------------------|----------------------------------------------------------------------------------------------|
-|The Code Institute                             |I learnt everything I needed to know to build this website from the Code Institute.           |
-|Fellow students on Slack                       |I received a lot of assistance and feedback from students on Slack which improved my project. |
-|My mentor Seun Owonikoko                       |I received assistance, feedback and encouragement from Seun.                                  |
-|The High Kings                                 |I love this band and because of that I enjoyed creating this website                          |
+|NAME                          |COMMENTS
+|------------------------------|----------------------------------------------------------------------------------------------|
+|The Code Institute            |I learnt everything I needed to know to build this website from the Code Institute.           |
+|Fellow students on Slack      |I received a lot of assistance and feedback from students on Slack which improved my project. |
+|My mentor Seun Owonikoko      |I received assistance, feedback and encouragement from Seun.                                  |
+|The High Kings                |I love this band and because of that I enjoyed creating this website                          |
 
 
 
