@@ -70,7 +70,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **3.1 HOME PAGE**
 
-1. The Home page introduces the band to the user, with:
+1. The [**Home Page**](https://milestone-project-01-kittyjo.c9users.io/index.html) introduces the band to the user, with:
 2.  - A photo of the band members shown across the top portion of the **Home** page
 3.  - A summary of background information about the band and its members is displayed on the Home page, along with 
       minimised photos of each band member This information has been copied from [*The High Kings'* Official Website](thehighkings.com)
@@ -83,7 +83,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **3.2 TOURS PAGE**
 
-1. The **Tours** page allows the user to see a list of upcoming tours, the dates, countries, states, cities, and venues. (The 
+1. The [**Tours Page**](https://milestone-project-01-kittyjo.c9users.io/tours.html) allows the user to see a list of upcoming tours, the dates, countries, states, cities, and venues. (The 
    countries and states are excluded from small screens to prevent the screen from scroll left and right)
 2. The Tours page allows the user to book a concert ticket. Clicking on the "Book" button will take the user to 
    the [Booking Page on *The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
@@ -91,7 +91,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **3.3 MUSIC PAGE**
 
-1. The **Music** page allows the user to play a video from a selection of music videos, embedded from [Youtube](www.youtube.com) 
+1. The [**Music Page**](https://milestone-project-01-kittyjo.c9users.io/music.html) allows the user to play a video from a selection of music videos, embedded from [Youtube](www.youtube.com) 
    and separated into 2 categories - "Songs" and "Concerts"
 2. The Music page allows the user to play 2 playlists for the 2 latest albums, embedded from [Spotify](https://open.spotify.com)
 3. The user can easily select any song from the playlists, as the playlist table has been made wide enough to make it easy to read the song titles on all devices
@@ -99,13 +99,13 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **3.4 GALLERY PAGE**
 
-1. The **Gallery** page allows the user to view a selection of photographs, copied from [*The Hight Kings Official Website*](https://www.thehighkings.com/gallery/),  
+1. The [**Gallery Page**](https://milestone-project-01-kittyjo.c9users.io/gallery.html) allows the user to view a selection of photographs, copied from [*The Hight Kings Official Website*](https://www.thehighkings.com/gallery/),  
    and see *The High Kings* in various poses, and at various events and concerts
 
 
 ## **3.5 CONTACT PAGE**
 
-1. The Contact page allows the user to enter their name, email address, subject, and a short message and send it *The High Kings*
+1. The [**Contact Page**](https://milestone-project-01-kittyjo.c9users.io/contact.html) allows the user to enter their name, email address, subject, and a short message and send it *The High Kings*
    (this message doesn't go anywhere at the moment)
 
 
