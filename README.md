@@ -122,21 +122,29 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
 
 # **4. TECHNOLOGIES USED**
 
-|TECHNOLOGY       |WEBSITE                                                                         |COMMENTS                                                                                  |
+- HTML - [website](https://www.w3schools.com/)
+- CSS - [website](https://www.w3schools.com/)
+- Javascript
+- Jquery
+- Bootstrap - [website](https://getbootstrap.com/)
+- Font Awesome - [website](https://fontawesome.com/)
+- Google Fonts -[website](https://fonts.google.com/)
+- AutoPrefixer - [website](https://autoprefixer.github.io/)
+- Wireframes - [website](https://balsamiq.cloud/sdqaii0/pewl50s/r2278.)
+
+|Technologies          |WEBSITE                                                                         |COMMENTS                                                                                  |
 |-----------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-|html & css       |https://www.w3schools.com/                                                      |I relied heavily on this website to understand how certain html & css rules work.         |
-|                 |https://www.w3schools.com/colors/colors_picker.asp                              |I used these 2 websites for choosing colors for my website.                               |
-|                 |https://www.sessions.edu/color-calculator/                                      |                                                                                          |  
-|bootstrap css    |https://getbootstrap.com/                                                       |I used bootstrap classes for my navbar, grid and to make my websiet responsive.           |
-|                 |https://stackpath.bootstrapcdn.com                                              |I used some of the color classes, e.g. bg-info, btn-info.                                 |
-|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used margin classes (ml-auto, mb-1) and padding classes (pr-0, pl-0) also               |                           |
+| Colors          |https://www.w3schools.com/colors/colors_picker.asp                              |I used this websites for choosing different shades of color for my website.               |
+| Colors          |https://www.sessions.edu/color-calculator/                                      |I used this website when choosing colors for my website.                                  |                                                                    |  
+| Colors          |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used some of the color classes, e.g. bg-info, btn-info.                                 |
+| Grids           |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I bootstraps container, row and column classes to create my page grids                    |                           |
 |                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                          |
-|jQuery           |https://code.jquery.com/jquery-3.3.1.slim.min.js                                |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the             |
+|jQuery           |https://code.jquery.com/j                    |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the             |
 |Cloudflare       |https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js       |navigation bar.                                                                           |
 |Font awesome     |https://use.fontawesome.com/releases/v5.8.1/css/all.css                         |The social media icons and the guitar icon come from fontawesome.                         |
 |auto-prefixer    |https://autoprefixer.github.io/                                                 |I scanned my style.css file with auto-prefixer to check for code requiring a vendor prefix|
 
-See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
+
 
 
 
@@ -145,7 +153,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 ## **5.1 HOME PAGE**
 
 1. Go to the Home Page
-2. Verify that all links, icons and images are appearing correctly on the page
+2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
 4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
@@ -209,7 +217,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 ## **5.2 TOURS PAGE**
 
 1. Go to the "Tours" Page
-2. Verify that all links, icons and images are appearing correctly on the page
+2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
 4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
@@ -262,7 +270,7 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 ## **5.3 MUSIC PAGE**
 
 1. Go to the "Music" Page
-2. Verify that all links, icons and images are appearing correctly on the page
+2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
 4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
@@ -311,10 +319,10 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 32. Click on each playlist on the Music page and verify that it plays
  
 
-## **5.3 GALLERY PAGE**
+## **5.4 GALLERY PAGE**
 
 1. Go to the "Gallery" Page
-2. Verify that all links, icons and images are appearing correctly on the page
+2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
 4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
@@ -361,6 +369,60 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
         [The High Kings' youtube page](https://www.youtube.com/user/TheHighKingsOfficial). Return to the Gallery page
 31. Click on each video on the music page an verify that it plays
 32. Click on each playlist on the music page and verify that it plays
+ 
+ 
+
+## **5.5 CONTACT PAGE**
+
+1. Go to the "Contact" Page
+2. Verify that all links, icons, images and content are appearing correctly on the page
+3. In the top navigation bar, hover over each link and verify that the hover affects are working 
+   (i.e. background color changes to white, font color to #c71f27)
+4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+5. In the bottom navigation links, hover over each link  and verify that the hover affects are working
+   (i.e. background color changes to white, font color to #c71f27)
+6. In the bottom navigation links, hover over the social media icons and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+7. Do the following tests on the top navigation bar:
+8.  - Click on "Home" and verify that it goes to the Home page. Browse back to the Contact page
+9. - Click on "The Band" and verify that it jumps to the section of the Home screen where 
+        the Band details are displayed. Browse back to the Contact page
+10. - Click on "Tours" and verify that it goes to Tours page. Browse back to the Contact page
+11. - Click on "Music" and verify that it goes to the Music page. Browse back to the Contact page
+12. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to Contact page
+13. - Click on "Contact" and verify that it stays on the Contact page. 
+14. - Click on "Shop" and verify that it opens a new tab to the 
+        [Shop website](https://shop.celticcollections.com/collections/the-high-kings-all). Return to the Contact page
+15. - Click on the "facebook" icon and verify that it opens a new tab to  
+        [The High Kings' facebook page](https://www.facebook.com/thehighkings). Return to the Contact page
+16. - Click on the "twitter" icon and verify that it opens a new tab to 
+        [The High Kings' twitter page](https://twitter.com/). Return to the Contact page
+17. - Click on the "instagram" icon and verify that it opens a new tab to 
+        [The High Kings' instagram page](https://www.instagram.com/thehighkingsofficial/). Return to the Contact page
+18. - Click on the "youtube" icon and verify that it opens a new tab to
+        [The High Kings' youtube page](https://www.youtube.com/user/TheHighKingsOfficial). Return to the Contact page
+19. Do the following tests on the bottom navigation links:
+20. - Click on "Home" and verify that it goes on the Home page. Browse back to the Contact page
+21. - Click on "Tours" and verify that it goes to the Tours page. Browse back to the Contact page
+22. - Click on "Shop" and verify that it opens a new tab to the 
+        [Shop website](https://shop.celticcollections.com/collections/the-high-kings-all). Return to the Contact page
+23. - Click on "Music" and verify that it goes to the Music page. Browse back to the Contact page
+24. - Click "Playlists" and verify that it goes to the section of the Music 
+        page where the Playlists are. Browse back to the Contact page
+25. - Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Contact page
+26. - Click on "Contact Us" and verify that it stays on the Contact page. 
+27. - Click on the "facebook" icon and verify that it opens a new tab to 
+        [The High Kings' facebook page](https://www.facebook.com/thehighkings). Return to the Contact page
+28. - Click on the "twitter" icon and verify that it opens a new tab to
+        [The High Kings' twitter page](https://twitter.com/). Return to the Contact page
+29. - Click on the "instagram" icon and verify that it opens a new tab to 
+        [The High Kings' instagram page](https://www.instagram.com/thehighkingsofficial/). Return to the Contact page
+30. - Click on the "youtube" icon and verify that it opens a new tab to 
+        [The High Kings' youtube page](https://www.youtube.com/user/TheHighKingsOfficial). Return to the Contact page
+31. Click on each video on the music page an verify that it plays
+32. Click on each playlist on the music page and verify that it plays
+
 
 
     
@@ -381,15 +443,17 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 
 ## **6.2 CLONING FROM GITHUB **
 
-1. Log onto Github
-2. Select the respository you want to clone
-3. On the repository page, click on "Clone or Download"
-4. Select "Open in Desktop"
-5. When the application launches, sign into Github (your existing account)
-6. Your repository name and local path will be displayed
-7. If you wish to change the local path click "Choose" and select a new path
-8. Click "Clone"
-4. Your repository will be cloned to the folder you selected
+**Note:** *I got help with this section from Eventyret_mentor, as I have actually not done this before.*
+
+1. Follow this link to my [Project Github Repository](https://github.com/KittyMcDonagh/First-Milestone-Project)
+2. On the repository page click "Clone or Download"
+3. In the Clone with HTTPs section, copy the clone URL for the repository.
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3 - 
+    "git clone https://github.com/KittyMcDonagh/First-Milestone-Project"
+7. Press enter and your local clone will be created.
+
 
 
 # **7. CREDITS**
