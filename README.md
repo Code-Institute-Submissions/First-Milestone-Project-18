@@ -73,7 +73,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 1. The Home page introduces the band to the user, with:
 2.  - A photo of the band members shown across the top portion of the **Home** page
 3.  - A summary of background information about the band and its members is displayed on the Home page, along with 
-      minimised photos of each band member (This information has been copied from [*The High Kings'* Official Website](thehighkings.com)
+      minimised photos of each band member This information has been copied from [*The High Kings'* Official Website](thehighkings.com)
 4.  - There is also a link in the top navigation bar on all webpages - "The Band" - which will take users directly to the portion of the home
        page which holds the band members' summary details
 5.  The Aside section on the Home page gives the user quick access to featured items 
