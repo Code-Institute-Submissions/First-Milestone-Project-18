@@ -1,4 +1,4 @@
-# [**WEBSITE FOR THE HIGH KINGS**](https://milestone-project-01-kittyjo.c9users.io/index.html)
+# [**THE HIGH KINGS WEBSITE**](https://milestone-project-01-kittyjo.c9users.io/index.html)
 
 ![alt text](/assets/images/highkingsband.jpg "Snapshot of *The High Kings*")
 
@@ -99,7 +99,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **3.4 GALLERY PAGE**
 
-1. The [**Gallery Page**](https://milestone-project-01-kittyjo.c9users.io/gallery.html) allows the user to view a selection of photographs, copied from [*The Hight Kings Official Website*](https://www.thehighkings.com/gallery/),  
+1. The [**Gallery Page**](https://milestone-project-01-kittyjo.c9users.io/gallery.html) allows the user to view a selection of photographs, copied from [*The High Kings Official Website*](https://www.thehighkings.com/gallery/),  
    and see *The High Kings* in various poses, and at various events and concerts
 
 
@@ -150,7 +150,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **5.1 HOME PAGE**
 
-1. Go to the Home Page
+1. Go to the [**Home Page**](https://milestone-project-01-kittyjo.c9users.io/index.html)
 2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
@@ -213,7 +213,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **5.2 TOURS PAGE**
 
-1. Go to the "Tours" Page
+1. Go to the [**Tours Page**](https://milestone-project-01-kittyjo.c9users.io/tours.html)
 2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
@@ -266,7 +266,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **5.3 MUSIC PAGE**
 
-1. Go to the "Music" Page
+1. Go to the [**Music Page**](https://milestone-project-01-kittyjo.c9users.io/music.html)
 2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
@@ -318,7 +318,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **5.4 GALLERY PAGE**
 
-1. Go to the "Gallery" Page
+1. Go to the [**Gallery Page**](https://milestone-project-01-kittyjo.c9users.io/gallery.html)
 2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
@@ -370,7 +370,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **5.5 CONTACT PAGE**
 
-1. Go to the "Contact" Page
+1. Go to the [**Contact Page**](https://milestone-project-01-kittyjo.c9users.io/contact.html)
 2. Verify that all links, icons, images and content are appearing correctly on the page
 3. In the top navigation bar, hover over each link and verify that the hover affects are working 
    (i.e. background color changes to white, font color to #c71f27)
@@ -441,7 +441,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 **Note:** *I got help with this section from Eventyret_mentor, as I have actually not done this before.*
 
-1. Follow this link to my [Project Github Repository](https://github.com/KittyMcDonagh/First-Milestone-Project)
+1. Follow this link to my [Project Repository on Github](https://github.com/KittyMcDonagh/First-Milestone-Project)
 2. On the repository page click "Clone or Download"
 3. In the Clone with HTTPs section, copy the clone URL for the repository.
 4. In your local IDE open Git Bash.
