@@ -1,8 +1,10 @@
-# **WEBSITE FOR THE HIGH KINGS**
+# [**WEBSITE FOR THE HIGH KINGS**](https://milestone-project-01-kittyjo.c9users.io/index.html)
+
+![alt text](/assets/images/highkingsband.jpg "Snapshot of *The High Kings*")
 
 ## **1.1 PURPOSE**
 
-The purpose of this website is to showcase the *The High Kings’* (HK) music, publicise their tours, and keep fans up to date with the latest news and 
+The purpose of this [my website](https://milestone-project-01-kittyjo.c9users.io/index.html) is to showcase the *The High Kings’* (HK) music, publicise their tours, and keep fans up to date with the latest news and 
 featured items. The intent of the website is to keep users coming back for more.
 
 The primary target audiences are, first and foremost existing fans of *The High Kings* who wish to visit the site to see what's new, 
@@ -454,7 +456,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 
 ## **7.1 CONTENT**
 
-All the content on this website was copied from [*The High Kings* Official Website](thehighkings.com).
+All the content on [my website](https://milestone-project-01-kittyjo.c9users.io/index.html) was copied from [*The High Kings* Official Website](thehighkings.com).
 
 
 1. **Shop** links to the [Shopping Website](https://shop.celticcollections.com/collections/the-high-kings-all)

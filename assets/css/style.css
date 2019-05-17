@@ -241,7 +241,7 @@
 /* A smaller logo image will be used on small devices. */
 
 .gen-logo {
-    background: url("../images/high-kings-logo_small.jpg");
+    background: url("../images/highkingslogosmall.jpg");
     min-height: 64px;
     min-width: 180px;
     border-style: outset;
@@ -257,7 +257,7 @@
 
 @media(min-width:768px) {
     .gen-logo {
-        background: url("../images/high-kings-logo.jpg");
+        background: url("../images/highkingslogo.jpg");
         min-height: 64px;
         min-width: 225px;
         background-position: center;
@@ -301,7 +301,7 @@
 
 @media(min-width:768px) {
     .ind-bg-photo {
-        background-image: url("../images/high-kings-band.jpg");
+        background-image: url("../images/highkingsband.jpg");
     }
 }
 
