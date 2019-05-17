@@ -78,7 +78,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
        page which holds the band members' summary details
 5.  The Aside section on the Home page gives the user quick access to featured items 
 6.  The Aside section also gives the user quick access to news items. 
-    This news item links to the News Page on [*The High Kings* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ )
+    This news item links to the [News Page on *The High Kings* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/ )
 
 
 ## **3.2 TOURS PAGE**
@@ -86,7 +86,7 @@ They fill a gap left by the likes of *The Clancy Brothers*, *The fureys*, and *T
 1. The **Tours** page allows the user to see a list of upcoming tours, the dates, countries, states, cities, and venues. (The 
    countries and states are excluded from small screens to prevent the screen from scroll left and right)
 2. The Tours page allows the user to book a concert ticket. Clicking on the "Book" button will take the user to 
-   the Booking Page on [*The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
+   the [Booking Page on *The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
 
 
 ## **3.3 MUSIC PAGE**
@@ -460,8 +460,8 @@ All the content on [my website](https://milestone-project-01-kittyjo.c9users.io/
 
 
 1. **Shop** links to the [Shopping Website](https://shop.celticcollections.com/collections/the-high-kings-all)
-2. **Ireland's Favourite Folk Song** items link to the News Page on [*The High Kings'* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/)
-3. **Book** links to the Booking Page on [*The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
+2. **Ireland's Favourite Folk Song** items link to the [News Page on *The High Kings'* Official Website](https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/)
+3. **Book** links to the [Booking Page on *The High Kings* Official Website](https://www.thehighkings.com/tour-dates/)
     
 
 ## **7.2 MEDIA**
