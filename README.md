@@ -122,20 +122,19 @@ They fill a left by the likes of *The Clancy Brothers*, *The fureys*, and *The D
 
 # **4. TECHNOLOGIES USED**
 
-|TECHNOLOGY       |WEBSITE                                                                         |COMMENTS                                                                           |
-|-----------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-|html & css       |https://www.w3schools.com/                                                      |I relied heavily on this website to understand how certain html & css rules work.  |
-|                 |https://www.w3schools.com/colors/colors_picker.asp                              |I used these 2 websites for choosing colors for my website.                        |
-|                 |https://www.sessions.edu/color-calculator/                                      |                                                                                   |  
-|bootstrap css    |https://getbootstrap.com/                                                       |I used bootstrap classes for my navbar, grid and to make my websiet responsive.    |
-|                 |https://stackpath.bootstrapcdn.com                                              |I used some of the color classes, e.g. bg-info, btn-info.                          |
-|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used margin classes (ml-auto, mb-1) and padding classes (pr-0, pl-0) also        |                           |
-|                 |https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css  |I used the social media icons from bootstrap/fontawesome.                          |
-|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                   |
-|Font awesome     |https://use.fontawesome.com/releases/v5.8.1/css/all.css                         |The guitar icon on the home page comes from fontawesome.                           |
-|jQuery           |https://code.jquery.com/jquery-3.3.1.slim.min.js                                |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the      |
-|Cloudflare       |https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js       |navigation bar.                                                                    |
-|Bootstrap        |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                   |
+|TECHNOLOGY       |WEBSITE                                                                         |COMMENTS                                                                                  |
+|-----------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|html & css       |https://www.w3schools.com/                                                      |I relied heavily on this website to understand how certain html & css rules work.         |
+|                 |https://www.w3schools.com/colors/colors_picker.asp                              |I used these 2 websites for choosing colors for my website.                               |
+|                 |https://www.sessions.edu/color-calculator/                                      |                                                                                          |  
+|bootstrap css    |https://getbootstrap.com/                                                       |I used bootstrap classes for my navbar, grid and to make my websiet responsive.           |
+|                 |https://stackpath.bootstrapcdn.com                                              |I used some of the color classes, e.g. bg-info, btn-info.                                 |
+|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css        |I used margin classes (ml-auto, mb-1) and padding classes (pr-0, pl-0) also               |                           |
+|                 |https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js          |                                                                                          |
+|jQuery           |https://code.jquery.com/jquery-3.3.1.slim.min.js                                |jQuery, Cloudflare and Bootstrap js are used with the collapsible menu in the             |
+|Cloudflare       |https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js       |navigation bar.                                                                           |
+|Font awesome     |https://use.fontawesome.com/releases/v5.8.1/css/all.css                         |The social media icons and the guitar icon come from fontawesome.                         |
+|auto-prefixer    |https://autoprefixer.github.io/                                                 |I scanned my style.css file with auto-prefixer to check for code requiring a vendor prefix|
 
 See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 
@@ -143,8 +142,139 @@ See page layouts on https://balsamiq.cloud/sdqaii0/pewl50s/r2278.
 
 # **5. TESTING**
 
+## **5.1 HOME PAGE**
 
+1. Go to the Home Page
+2. Verify that all links, icons and images are appearing correctly on the page
+3. In the top navigation bar, hover over each link and verify that the hover affects are working 
+   (i.e. background color changes to white, font color to #c71f27)
+4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+5. In the bottom navigation links, hover over each link  and verify that the hover affects are working
+   (i.e. background color changes to white, font color to #c71f27)
+6. In the bottom navigation links, hover over the social media icons and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+7. Hover over the links in the "Featured" and "News" section, and verify they are changing to blue
+8. In the top navigation bar:
+    (a) Click on "Home" and verify that it stays on the Home page
+    (b) Click on "The Band" and verify that it jumps to the section of screen where the Band details are displayed
+    (c) Click on "Tours" and verify that it goes to the Tours page. Browse back to the Home page
+    (d) Click on "Music" and verify that it goes to the Music page. Browse back to the Home page
+    (e) Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
+    (f) Click on "Contact" and verify that it goes to the Contact page. Browse back to the Home page
+    (g) Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Browse back to the Home page
+    (f) Click on the "facebook" icon and verify that it opens a new tab to the website https://www.facebook.com/thehighkings
+    (g) Click on the "twitter" icon and verify that it opens a new tab to the website https://twitter.com/
+    (h) Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/
+    (h) Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial
+9. Under the "Featured" section:
+    (a) Click on the "Listen to Playlists" links and verify that they are going to the section of the Music 
+        page where the Playlists are
+    (b) Click on the "Watch Recent Concerts" link and verify that it is going to the section of the Music 
+        page where the Concert videos are
+10. Under the "News" section:
+    (a) Click on the "New Tour Dates Anounced. Tickets on sale now!" link and verify that it is going Tours page
+    (b) Click on the "New Spotify playlist featuring (etc)" link and verify that it is opening a new tab to 
+        the website https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/
+    (c) Click on the "Read More . . ." link and verify that it is opening a new tab to the website
+        https://www.thehighkings.com/news/the-high-kings-sing-some-of-ireland-s-favourite-folk-songs-/
+11. In the bottom navigation links:
+    (a) Click on "Home" and verify that it stays on the Home page
+    (b) Click on "Tours" and verify that it goes to the Tours page. Browse back to the Home page
+    (c) Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Browse back to the Home page
+    (d) Click on "Music" and verify that it goes to the Music page. Browse back to the Home page
+    (e) Click "Playlists" and verify that it goes to the section of the Music 
+        page where the Playlists are
+    (f) Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
+    (g) Click on "Contact Us" and verify that it goes to the Contact page. Browse back to the Home page
+    (h) Click on the "facebook" icon and verify that it opens a new tab to the website https://www.facebook.com/thehighkings
+    (i) Click on the "twitter" icon and verify that it opens a new tab to the website https://twitter.com/
+    (j) Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/
+    (k) Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial
+    
+
+## **5.2 TOURS PAGE**
+
+1. Go to the "Tours" Page
+2. Verify that all links, icons and images are appearing correctly on the page
+3. In the top navigation bar, hover over each link and verify that the hover affects are working 
+   (i.e. background color changes to white, font color to #c71f27)
+4. In the top navigation bar, hover over each social media icon and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+5. In the bottom navigation links, hover over each link  and verify that the hover affects are working
+   (i.e. background color changes to white, font color to #c71f27)
+6. In the bottom navigation links, hover over the social media icons and verify that the hover affects are working 
+   (i.e. the bacground color is changing to the icon color, and the icon color is changing to the background color)
+7. Hover over the links in the "Featured" and "News" section, and verify they are changing to blue
+8. In the top navigation bar:
+    (a) Click on "Home" and verify that it stays on the Home page
+    (b) Click on "The Band" and verify that it jumps to the section of screen where the Band details are displayed
+    (c) Click on "Tours" and verify that it goes to the Tours page. Browse back to the Home page
+    (d) Click on "Music" and verify that it goes to the Music page. Browse back to the Home page
+    (e) Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
+    (f) Click on "Contact" and verify that it goes to the Contact page. Browse back to the Home page
+    (g) Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Browse back to the Home page
+    (f) Click on the "facebook" icon and verify that it opens a new tab to the website https://www.facebook.com/thehighkings
+    (g) Click on the "twitter" icon and verify that it opens a new tab to the website https://twitter.com/
+    (h) Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/
+    (h) Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial
+9.  Hover over each of the "Book" buttons and verify that the color is changing from blue to to #c71f27
+10. Click on each "Tour" button and verify that it is opening a new tab to the website
+    https://www.thehighkings.com/tour-dates/
+11. In the bottom navigation links:
+    (a) Click on "Home" and verify that it stays on the Home page
+    (b) Click on "Tours" and verify that it goes to the Tours page. Browse back to the Home page
+    (c) Click on "Shop" and verify that it opens a new tab to the website 
+        https://shop.celticcollections.com/collections/the-high-kings-all. Browse back to the Home page
+    (d) Click on "Music" and verify that it goes to the Music page. Browse back to the Home page
+    (e) Click "Playlists" and verify that it goes to the section of the Music 
+        page where the Playlists are
+    (f) Click on "Gallery" and verify that it goes to the Gallery page. Browse back to the Home page
+    (g) Click on "Contact Us" and verify that it goes to the Contact page. Browse back to the Home page
+    (h) Click on the "facebook" icon and verify that it opens a new tab to the website https://www.facebook.com/thehighkings
+    (i) Click on the "twitter" icon and verify that it opens a new tab to the website https://twitter.com/
+    (j) Click on the "instagram" icon and verify that it opens a new tab to the website
+        https://www.instagram.com/thehighkingsofficial/
+    (k) Click on the "youtube" icon and verify that it opens a new tab to the website
+        https://www.youtube.com/user/TheHighKingsOfficial
+
+
+    
 # **6. DEPLOYMENT**
+
+## **6.1 DEPLOYING FROM GITHUB **
+
+1. Log onto Github
+2. Select the respository you want to deploy
+3. On the repository page, click on "Settings" and scroll down to "Github Pages"
+4. From the "Source" dropdown select "Master Branch" and click "Save"
+5. The message "Your site is ready to be published at https://username.github.io/Bootstrap/" will 
+   appear under Github Pages
+6. When you click on this link your webpage will open in a browser window
+7. If you receive a 404 error, wait a few minutes and try again. It usually takes a few minutes to deploy
+8. Once your website launches you will need to retest it (see Testing section) to ensure that it can still 
+   find all the resources (css file, images, etc)
+
+## **6.1 CLONING FROM GITHUB **
+
+1. Log onto Github
+2. Select the respository you want to clone
+3. On the repository page, click on "Clone or Download"
+4. Select "Open in Desktop"
+5. When the application launches, sign into Github (your existing account)
+6. Your repository name and local path will be displayed
+7. If you wish to change the local path click "Choose" and select a new path
+8. Click "Clone"
+4. Your repository will be cloned to the folder you selected
 
 
 # **7. CREDITS**
@@ -177,9 +307,12 @@ All the Playlists on this website are embedded from https://www.spotify.com/.
 ## **7.3 ACKNOWLEDGEMENTS**
 
 |NAME                                           |COMMENTS
-|-----------------------------------------------|--------------------------------------------------------------------------------------------|
-|The Code Institute                             |I learnt everything I needed to know to build this website from the Code Institute.         |
-|Fellow students on Slack                       |I received a lot of assistance from students on Slack                                       | 
+|-----------------------------------------------|----------------------------------------------------------------------------------------------|
+|The Code Institute                             |I learnt everything I needed to know to build this website from the Code Institute.           |
+|Fellow students on Slack                       |I received a lot of assistance and feedback from students on Slack which improved my project. |
+|My mentor Seun Owonikoko                       |I received feedback an encouragement from Seu.                                                |
+|The High Kings                                 |I love this band and because of that I enjoyed creating this website                          |
+
 
 
 
