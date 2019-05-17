@@ -326,7 +326,7 @@
 }
 
 .ind-aside-padding {
-    padding: 15px;
+    padding: 35px 15px 15px 15px
 }
 
 
@@ -581,7 +581,11 @@
 
 .gall-row-padding {
     padding: 10px 15px 10px 15px;
+}
 
+.gall-margin-auto {
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .gall-image-padding {
@@ -854,37 +858,40 @@
     border: solid #999999;
 }
 
-/* To make the footer on the contact page always appear at the bottom of or just below the viewport.
-   On screens below 520px in height, the footer will follow logically after the main section.
-   On screens from 520px in height, the footer will be just below the viewport.
-   On screens from 800px up the footer will be visible at the bottom of the viewport. */
-
-/*   Height of "contact" section of screen is 440px. The 80px is used to position it below the fixed nav bar. 
-     The 80px must be removed here so that the footer appears just below the viewport. 
-     A screen height of 520px allows for the 440px of the main section to cover the viewport */
-
-@media(min-height:520px) {
-    .con-main-section {
-        height: calc(100vh - 80px);
-    }
-}
-
-/* On taller screens, there will be plenty of room for the footer to appear in the viewport */
+/* To make that on taller screens, the footer on the contact page always be at the bottom of the screen.
+    The footer is 184px in height. 80px is added for the fixed header. 
+    Extra padding is added to the top of the screen on taller screens, to centralise the contact boxes  */
 
 @media(min-height:800px) {
     .con-main-section {
-        height: calc(100vh - 264px)
+        padding-top:30px!important;
+        height: calc(100vh - 264px);
+    }
+}
+
+@media(min-height:1000px) {
+    .con-main-section {
+        padding-top:100px!important;
+        height: calc(100vh - 264px);
+    }
+}
+
+@media(min-height:1025px) {
+    .con-main-section {
+        padding-top:250px!important;
+        height: calc(100vh - 264px);
     }
 }
 
 .con-main-padding {
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 
 .con-headings-h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*    padding-top: 10px;   */
+/*    padding-bottom: 10px;  */
     line-height: 60px;
     color: #171a1c;
 }
